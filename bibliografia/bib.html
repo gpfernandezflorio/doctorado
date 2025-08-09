@@ -518,7 +518,7 @@
             en: {T:"The Physics Teacher", v:30, n:3, p:"141-158"},
             issn: "0031-921X",
             doi: "10.1119/1.2343497",
-            web: "https://doi.org/10.1119/1.2343497"
+            web: "doi"
           },
           'Lee2018':{
             nombre: "AI Superpowers: China, Silicon Valley, and the New World Order",
@@ -1140,7 +1140,7 @@
             en: {C:"CompHumanBehave_30", p:"286-298"},
             web: 'https://www.sciencedirect.com/science/article/pii/S074756321300335X',
             issn: '0747-5632',
-            doi: 'https://doi.org/10.1016/j.chb.2013.09.007',
+            doi: '10.1016/j.chb.2013.09.007',
             // REVISAR :
             drive: '1gD2mgrkhXHbAWw4UGRDQAFeshZAEdkvy',
             // REVISAR :
@@ -1224,7 +1224,7 @@
             en: {C:"SIGCSE_2010", p:"97-101"},
             isbn: "9781450300063",
             doi: "10.1145/1734263.1734297",
-            web: "https://doi.org/10.1145/1734263.1734297",
+            web: "doi",
             drive: "1DfOQtNRnq3wa2uQHFqu3-NmFGGmRLnV0"
           },
           'Tew2011':{
@@ -1234,7 +1234,7 @@
             en: {C:"SIGCSE_2011", p:"111-116"},
             isbn: "9781450305006",
             doi: "10.1145/1953163.1953200",
-            web: "https://doi.org/10.1145/1953163.1953200",
+            web: "doi",
             drive: "1Xg3pwELPECkAV0sQ6EIezZgBulKTpIkZ"
           },
           'Parker2016':{
@@ -1244,7 +1244,7 @@
             en: {C:"ICER_2016", p:"93-101"},
             isbn: "9781450344494",
             doi: "10.1145/2960310.2960316",
-            web: "https://doi.org/10.1145/2960310.2960316",
+            web: "doi",
             drive: "106ymZTiszn9DgOr7m3LC4fWHqS8b-hu5"
           },
           'Grover2017':{
@@ -1254,7 +1254,7 @@
             en: {T:"Emerging Research, Practice, and Policy on Computational Thinking", p:"269-288", autores:[{A:"Rich",N:["Peter","J"]},{A:"Hodges",N:["Charles","B"]}], editorial:"Springer International Publishing"},
             isbn: "978-3-319-52691-1",
             doi: "10.1007/978-3-319-52691-1_17",
-            web: "https://doi.org/10.1007/978-3-319-52691-1_17",
+            web: "doi",
             drive: "1J3scvm6kSBqZvI96UeuiKpHWDdm-jCKG"
           },
           'Grover2020':{
@@ -1264,7 +1264,7 @@
             en: {C:"SIGCSE_2020", p:"678-684"},
             isbn: "9781450367936",
             doi: "10.1145/3328778.3366896",
-            web: "https://doi.org/10.1145/3328778.3366896",
+            web: "doi",
             drive: "1sJI_UBpMYXl9WhT0AVvK_3_SovE3jJpO"
           },
           'CognitiveModel4Curriculum':{
@@ -2061,7 +2061,7 @@
             en: {C:"ICER_2021", p:"60-68"},
             isbn: "9781450383264",
             doi: "10.1145/3446871.3469744",
-            web: "https://doi.org/10.1145/3446871.3469744",
+            web: "doi",
             drive: "1ZTptR60IZuPFYiRDhbGthZbAbeE9BuA7"
           },
           'Grover2021':{
@@ -6232,6 +6232,10 @@
             // Si ya está el doi, no hace falta poner también la url
             return undefined;
             // return `"https://doi.org/${p.doi}"`;
+          }
+          if ('doi' in p) {
+            // Es más, si ya tiene doi, no hace falta ninguna url
+            return undefined;
           }
           return `"${p.web}"`;
         }
