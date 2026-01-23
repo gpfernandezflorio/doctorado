@@ -1,4 +1,4 @@
-import io, sys
+import os, io, sys
 
 def addAuthor(res, autores):
   res['autores'] = []
@@ -124,12 +124,15 @@ def main(ruta):
 
   resultado = {}
   for linea in filter(lambda x : len(x) > 0, contenido.split('\n')):
-    infoLinea = parseLinea(linea)
-    if 'clave' in infoLinea and infoLinea['clave'] in dictData:
-      dictData[infoLinea['clave']](resultado, infoLinea['dato'])
-    elif 'clave' in infoLinea:
-      print("WARN: clave " + infoLinea['clave'] + " no procesada")
-  mostrar(resultado)
+    if linea == "}" or linea.startswith("@"):
+      pass
+    else:
+      infoLinea = parseLinea(linea)
+      if 'clave' in infoLinea and infoLinea['clave'] in dictData:
+        dictData[infoLinea['clave']](resultado, infoLinea['dato'])
+      elif 'clave' in infoLinea:
+        print("WARN: clave " + infoLinea['clave'] + " no procesada")
+  mostrar(resultado, ruta[:-4])
 
 def parseLinea(linea):
   resultado = {}
@@ -212,7 +215,7 @@ dictShow = {
   'web':(lambda x : f'"{x}"')
 }
 
-def mostrar(b):
+def mostrar(b, id):
   if 'editorial' in b and 'en' in b:
     b['en']['editorial'] = b['editorial']
     del b['editorial']
@@ -220,10 +223,13 @@ def mostrar(b):
   for k in listShow:
     if k in b:
       s.append(k + ": " + dictShow[k](b[k]))
-  print(',\n            '.join(s))
+  print("  '" + id + "':{\n    " + ',\n    '.join(s) + "\n  },")
 
 if __name__ == '__main__':
+  archivos = []
   if len(sys.argv) == 1:
-    print("No me pasaste ningún archivo")
-    exit()
-  main(sys.argv[1])
+    archivos = list(filter(lambda x : x.endswith(".bib"), os.listdir(".")))
+  else:
+    archivos = [sys.argv[1]]
+  for archivo in archivos:
+    main(archivo)
