@@ -309,8 +309,25 @@
           let entryType = obtenerEntryType(paper);
           contenido.push(`@${entryType}{${paperId},\n${datosBibTex(texClean(paper), entryType)}\n}`);
         }
-        console.log(contenido.join('\n\n'));
+        // console.log(contenido.join('\n\n'));
+        download(contenido.join('\n\n'), 'bibtex.bib', 'bib');
       };
+      function download(data, filename, type) {
+        let a = document.createElement("a"), file = new Blob([data], {type: type});
+        if (window.navigator.msSaveOrOpenBlob) // IE10+
+          window.navigator.msSaveOrOpenBlob(file, filename);
+        else { // Others
+          let url = URL.createObjectURL(file);
+          a.href = url;
+          a.download = filename;
+          document.body.appendChild(a);
+          a.click();
+          setTimeout(function() {
+            document.body.removeChild(a);
+            window.URL.revokeObjectURL(url);
+          }, 0);
+        }
+      }
       function obtenerEntryType(paper) {
         let entryType = 'misc';
         if ('entry' in paper) {
