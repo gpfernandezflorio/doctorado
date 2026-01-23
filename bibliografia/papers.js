@@ -5870,5 +5870,77 @@ bib.papers = {
     en: {C:"SIGCSE_2014", p:"5-6"},
     // REVISAR :
     drive: '1P5gDKB1Ls1DlMNODyvplvPdfuax4Z8pN'
-  }
+  },
+  'AlFarsi2024':{
+    nombre: "Systematic Literature Review for Smart Mobile Learning in Programming Courses",
+    año: 2024,
+    autores: [{A:"Alfarsi",N:"Ghaliya"},{A:"Tawafak",N:"Ragad"},{A:"Alyoussef",N:"Ibrahim"},{A:"Al-Rahmi",N:"Waleed"}],
+    en: {T:"International Journal of Interactive Mobile Technologies (iJIM)", v:18, p:"129-142"},
+    doi: "10.3991/ijim.v18i12.46299"
+  },
+  'AmroRomli2019':{
+    nombre: "Investigation on the Learning Programming Techniques via Mobile Learning Application",
+    año: 2019,
+    autores: [{A:"Amro",N:"Jamal"},{A:"Romli",N:"Rohaida"}],
+    en: {p:"1-7"},
+    doi: "10.1109/ICRAIE47735.2019.9037764"
+  },
+  'Chen2016':{
+    nombre: "Researching for better instructional methods using AB experiments in MOOCs: results and challenges",
+    año: 2016,
+    autores: [{A:"Chen",N:"Zhongzhou"},{A:"Chudzicki",N:"Christopher"},{A:"Palumbo",N:"Daniel"},{A:"Alexandron",N:"Giora"},{A:"Choi",N:"Youn-Jeng"},{A:"Zhou",N:"Qian"},{A:"Pritchard",N:"David"}],
+    en: {T:"Research and Practice in Technology Enhanced Learning", v:11, p:"}"},
+    doi: "10.1186/s41039-016-0034-4"
+  },
+  'Deterding2011':{
+    nombre: "From Game Design Elements to Gamefulness: Defining Gamification",
+    año: 2011,
+    autores: [{A:"Deterding",N:"Sebastian"},{A:"Dixon",N:"Dan"},{A:"Khaled",N:"Rilla"},{A:"Nacke",N:"Lennart"}],
+    en: {T:"Proceedings of the 15th International Academic MindTrek Conference: Envisioning Future Media Environments, MindTrek 2011", v:11, p:"9-15"},
+    doi: "10.1145/2181037.2181040"
+  },
+  'Flavell1979':{
+    nombre: "Metacognition and cognitive monitoring: A new area of cognitive–developmental inquiry",
+    año: 1979,
+    autores: [{A:"Flavell",N:"John"}],
+    en: {T:"American Psychologist", v:34, p:"906-911"},
+    doi: "10.1037/0003-066X.34.10.906"
+  },
+  'Gamage2022':{
+    nombre: "A systematic review on trends in using Moodle for teaching and learning",
+    año: 2022,
+    autores: [{A:"Walpita Gamage",N:"Sithara"},{A:"Ayres",N:"Jennifer"},{A:"Behrend",N:"Monica"}],
+    en: {T:"International Journal of STEM Education", v:9, p:"}"},
+    doi: "10.1186/s40594-021-00323-x"
+  },
+  'Nambiar2020':{
+    nombre: "Coding as an Essential Skill in the Twenty-First Century",
+    año: 2020,
+    autores: [{A:"Nambiar",N:"Raman"}],
+    en: {p:"237-243"},
+    isbn: "978-981-15-7017-9",
+    doi: "10.1007/978-981-15-7018-6_29"
+  },
+  'Sailer2020':{
+    nombre: "The Gamification of Learning: a Meta-analysis",
+    año: 2020,
+    autores: [{A:"Sailer",N:"Michael"},{A:"Homner",N:"Lisa"}],
+    en: {T:"Educational Psychology Review", v:32, p:"77-112"},
+    doi: "10.1007/s10648-019-09498-w"
+  },
+  'Shute2008':{
+    nombre: "Focus on Formative Feedback",
+    año: 2008,
+    autores: [{A:"Shute",N:"Valerie"}],
+    en: {T:"Review of Educational Research", v:78, p:"153-189"},
+    doi: "10.3102/0034654307313795"
+  },
+  'Messer2024':{
+    nombre: "Automated Grading and Feedback Tools for Programming Education: A Systematic Review",
+    año: 2024,
+    autores: [{A:"Messer",N:"Marcus"},{A:"Brown",N:"Neil C. C."},{A:"Kölling",N:"Michael"},{A:"Shi",N:"Miaojing"}],
+    en: {T:"ACM Trans. Comput. Educ.", v:24, n:1, editorial:"Association for Computing Machinery"},
+    doi: "10.1145/3636515",
+    web: "https://doi.org/10.1145/3636515"
+  },
 };
