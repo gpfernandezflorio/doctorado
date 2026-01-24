@@ -129,10 +129,16 @@ def main(ruta):
     else:
       infoLinea = parseLinea(linea)
       if 'clave' in infoLinea and infoLinea['clave'] in dictData:
-        dictData[infoLinea['clave']](resultado, infoLinea['dato'])
+        agregarData(dictData[infoLinea['clave']], resultado, infoLinea['dato'])
       elif 'clave' in infoLinea:
         print("WARN: clave " + infoLinea['clave'] + " no procesada")
   mostrar(resultado, ruta[:-4])
+
+def agregarData(f, resultado, dato):
+  print(dato)
+  if len(dato) == 0 or (dato == "}"): # Agregar acá datos inválidos
+    return
+  f(resultado, dato)
 
 def parseLinea(linea):
   resultado = {}

@@ -5889,7 +5889,7 @@ bib.papers = {
     nombre: "Researching for better instructional methods using AB experiments in MOOCs: results and challenges",
     año: 2016,
     autores: [{A:"Chen",N:"Zhongzhou"},{A:"Chudzicki",N:"Christopher"},{A:"Palumbo",N:"Daniel"},{A:"Alexandron",N:"Giora"},{A:"Choi",N:"Youn-Jeng"},{A:"Zhou",N:"Qian"},{A:"Pritchard",N:"David"}],
-    en: {T:"Research and Practice in Technology Enhanced Learning", v:11, p:"}"},
+    en: {T:"Research and Practice in Technology Enhanced Learning", v:11},
     doi: "10.1186/s41039-016-0034-4"
   },
   'Deterding2011':{
@@ -5910,7 +5910,7 @@ bib.papers = {
     nombre: "A systematic review on trends in using Moodle for teaching and learning",
     año: 2022,
     autores: [{A:"Walpita Gamage",N:"Sithara"},{A:"Ayres",N:"Jennifer"},{A:"Behrend",N:"Monica"}],
-    en: {T:"International Journal of STEM Education", v:9, p:"}"},
+    en: {T:"International Journal of STEM Education", v:9},
     doi: "10.1186/s40594-021-00323-x"
   },
   'Nambiar2020':{
