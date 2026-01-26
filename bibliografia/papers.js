@@ -5943,4 +5943,18 @@ bib.papers = {
     doi: "10.1145/3636515",
     web: "https://doi.org/10.1145/3636515"
   },
+  'Shortt2023':{
+    nombre: "Gamification in mobile-assisted language learning: A systematic review of Duolingo literature from public release of 2012 to early 2020",
+    año: 2021,
+    autores: [{A:"Shortt",N:"Mitchell"},{A:"Tilak",N:"Shantanu"},{A:"Kuznetcova",N:"Irina"},{A:"Martens",N:"Bethany"},{A:"Akinkuolie",N:"Babatunde"}],
+    en: {T:"Computer Assisted Language Learning", v:36},
+    doi: "10.1080/09588221.2021.1933540"
+  },
+  'Zimmerman2016':{
+    nombre: "Arithmetic on Your Phone: A Large Scale Investigation of Simple Additions and Multiplications",
+    año: 2016,
+    autores: [{A:"Zimmerman",N:"Federico"},{A:"Shalom",N:"Diego"},{A:"González",N:"Pablo"},{A:"Garrido",N:"Juan"},{A:"Heduan",N:"Facundo"},{A:"Dehaene",N:"Stanislas"},{A:"Sigman",N:"Mariano"},{A:"Rieznik",N:"Andres"}],
+    en: {T:"PLOS ONE", v:11, p:"e0168431"},
+    doi: "10.1371/journal.pone.0168431"
+  }
 };

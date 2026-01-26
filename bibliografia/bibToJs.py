@@ -135,7 +135,7 @@ def main(ruta):
   mostrar(resultado, ruta[:-4])
 
 def agregarData(f, resultado, dato):
-  print(dato)
+  # print(dato)
   if len(dato) == 0 or (dato == "}"): # Agregar acá datos inválidos
     return
   f(resultado, dato)
