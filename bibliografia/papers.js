@@ -5958,7 +5958,7 @@ bib.papers = {
     doi: "10.1371/journal.pone.0168431"
   },
   'Narasareddy2018':{
-    nombre: "Gamification in Computer Science Education: a Systematic Literature Re-view Gamification in Computer Science Education: A Systematic Literature Review",
+    nombre: "Gamification in Computer Science Education: a Systematic Literature Review",
     año: 2018,
     autores: [{A:"Narasareddygari",N:["Mourya","Reddy"]},{A:"Walia",N:"Gursimran"},{A:"Radermacher",N:"Alex"}],
     doi: "10.18260/1-2--30554"
