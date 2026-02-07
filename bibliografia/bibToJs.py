@@ -122,17 +122,26 @@ def main(ruta):
   contenido = f.read()
   f.close()
 
+  entradaActual = None
+  entradas = {}
   resultado = {}
   for linea in filter(lambda x : len(x) > 0, contenido.split('\n')):
-    if linea == "}" or linea.startswith("@"):
-      pass
+    if linea == "}":
+      entradas[entradaActual] = resultado
+      resultado = {}
+    elif linea.startswith("@"):
+      entradaActual = linea[linea.find('{')+1:-1]
     else:
       infoLinea = parseLinea(linea)
       if 'clave' in infoLinea and infoLinea['clave'] in dictData:
         agregarData(dictData[infoLinea['clave']], resultado, infoLinea['dato'])
       elif 'clave' in infoLinea:
         print("WARN: clave " + infoLinea['clave'] + " no procesada")
-  mostrar(resultado, ruta[:-4])
+  if len(entradas.keys()) == 1:
+    mostrar(entradas[entradaActual], ruta[:-4])
+  else:
+    for entrada in entradas:
+      mostrar(entradas[entrada], entrada)
 
 def agregarData(f, resultado, dato):
   # print(dato)

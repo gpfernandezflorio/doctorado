@@ -5962,5 +5962,58 @@ bib.papers = {
     año: 2018,
     autores: [{A:"Narasareddygari",N:["Mourya","Reddy"]},{A:"Walia",N:"Gursimran"},{A:"Radermacher",N:"Alex"}],
     doi: "10.18260/1-2--30554"
+  },
+  'Mills2025':{
+    nombre: "Coding and Computational Thinking Across the Curriculum: A Review of Educational Outcomes",
+    año: 2025,
+    autores: [{A:"Mills",N:["Kathy","A"]},{A:"Cope",N:"Jason"},{A:"Scholes",N:"Laura"},{A:"Rowe",N:"Lesley"}],
+    en: {T:"Review of Educational Research"},
+    doi: "10.3102/00346543241241327"
+  },
+  'Mejeh2025':{
+    nombre: "Co-design: From Understanding to Prototyping an Adaptive Learning Technology to Enhance Self-regulated Learning",
+    año: 2025,
+    autores: [{A:"Mejeh",N:"Mathias"},{A:"Sarbach",N:"Laurent"}],
+    en: {T:"Technology, Knowledge and Learning", v:30, p:"1021-1046"},
+    doi: "10.1007/s10758-024-09788-5"
+  },
+  'Colliot2024':{
+    nombre: "What makes tablet-based learning effective? A study of the role of real-time adaptive feedback",
+    año: 2024,
+    autores: [{A:"Colliot",N:"Tiphaine"},{A:"Krichen",N:"Oussema"},{A:"Girard",N:"Nicolas"},{A:"Anquetil",N:"Éric"},{A:"Jamet",N:"Éric"}],
+    en: {T:"British Journal of Educational Technology", v:55, p:"2278-2295"},
+    doi: "10.1111/bjet.13439"
+  },
+  'Cigdem2024':{
+    nombre: "Unlocking student engagement and achievement: The impact of leaderboard gamification in online formative assessment for engineering education",
+    año: 2024,
+    autores: [{A:"Cigdem",N:"Harun"},{A:"Ozturk",N:"Mustafa"},{A:"Karabacak",N:"Yasin"},{A:"Atik",N:"Nihan"},{A:"Gürkan",N:"Serkan"},{A:"Aldemir",N:["Mehmet","Haldun"]}],
+    en: {T:"Education and Information Technologies", v:29, p:"24835-24860"},
+    doi: "10.1007/s10639-024-12845-2"
+  },
+  'Othman2024':{
+    nombre: "Real-Time Smart Feedback System for Effective Course Evaluation",
+    año: 2024,
+    autores: [{A:"Othman",N:"Sarah"},{A:"Rawlins",N:"Melvin"},{A:"Ghanavati",N:"Amin"}],
+    en: {T:"ASEE Annual Conference Proceedings"}
+  },
+  'Hwang2010':{
+    nombre: "Number of people required for usability evaluation: the 10±2 rule",
+    año: 2010,
+    autores: [{A:"Hwang",N:"Wonil"},{A:"Salvendy",N:"Gavriel"}],
+    en: {T:"Communications of the ACM", v:53, n:5, p:"130-133"},
+    doi: "10.1145/1735223.1735255"
+  },
+  'Alliani2025':{
+    nombre: "DALALearn: Una App educativa de programación para enseñar y realizar experimentos",
+    año: 2025,
+    autores: [{A:"Alliani",N:"Federico"},{A:"Raposeiras",N:"Lucas"},{A:"Fernández",N:["Gonzalo","P"]},{A:"Cossio-Mercado",N:"Christian"}],
+    en: {T:"54 Jornadas Argentinas de Informática (JAIIO), 4-7 de agosto de 2025, Buenos Aires, Argentina"}
+  },
+  'Alliani2026':{
+    nombre: "DALALearn: Una plataforma para la enseñanza y la investigación en programación",
+    año: 2026,
+    autores: [{A:"Alliani",N:"Federico"},{A:"Raposeiras",N:"Lucas"},{A:"Fernández",N:["Gonzalo","P"]},{A:"Cossio-Mercado",N:"Christian"}],
+    en: {T:"SADIO Electronic Journal of Informatics and Operations Research (EJS)", v:25, n:2}
   }
 };
