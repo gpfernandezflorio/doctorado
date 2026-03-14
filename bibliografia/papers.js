@@ -53,6 +53,21 @@ const Formato = {/*
 */};
 
 bib.papers = {
+  'aele_2019':{ // JADIPRO 19 (poster)
+    nombre: "Electrónica aplicada para Ciencias y Tecnología con Arduino en la Escuela",
+    año: 2019,
+    autores: [{A:"Fernández-Florio",N:"Gonzalo"},{A:"Cossio-Mercado",N:"Christian"},{A:"Macario-Cabral",N:"Daniela"},{A:"Reartes",N:"Christian"}],
+    en: {T:"Segundas Jornadas Argentinas de Didáctica de la Programación"},
+    url: 'https://jadipro.unc.edu.ar/wp-content/blogs.dir/34/files/sites/34/2019/07/JADIPRO2019_paper_24.pdf',
+    tags: ["Arduino","AelE","Bloques"]
+  },
+  'aele_2021':{ // JADICC 21 - AelE
+    nombre: "Arduino en la Escuela: una herramienta versátil para la enseñanza de programación y robótica",
+    año: 2021,
+    autores: [{A:"Fernández",N:["Gonzalo","Pablo"]},{A:["Ticona","Oquendo"],N:["María","Belén"]},{A:"Cossio-Mercado",N:"Christian"}],
+    en: {T:"Jornadas Argentinas de Didáctica de las Ciencias de la Computación 2021",p:"32-44"},
+    tags: ["Arduino","AelE","Bloques"]
+  },
   'enfoqueEspiralado_2022':{ // JADICC 22 - Enfoque espiralado
     nombre: "Aprender programación usando bloques y texto en forma simultánea - Un enfoque espiralado",
     año: 2022,
@@ -72,39 +87,31 @@ bib.papers = {
     nombre: "Relevamiento de conocimientos previos de programación en el nivel universitario",
     año: 2024,
     autores: [{A:"Fernández",N:["Gonzalo","Pablo"]},{A:"Martínez",N:["María","Cecilia"]},{A:["Martínez", "López"],N:["Pablo","E"]}],
-    en: "Electronic Journal of SADIO (EJS) 23 (2) 2024, pp 150-175",
+    en: {T:"Electronic Journal of SADIO (EJS)", v:23, n:2, f:{a:2024}, p:"150-175"},
     web: 'https://publicaciones.sadio.org.ar/index.php/EJS/article/view/862/701'
   },
-  'aele_2019':{ // JADIPRO (poster)
-    nombre: "Electrónica aplicada para Ciencias y Tecnología con Arduino en la Escuela",
-    año: 2019,
-    autores: [{A:"Fernández-Florio",N:"Gonzalo"},{A:"Cossio-Mercado",N:"Christian"},{A:"Macario-Cabral",N:"Daniela"},{A:"Reartes",N:"Christian"}],
-    en: {T:"Segundas Jornadas Argentinas de Didáctica de la Programación"},
-    url: 'https://jadipro.unc.edu.ar/wp-content/blogs.dir/34/files/sites/34/2019/07/JADIPRO2019_paper_24.pdf',
-    tags: ["Arduino","AelE","Bloques"]
-  },
-  'aele_2021':{ // JADICC
-    nombre: "Arduino en la Escuela: una herramienta versátil para la enseñanza de programación y robótica",
-    año: 2021,
-    autores: [{A:"Fernández",N:["Gonzalo","Pablo"]},{A:["Ticona","Oquendo"],N:["María","Belén"]},{A:"Cossio-Mercado",N:"Christian"}],
-    en: {T:"Jornadas Argentinas de Didáctica de las Ciencias de la Computación 2021",p:"32-44"},
-    tags: ["Arduino","AelE","Bloques"]
-  },
-  'aele_2024':{ // CLEI
-    nombre: "AelE: a versatile tool for teaching programming and robotics using Arduino",
-    año: 2024,
-    autores: [{A:"Fernández",N:["Gonzalo","Pablo"]},{A:"Cossio-Mercado",N:"Christian"}],
-    en: {T:"50a Conferencia Latinoamericana de Informática (CLEI)"},
-    doi: "10.1109/CLEI64178.2024.10700288",
-    web: "https://ieeexplore.ieee.org/document/10700288",
-    tags: ["Arduino","AelE","Bloques"]
-  },
-  'dov_2023':{ // JADICC
+  'dov_2023':{ // JADICC 23 - DOV
     nombre: "Enseñanza de fundamentos conceptuales de programación usando Arduino",
     año: 2023,
     autores: [{A:"Fernández",N:["Gonzalo","Pablo"]},{A:"Cossio-Mercado",N:"Christian"}],
     en: {C:"JADICC_2023", p:"390-408"},
     web: "https://www.researchgate.net/publication/380174232_Ensenanza_de_fundamentos_conceptuales_de_programacion_usando_Arduino",
+    tags: ["Arduino","AelE","Bloques"]
+  },
+  'PRENDER_2023':{ // JADICC 23 - PRENDER
+    nombre: "PRENDER: Una propuesta didáctico-pedagógica para la enseñanza de las Ciencias de la Computación",
+    año: 2023,
+    autores: [{A:"Cossio-Mercado",N:"Christian"},{A:"Fernández",N:["Gonzalo","Pablo"]}],
+    en: {C:"JADICC_2023", p:"322-354"},
+    web: "https://www.researchgate.net/publication/380173508_PRENDER_Una_propuesta_didactico-pedagogica_para_la_ensenanza_de_las_Ciencias_de_la_Computacion",
+    tags: ["Enfoque"]
+  },
+  'aele_2024':{ // CLEI 24
+    nombre: "AelE: a versatile tool for teaching programming and robotics using Arduino",
+    año: 2024,
+    autores: [{A:"Fernández",N:["Gonzalo","Pablo"]},{A:"Cossio-Mercado",N:"Christian"}],
+    en: {T:"2024 L Latin American Computer Conference (CLEI)", l:"Buenos Aires, Argentina"},
+    doi: "10.1109/CLEI64178.2024.10700288",
     tags: ["Arduino","AelE","Bloques"]
   },
   'aele_jar':{ // JAR
@@ -114,7 +121,7 @@ bib.papers = {
     en: "Jornadas Argentinas de Robótica (JAR), 4-7 de junio de 2024, Buenos Aires, Argentina",
     tags: ["Arduino","AelE","Bloques"]
   },
-  'dov_2024':{ // JADICC ( reversión del rechazado de CLEI )
+  'dov_2024':{ // JADICC 24 ( reversión del rechazado de CLEI )
     nombre: "¿Es posible enseñar los fundamentos de la programación sólo con Arduino?: Análisis de un curso introductorio para estudiantes de secundaria usando bloques",
     año: 2024,
     autores: [{A:"Fernández",N:["Gonzalo","Pablo"]},{A:"Cossio-Mercado",N:"Christian"}],
@@ -140,34 +147,39 @@ bib.papers = {
     autores: [{A:"Fernández",N:["Gonzalo","Pablo"]},{A:["Martínez", "López"],N:["Pablo","E"]},{A:"Artopoulos",N:"Alejandro"},{A:"Lliteras",N:"Alejandra"}],
     en: {C:"JADICC_2024"}
   },
-  'aeleUnipe_2025':{ // JAIIO
+  'aeleUnipe_2025':{ // JAIIO 25 - AelE Unipe
     nombre: "Aceptación y apropiación del entorno AelE por parte de docentes en formación",
     año: 2025,
     autores: [{A:"Brassesco",N:"Virginia"},{A:"Fernández",N:["Gonzalo","Pablo"]},{A:"Ojeda",N:"Yamila"}],
     en: "Simposio Argentino de Educación en Informática (SAEI) - Jornadas Argentinas de Informática e Investigación Operativa (JAIIO) 2025, 4-7 de agosto de 2025, Buenos Aires, Argentina",
     tags: ["Arduino","AelE","Bloques"]
   },
-  'comparativaArduino_2025':{ // CLEI ( reversión del rechazado de WiPSCE )
+  'comparativaArduino_2025':{ // CLEI 25 ( reversión del rechazado de WiPSCE )
     nombre: "Assessment of Arduino block-based programming environments for teaching and learning",
     año: 2025,
     autores: [{A:"Fernández",N:["Gonzalo","Pablo"]},{A:"Cossio-Mercado",N:"Christian"}],
-    en: {T:"51a Conferencia Latinoamericana de Informática (CLEI)"},
+    en: {T:"2025 LI Latin American Computer Conference (CLEI)", l:"Valparaíso, Chile"},
+    doi: "10.1109/CLEI67442.2025.11420361",
     tags: ["Arduino","AelE","Bloques"]
   },
-  'desafiosBloques_2025':{ // CLEI ( reversión del rechazado de WiPSCE )
+  'desafiosBloques_2025':{ // CLEI 25 ( reversión del rechazado de WiPSCE )
     nombre: "Challenges of the development of a block-based programming environment for Arduino",
     año: 2025,
     autores: [{A:"Cossio-Mercado",N:"Christian"},{A:"Fernández",N:["Gonzalo","Pablo"]}],
-    en: {T:"51a Conferencia Latinoamericana de Informática (CLEI)"},
+    en: {T:"CHILECON 2025"},
     tags: ["Arduino","AelE","Bloques"]
   },
-  'PRENDER_2023':{ // JADICC
-    nombre: "PRENDER: Una propuesta didáctico-pedagógica para la enseñanza de las Ciencias de la Computación",
-    año: 2023,
-    autores: [{A:"Cossio-Mercado",N:"Christian"},{A:"Fernández",N:["Gonzalo","Pablo"]}],
-    en: {C:"JADICC_2023", p:"322-354"},
-    web: "https://www.researchgate.net/publication/380173508_PRENDER_Una_propuesta_didactico-pedagogica_para_la_ensenanza_de_las_Ciencias_de_la_Computacion",
-    tags: ["Enfoque"]
+  'Alliani2025':{ // JAIIO 25 - DALA
+    nombre: "DALALearn: Una App educativa de programación para enseñar y realizar experimentos",
+    año: 2025,
+    autores: [{A:"Alliani",N:"Federico"},{A:"Raposeiras",N:"Lucas"},{A:"Fernández",N:["Gonzalo","P"]},{A:"Cossio-Mercado",N:"Christian"}],
+    en: {T:"54 Jornadas Argentinas de Informática (JAIIO), 4-7 de agosto de 2025, Buenos Aires, Argentina"}
+  },
+  'Alliani2026':{ // JAIIO 25 EXT - DALA
+    nombre: "DALALearn: Una plataforma para la enseñanza y la investigación en programación",
+    año: 2026,
+    autores: [{A:"Alliani",N:"Federico"},{A:"Raposeiras",N:"Lucas"},{A:"Fernández",N:["Gonzalo","P"]},{A:"Cossio-Mercado",N:"Christian"}],
+    en: {T:"SADIO Electronic Journal of Informatics and Operations Research (EJS)", v:25, n:2}
   },
   'codingAsLanguage':{
     nombre: "Coding as another language: a pedagogical approach for teaching computer science in early childhood",
@@ -6003,17 +6015,5 @@ bib.papers = {
     autores: [{A:"Hwang",N:"Wonil"},{A:"Salvendy",N:"Gavriel"}],
     en: {T:"Communications of the ACM", v:53, n:5, p:"130-133"},
     doi: "10.1145/1735223.1735255"
-  },
-  'Alliani2025':{
-    nombre: "DALALearn: Una App educativa de programación para enseñar y realizar experimentos",
-    año: 2025,
-    autores: [{A:"Alliani",N:"Federico"},{A:"Raposeiras",N:"Lucas"},{A:"Fernández",N:["Gonzalo","P"]},{A:"Cossio-Mercado",N:"Christian"}],
-    en: {T:"54 Jornadas Argentinas de Informática (JAIIO), 4-7 de agosto de 2025, Buenos Aires, Argentina"}
-  },
-  'Alliani2026':{
-    nombre: "DALALearn: Una plataforma para la enseñanza y la investigación en programación",
-    año: 2026,
-    autores: [{A:"Alliani",N:"Federico"},{A:"Raposeiras",N:"Lucas"},{A:"Fernández",N:["Gonzalo","P"]},{A:"Cossio-Mercado",N:"Christian"}],
-    en: {T:"SADIO Electronic Journal of Informatics and Operations Research (EJS)", v:25, n:2}
   }
 };
