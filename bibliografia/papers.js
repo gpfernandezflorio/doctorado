@@ -166,7 +166,7 @@ bib.papers = {
     nombre: "Challenges of the development of a block-based programming environment for Arduino",
     año: 2025,
     autores: [{A:"Cossio-Mercado",N:"Christian"},{A:"Fernández",N:["Gonzalo","Pablo"]}],
-    en: {T:"CHILECON 2025"},
+    en: {T:"IEEE CHILECON 2025"},
     tags: ["Arduino","AelE","Bloques"]
   },
   'Alliani2025':{ // JAIIO 25 - DALA
