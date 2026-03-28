@@ -714,7 +714,7 @@ bib.papers = {
     nombre: "Computational thinking education",
     año: 2019,
     autores: [{A:"Kong",N:["S","C"]},{A:"Abelson",N:"H"}],
-    editoria: "Springer Nature",
+    editorial: "Springer Nature",
     tags: ["PC"]
   },
   'ISTE2011':{
@@ -1610,6 +1610,13 @@ bib.papers = {
     drive: '15env9qsNr1KbcpwQhvbLhsX8FNSkGfrH',
     // REVISAR :
     resumen: '1p82q8Y8DpwzFKW9nHXBMMRTOOY8f5Ivuh2eYRi29mb4'
+  },
+  'Meirieu2001':{
+    nombre: "La opción de educar: ética y pedagogía",
+    autores: [{A:"Meirieu", N:"Philippe"}],
+    año: 2001,
+    editorial: "Ediciones Octaedro S.L.",
+    isbn: "978-84-9921-356-9"
   },
   'WorkedExamples':{
     nombre: "Learning programming via worked-examples: Relation of learning styles to cognitive load",
@@ -5099,23 +5106,26 @@ bib.papers = {
   'VisualForNovices':{
     nombre: "A visual programming language for novices. Principles of Visual Programming Systems",
     año: 1987,
-    autores: "Bonar, J. and Liffick, B.W.",
-    en: "S.K. Chang, ed. Prentice-Hall, Inc.",
+    autores: [{A:"Bonar", N:["Jeffrey","G"]}, {A:"Liffick", N:["Blaise","W"]}],
+    editorial: "S.K. Chang, ed. Prentice-Hall, Inc.",
+    doi: "10.5555/140799.140805",
     tags: ["Bloques"]
   },
   'CSProject':{
     nombre: "The CS principles project",
     año: 2012,
-    autores: "Astrachan, O. and Briggs, A.",
+    autores: [{A:"Astrachan", N:"Owen"}, {A:"Briggs", N:"Amy"}],
     en: {T:"ACM Inroads", v:3, n:2, f:{a:2012}, p:"38-42"},
+    doi: "10.1145/2189835.2189849",
     // REVISAR :
     drive: '1sOM_IxE70nTudHzzBF882hv-0NH84cy6'
   },
   'BeyondCurriculum':{
     nombre: "Beyond curriculum: the exploring computer science program",
     año: 2012,
-    autores: "Goode, J. et al.",
+    autores: [{A:"Goode", N:"Joanna"},{A:"Chapman",N:"Gail"},{A:"Margolis",N:"Jane"}],
     en: {T:"ACM Inroads", v:3, n:2, p:"47-53"},
+    doi: "10.1145/2189835.2189851",
     tags: ["Curriculum"],
     // REVISAR :
     drive: '1NeJ0wha0zZe-RW0_xbCy19HjPoAzUilK'
@@ -5350,7 +5360,7 @@ bib.papers = {
     nombre: "Programming by choice: Urban youth learning programming with Scratch",
     año: 2008,
     autores: [{A:"Maloney",N:["John","H"]},{A:"Peppler",N:"K"},{A:"Kafai",N:"Yasmin"},{A:"Resnick",N:"Mitchel"}],
-    en: {C:"SIGCSE_2008)", p:"367-371"},
+    en: {C:"SIGCSE_2008", p:"367-371"},
     url: 'https://web.media.mit.edu/~mres/papers/sigcse-08.pdf'
   },
   'Scratch':{
@@ -5870,8 +5880,9 @@ bib.papers = {
   'IntroCS':{
     nombre: "Introducing students to computer science with programmes that don't emphasise programming",
     año: 2011,
-    autores: "Bell, T., Curzon, P., Cutts, Q., Dagiene, V. and Haberman, B",
-    en: "Proceedings of the 16th ACM annual joint conference on innovation and technology in computer science education, pages 391-391.",
+    autores: [{A:"Bell", N:"Tim"}, {A:"Curzon", N:"Paul"}, {A:"Cutts", N:"Quintin"}, {A:"Dagiene", N:"Valentina"}, {A:"Haberman", N:"Bruria"}],
+    en: {C:"ITiCSE_CONF_2011", p:391},
+    doi: "10.1145/1999747.1999904",
     // REVISAR :
     drive: '1_zSGAcn-XlGZlnnoJ2WRipxQ9NXKsYJa'
   },
