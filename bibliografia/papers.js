@@ -6020,6 +6020,72 @@ bib.papers = {
     autores: [{A:"Othman",N:"Sarah"},{A:"Rawlins",N:"Melvin"},{A:"Ghanavati",N:"Amin"}],
     en: {T:"ASEE Annual Conference Proceedings"}
   },
+  'Keuning2017':{
+    nombre: "Code Quality Issues in Student Programs",
+    año: 2017,
+    autores: [{A:"Keuning",N:"Hieke"},{A:"Heeren",N:"Bastiaan"},{A:"Jeuring",N:"Johan"}],
+    en: {C:"ITiCSE_CONF_2017", p:"110-115", editorial:"Association for Computing Machinery"},
+    isbn: "9781450347044",
+    doi: "10.1145/3059009.3059061",
+    web: "doi"
+  },
+  'Keuning2018':{
+    nombre: "A Systematic Literature Review of Automated Feedback Generation for Programming Exercises",
+    año: 2018,
+    autores: [{A:"Keuning",N:"Hieke"},{A:"Jeuring",N:"Johan"},{A:"Heeren",N:"Bastiaan"}],
+    en: {C:"TOCE_19_1", editorial:"Association for Computing Machinery"},
+    doi: "10.1145/3231711",
+    web: "doi"
+  },
+  'Rechtackova2025':{
+    nombre: "Code Quality Defects in Introductory Programming",
+    año: 2025,
+    autores: [{A:"\v{R}echt\'{a}\v{c}kov\'{a}",N:"Anna"},{A:"Pel\'{a}nek",N:"Radek"},{A:"Effenberger",N:"Tom\'{a}\v{s}"}],
+    en: {T:"ACM Trans. Comput. Educ.", v:25, n:4, editorial:"Association for Computing Machinery"},
+    doi: "10.1145/3749996",
+    web: "https://doi.org/10.1145/3749996"
+  },
+  'Ala-Mutka2004':{
+    nombre: "Assessment Process for Programming Assignments",
+    año: 2004,
+    autores: [{A:"Ala-Mutka",N:"Kirsti"},{A:"Jarvinen",N:"Hannu-Matti"}],
+    en: {T:"Proceedings of the IEEE International Conference on Advanced Learning Technologies", p:"181-185", editorial:"IEEE Computer Society"},
+    isbn: "0769521819"
+  },
+  'Effenberger2022':{
+    nombre: "Code Quality Defects across Introductory Programming Topics",
+    año: 2022,
+    autores: [{A:"Effenberger",N:"Tom\'{a}\v{s}"},{A:"Pel\'{a}nek",N:"Radek"}],
+    en: {C:"SIGCSE_2022", v:1, p:"941-947", editorial:"Association for Computing Machinery"},
+    isbn: "9781450390705",
+    doi: "10.1145/3478431.3499415",
+    web: "doi"
+  },
+  'Camp2017':{
+    nombre: "Generation CS: the growth of computer science",
+    año: 2017,
+    autores: [{A:"Camp",N:"Tracy"},{A:"Adrion",N:["W.","Richards"]},{A:"Bizot",N:"Betsy"},{A:"Davidson",N:"Susan"},{A:"Hall",N:"Mary"},{A:"Hambrusch",N:"Susanne"},{A:"Walker",N:"Ellen"},{A:"Zweben",N:"Stuart"}],
+    en: {T:"ACM Inroads", v:8, n:2, p:"44-50", editorial:"Association for Computing Machinery"},
+    issn: "2153-2184",
+    doi: "10.1145/3084362",
+    web: "doi"
+  },
+  'Alberola2014':{
+    nombre: "Using Feedback for Improving the Learning Process in Programming Courses",
+    año: 2014,
+    autores: [{A:"Alberola",N:["Juan","M"]},{A:"García-Fornes",N:"Ana"}],
+    en: {T:"IEEE Revista Iberoamericana de Tecnologias del Aprendizaje", v:9, n:2, p:"49-56"},
+    doi: "10.1109/RITA.2014.2317529"
+  },
+  'Stegeman2016':{
+    nombre: "Designing a rubric for feedback on code quality in programming courses",
+    año: 2016,
+    autores: [{A:"Stegeman",N:"Martijn"},{A:"Barendsen",N:"Erik"},{A:"Smetsers",N:"Sjaak"}],
+    en: {T:"Proceedings of the 16th Koli Calling International Conference on Computing Education Research", p:"160-164", editorial:"Association for Computing Machinery"},
+    isbn: "9781450347709",
+    doi: "10.1145/2999541.2999555",
+    web: "doi"
+  },
   'Hwang2010':{
     nombre: "Number of people required for usability evaluation: the 10±2 rule",
     año: 2010,

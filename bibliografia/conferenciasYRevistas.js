@@ -21,6 +21,7 @@ bib.conferencias = {
     2018:{T:"Proceedings of the 49th %T",f:{a:2018},l:"Baltimore, MD, USA"},
     2020:{T:"Proceedings of the 51st %T",f:{a:2020},l:"Portland, OR, USA"},
     2021:{T:"Proceedings of the 52nd %T",f:{a:2021,m:3}},
+    2022:{T:"Proceedings of the 53rd %T",f:{a:2021}},
     2024:{T:"Proceedings of the 55th %T",f:{a:2024,m:3,d:"20-23"},l:"Portland, OR, USA"}
   },
   'ICER':{T:"Computing Education Research", c:"ACM", short:"ICER",
@@ -51,6 +52,7 @@ bib.conferencias = {
       2014:{T:"Proceedings of the 2014 %T",f:{a:2014},l:"NY, USA"},
       2015:{T:"Proceedings of the 2015 %T",f:{a:2015},l:"New York"},
       2016:{T:"Proceedings of the 2016 ACM annual joint %T",f:{a:2016,m:7,d:"9-13"},l:'Arequipa, Peru'},
+      2017:{T:"Proceedings of the 2017 ACM %T",f:{a:2016,m:7,d:"9-13"},l:'Arequipa, Peru'},
       2018:{T:"Proceedings Companion of the 23rd Annual ACM Conference on %T",f:{a:2018,m:7},l:"New York, NY, USA"},
       2019:{T:"Proceedings of the 2019 ACM %T",f:{a:2019},l:"New York, NY, USA"}
     },
@@ -108,6 +110,7 @@ bib.revistas = {
     10:{4:{f:{a:2010,m:11}}},
     12:{2:{f:{a:2012}}},
     14:{4:{f:{a:2015,m:2}}},
+    19:{1:{f:{a:2018,m:9}}},
     22:{4:{f:{a:2022}}},
     24:{1:{f:{a:2024}}}
   },
