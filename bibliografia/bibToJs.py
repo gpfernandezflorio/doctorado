@@ -137,6 +137,8 @@ def main(ruta):
         agregarData(dictData[infoLinea['clave']], resultado, infoLinea['dato'])
       elif 'clave' in infoLinea:
         print("WARN: clave " + infoLinea['clave'] + " no procesada")
+  if len(resultado.keys()) > 0:
+    entradas[entradaActual] = resultado
   if len(entradas.keys()) == 1:
     mostrar(entradas[entradaActual], ruta[:-4])
   else:
