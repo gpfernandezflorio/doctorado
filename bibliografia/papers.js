@@ -6040,7 +6040,7 @@ bib.papers = {
   'Rechtackova2025':{
     nombre: "Code Quality Defects in Introductory Programming",
     año: 2025,
-    autores: [{A:"\v{R}echt\'{a}\v{c}kov\'{a}",N:"Anna"},{A:"Pel\'{a}nek",N:"Radek"},{A:"Effenberger",N:"Tom\'{a}\v{s}"}],
+    autores: [{A:"Řechtáčková",N:"Anna"},{A:"Pelánek",N:"Radek"},{A:"Effenberger",N:"Tomáš"}],
     en: {T:"ACM Trans. Comput. Educ.", v:25, n:4, editorial:"Association for Computing Machinery"},
     doi: "10.1145/3749996",
     web: "https://doi.org/10.1145/3749996"
@@ -6055,7 +6055,7 @@ bib.papers = {
   'Effenberger2022':{
     nombre: "Code Quality Defects across Introductory Programming Topics",
     año: 2022,
-    autores: [{A:"Effenberger",N:"Tom\'{a}\v{s}"},{A:"Pel\'{a}nek",N:"Radek"}],
+    autores: [{A:"Effenberger",N:"Tomáš"},{A:"Pelánek",N:"Radek"}],
     en: {C:"SIGCSE_2022", v:1, p:"941-947", editorial:"Association for Computing Machinery"},
     isbn: "9781450390705",
     doi: "10.1145/3478431.3499415",
