@@ -6086,6 +6086,80 @@ bib.papers = {
     doi: "10.1145/2999541.2999555",
     web: "doi"
   },
+  'Bormuth1970':{
+    nombre: "On the theory of achievement test items",
+    año: 1970,
+    autores: [{A:"Bormuth",N:["John","R"]},{A:"Menzel",N:"Peter"}],
+    web: "https://api.semanticscholar.org/CorpusID:142251136"
+  },
+  'Khoirul2025':{
+    nombre: "Prompt Engineering and the Effectiveness of Large Language Models in Enhancing Human Productivity",
+    año: 2025,
+    autores: [{A:["Khoirul","Anam"],N:"Rizal"}],
+    doi: "10.31219/osf.io/ad9y5_v1"
+  },
+  'Sarsa2022':{
+    nombre: "Automatic Generation of Programming Exercises and Code Explanations Using Large Language Models",
+    año: 2022,
+    autores: [{A:"Sarsa",N:"Sami"},{A:"Denny",N:"Paul"},{A:"Hellas",N:"Arto"},{A:"Leinonen",N:"Juho"}],
+    en: {C:"ICER_2022", p:"27-43"},
+    doi: "10.1145/3501385.3543957"
+  },
+  'Chan2025':{
+    nombre: "Automatic item generation in various STEM subjects using large language model prompting",
+    año: 2025,
+    autores: [{A:"Chan",N:["Kuang","Wen"]},{A:"Ali",N:"Farhan"},{A:"Park",N:"Joonhyeong"},{A:"Sham",N:["Kah","Shen","Brandon"]},{A:"Tan",N:["Erdalyn","Yeh","Thong"]},{A:"Chong",N:["Francis","Woon","Chien"]},{A:"Qian",N:"Kun"},{A:"Sze",N:["Guan","Kheng"]}],
+    en: {T:"Computers and Education: Artificial Intelligence", v:8, p:"100344"},
+    issn: "2666-920X",
+    doi: "10.1016/j.caeai.2024.100344",
+    web: "https://www.sciencedirect.com/science/article/pii/S2666920X24001474"
+  },
+  'Doughty2024':{
+    nombre: "A Comparative Study of AI-Generated (GPT-4) and Human-crafted MCQs in Programming Education",
+    año: 2024,
+    autores: [{A:"Doughty",N:"Jacob"},{A:"Wan",N:"Zipiao"},{A:"Bompelli",N:"Anishka"},{A:"Qayum",N:"Jubahed"},{A:"Wang",N:"Taozhi"},{A:"Zhang",N:"Juran"},{A:"Zheng",N:"Yujia"},{A:"Doyle",N:"Aidan"},{A:"Sridhar",N:"Pragnya"},{A:"Agarwal",N:"Arav"},{A:"Bogart",N:"Christopher"},{A:"Keylor",N:"Eric"},{A:"Kultur",N:"Can"},{A:"Savelka",N:"Jaromir"},{A:"Sakr",N:"Majd"}],
+    en: {T:"Australian Computing Education Conference", p:"114-123"},
+    doi: "10.1145/3636243.3636256"
+  },
+  'Gierl2016':{
+    nombre: "Automatic Item Generation",
+    año: 2016,
+    autores: [{A:"Gierl",N:"Mark"},{A:"Lai",N:"Hollis"}],
+    en: {nombre:"Handbook of test development", p:"410-429", editorial:"Routledge/Taylor & Francis Group"},
+    isbn: "9781522573661",
+    doi: "10.4018/978-1-5225-7365-4.ch016"
+  },
+  'Song2024':{
+    nombre: "Automatic item generation for educational assessments: a systematic literature review",
+    año: 2025,
+    autores: [{A:"Song",N:"Yishen"},{A:"Du",N:"Jun"},{A:"Zheng",N:"Qinhua"}],
+    en: {T:"Interactive Learning Environments", v:33, p:"1-20"},
+    doi: "10.1080/10494820.2025.2482588"
+  },
+  'Bower2008':{
+    nombre: "A taxonomy of task types in computing",
+    año: 2008,
+    autores: [{A:"Bower",N:"Matt"}],
+    en: {C:"ITiCSE_CONF_2008", p:"281-285"},
+    doi: "10.1145/1384271.1384346"
+  },
+  'Burke2025':{
+    nombre: "AI-Assisted Exam Variant Generation: A Human-in-the-Loop Framework for Automatic Item Creation",
+    año: 2025,
+    autores: [{A:"Burke",N:["Charles","MacDonald"]}],
+    en: {T:"Education Sciences", v:15, n:8},
+    issn: "2227-7102",
+    doi: "10.3390/educsci15081029",
+    web: "https://www.mdpi.com/2227-7102/15/8/1029"
+  },
+  'Omopekunola2024':{
+    nombre: "Automatic generation of physics items with Large Language Models (LLMs)",
+    año: 2024,
+    autores: [{A:"Omopekunola",N:["Moses","Oluoke"]},{A:"Kardanova",N:["Elena","Yu"]}],
+    en: {T:"REID (Research and Evaluation in Education)", v:10, n:2, p:"168-185"},
+    doi: "10.21831/reid.v10i2.76864",
+    web: "https://journal.uny.ac.id/index.php/reid/article/view/76864"
+  },
   'Hwang2010':{
     nombre: "Number of people required for usability evaluation: the 10±2 rule",
     año: 2010,

@@ -38,13 +38,15 @@ bib.conferencias = {
       2015:{T:"Proceedings of the Eleventh %T",f:{a:2015}}
     },
     2016:{T:"Proceedings of the 2016 ACM Conference on International %T",f:{a:2016}},
-    2021:{T:"Proceedings of the 17th ACM Conference on International %T",f:{a:2021},l:'Virtual Event, USA'}
+    2021:{T:"Proceedings of the 17th ACM Conference on International %T",f:{a:2021},l:'Virtual Event, USA'},
+    2022:{T:"ACM Conference on International %T",f:{a:2022,m:8}}
   },
   'ITiCSE':{T:"Innovation and technology in computer science education", c:"ACM", short:"ITiCSE",
     CONF:{T:"Conference on %T",
       2000:{T:"Proceedings of the 5th annual %T",f:{a:2000,m:7},l:"Canterbury, England"},
       2001:{T:"Proceedings of the 6th annual %T",f:{a:2001},l:"Canterbury, England"},
       2003:{T:"Proceedings of the 8th annual %T",f:{a:2003},l:"Thessaloniki, Greece"},
+      2008:{T:"Proceedings of the %T",f:{a:2008,m:8}},
       2010:{T:"Proceedings of the 15th %T",f:{a:2010}},
       2011:{T:"Proceedings of the 16th annual joint %T",f:{a:2011},l:'New York, NY, USA'},
       2012:{T:"Proceedings of the %T",f:{a:2012}},
