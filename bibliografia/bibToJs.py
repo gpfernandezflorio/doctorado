@@ -101,19 +101,15 @@ dictData = {
   'year':addYear,
   'journal':addJournalOrBook,
   'booktitle':addJournalOrBook,
-  'bookTitle':addJournalOrBook,
   'volume':addVolume,
   'number':addNumber,
   'articleno':addArticleNo,
   'pages':addPages,
   'publisher':addPublisher,
   'editor':addEditor,
-  'ISSN':addISSN,
   'issn':addISSN,
-  'ISBN':addISBN,
   'isbn':addISBN,
   'doi':addDoi,
-  'URL':addUrl,
   'url':addUrl
 }
 
@@ -159,7 +155,7 @@ def parseLinea(linea):
     return resultado
   clave = linea[0:iEq]
   dato = linea[iEq+1:]
-  resultado['clave'] = trim(clave)
+  resultado['clave'] = trim(clave).lower()
   resultado['dato'] = trim(dato)
   return resultado
 
