@@ -167,6 +167,7 @@ bib.papers = {
     año: 2025,
     autores: [{A:"Cossio-Mercado",N:"Christian"},{A:"Fernández",N:["Gonzalo","Pablo"]}],
     en: {T:"IEEE CHILECON 2025"},
+    doi: "10.1109/CHILECON66915.2025.11476003",
     tags: ["Arduino","AelE","Bloques"]
   },
   'Caballero2025':{ // JAIIO 25 - ProgrEval
