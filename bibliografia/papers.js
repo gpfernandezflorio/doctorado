@@ -169,6 +169,13 @@ bib.papers = {
     en: {T:"IEEE CHILECON 2025"},
     tags: ["Arduino","AelE","Bloques"]
   },
+  'Caballero2025':{ // JAIIO 25 - ProgrEval
+    nombre: "ProgrEval: Una propuesta metodológica para la evaluación de conocimientos de programación",
+    año: 2025,
+    autores: [{A:"Caballero, Tomás AND Fernández-Ortúzar, Agustín AND Fernández, Gonzalo Pablo AND Cossio-Mercado, Christian",N:"Caballero, Tomás AND Fernández-Ortúzar, Agustín AND Fernández, Gonzalo Pablo AND Cossio-Mercado, Christian"}],
+    en: {T:"54 Jornadas Argentinas de Informática (JAIIO), 4-7 de agosto de 2025, Buenos Aires, Argentina"},
+    web: "https://revistas.unlp.edu.ar/JAIIO/article/view/19967/20204"
+  },
   'Alliani2025':{ // JAIIO 25 - DALA
     nombre: "DALALearn: Una App educativa de programación para enseñar y realizar experimentos",
     año: 2025,
