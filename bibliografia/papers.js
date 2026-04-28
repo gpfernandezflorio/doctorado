@@ -189,6 +189,19 @@ bib.papers = {
     autores: [{A:"Alliani",N:"Federico"},{A:"Raposeiras",N:"Lucas"},{A:"Fernández",N:["Gonzalo","P"]},{A:"Cossio-Mercado",N:"Christian"}],
     en: {T:"SADIO Electronic Journal of Informatics and Operations Research (EJS)", v:25, n:2}
   },
+  'PCIA':{
+    nombre: "Repensando el Pensamiento Computacional en tiempos de IA",
+    año: 2026,
+    autores: [{A:"Artopoulos",N:"Alejandro"},{A:"Fernández",N:["Gonzalo","Pablo"]},{A:["Martínez", "López"],N:["Pablo","E"]},{A:"Lliteras",N:"Alejandra"}],
+    en: 'tecnoPedagogias',
+  },
+  'tecnoPedagogias':{
+    nombre: "Tecnopedagogías: Superpoderes docentes en la era de la IA",
+    año: 2026,
+    autores: [{A:"Artopoulos",N:"Alejandro"}],
+    editorial: "Aique Grupo Editor",
+    isbn: "978-987-06-1140-0"
+  },
   'codingAsLanguage':{
     nombre: "Coding as another language: a pedagogical approach for teaching computer science in early childhood",
     año: 2022,
