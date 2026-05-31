@@ -156,7 +156,7 @@ def parseLinea(linea):
   clave = linea[0:iEq]
   dato = linea[iEq+1:]
   resultado['clave'] = trim(clave).lower()
-  resultado['dato'] = trim(dato)
+  resultado['dato'] = trim(dato).replace("\\","\\\\").replace('"','\\"')
   return resultado
 
 def numero(n):

@@ -344,7 +344,7 @@
         return entryType;
       };
       function bibAutor(p) {
-        return `"${verAutores(p.autores, (n,a) => `${a}, ${n}`, ' AND ')}"`;
+        return `{${verAutores(p.autores, (n,a) => `${a}, ${n}`, ' AND ')}}`;
       };
       function bibTitulo(p) {
         return `{${p.nombre}}`;

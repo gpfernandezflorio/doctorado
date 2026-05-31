@@ -4817,7 +4817,7 @@ bib.papers = {
     autores: [{A:["Martínez", "López"],N:["Pablo","E"]}],
     en: "JADICC 2021",
     // REVISAR :
-    resumen: '1Vf23JHwAgaX3NMDy6ldgw6pP0o0-_ZFRlKyrGTNGpTw'
+    resumen: '18KL2kDI4OB3ovImjn0wn6Lk2Kd7p3HfY9_lTnh6PdfE'
   },
   'tiempoEnClase':{
     nombre: "El tiempo en las clases de programación: Hacés y hacés y no te importa si tocó el timbre",
@@ -6187,5 +6187,34 @@ bib.papers = {
     autores: [{A:"Hwang",N:"Wonil"},{A:"Salvendy",N:"Gavriel"}],
     en: {T:"Communications of the ACM", v:53, n:5, p:"130-133"},
     doi: "10.1145/1735223.1735255"
+  },
+  'Belsare2023':{
+    nombre: "Micro-ROS",
+    año: 2023,
+    autores: [{A:"Belsare",N:"Kaiwalya"},{A:"Rodriguez",N:["Antonio","Cuadros"]},{A:"S{\\'a}nchez",N:["Pablo","Garrido"]},{A:"Hierro",N:"Juanjo"},{A:"Ko{\\l}con",N:"Tomasz"},{A:"Lange",N:"Ralph"},{A:"L{\\\"u}tkebohle",N:"Ingo"},{A:"Malki",N:"Alexandre"},{A:"Losa",N:["Jaime","Martin"]},{A:"Melendez",N:"Francisco"},{A:"Rodriguez",N:["Maria","Merlan"]},{A:"Nordmann",N:"Arne"},{A:"Staschulat",N:"Jan"},{A:"von Mendel",N:"Julian"}],
+    en: {T:"Robot Operating System (ROS): The Complete Reference (Volume 7)", p:"3-55", autores:[{A:"Koubaa",N:"Anis"}], editorial:"Springer International Publishing"},
+    isbn: "978-3-031-09062-2",
+    doi: "10.1007/978-3-031-09062-2_2",
+    web: "https://doi.org/10.1007/978-3-031-09062-2_2"
+  },
+  'Turtlebot3':{
+    nombre: "Turtlebot 3 as a Robotics Education Platform",
+    año: 2020,
+    autores: [{A:"Amsters",N:"Robin"},{A:"Slaets",N:"Peter"}],
+    en: {T:"Robotics in Education", p:"170--181", autores:[{A:"Merdan",N:"Munir"},{A:"Lepuschitz",N:"Wilfried"},{A:"Koppensteiner",N:"Gottfried"},{A:"Balogh",N:"Richard"},{A:"Obdr{\\v{z}}{\\'a}lek",N:"David"}], editorial:"Springer International Publishing"},
+    isbn: "978-3-030-26945-6"
+  },
+  'mbot':{
+    nombre: "MBot: A Modular Ecosystem for Scalable Robotics Education",
+    año: 2024,
+    autores: [{A:"Gaskell",N:"Peter"},{A:"Pavlasek",N:"Jana"},{A:"Gao",N:"Tom"},{A:"Narula",N:"Abhishek"},{A:"Lewis",N:"Stanley"},{A:"Jenkins",N:["Odest","Chadwicke"]}],
+    en: {T:"2024 IEEE International Conference on Robotics and Automation (ICRA)", p:"18294-18300"},
+    doi: "10.1109/ICRA57147.2024.10610587"
+  },
+  'pedre2010':{
+    nombre: "A mobile mini-robot architecture for research, education and popularization of science",
+    año: 2010,
+    autores: [{A:"Pedre",N:"Sol"},{A:"De Cristóforis",N:"Pablo"},{A:"Caccavelli",N:"Javier"},{A:"Stoliar",N:"Andrés"}],
+    en: {T:"Journal of Applied Computer Science Methods", v:2, p:"41-59"}
   }
 };
