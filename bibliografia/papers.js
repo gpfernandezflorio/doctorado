@@ -189,6 +189,12 @@ bib.papers = {
     autores: [{A:"Alliani",N:"Federico"},{A:"Raposeiras",N:"Lucas"},{A:"Fernández",N:["Gonzalo","P"]},{A:"Cossio-Mercado",N:"Christian"}],
     en: {T:"SADIO Electronic Journal of Informatics and Operations Research (EJS)", v:25, n:2}
   },
+  'problematicasPrimerCurso':{
+    nombre: "Problemáticas del diseño de un primer curso de programación profesional",
+    año: 2025,
+    autores: [{A:"Fernández",N:["Gonzalo","Pablo"]},{A:["Martínez", "López"],N:["Pablo","E"]},{A:"Garzón",N:"Magdalena"}],
+    en: {C:"JADICC_2025"}
+  },
   'PCIA':{
     nombre: "Repensando el Pensamiento Computacional en tiempos de IA",
     año: 2026,

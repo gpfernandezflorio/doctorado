@@ -1,7 +1,8 @@
 bib.conferencias = {
   'JADICC':{T:"Jornadas Argentinas de Didáctica de las Ciencias de la Computación", short:"JADICC",
     2023:{T:"%T 2023"},
-    2024:{T:"%T 2024"}
+    2024:{T:"%T 2024"},
+    2024:{T:"%T 2025"}
   },
   'SIGCSE':{T:"ACM Technical Symposium on Computer Science Education", c:"ACM", short:"SIGCSE",
     2003:{T:"Proceedings of the 34th %T",f:{a:2003},l:"Reno, Nevada, USA"},
