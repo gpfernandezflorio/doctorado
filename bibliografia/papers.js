@@ -80,7 +80,7 @@ bib.papers = {
     nombre: "Relevamiento de conocimientos previos de programación en el nivel universitario",
     año: 2023,
     autores: [{A:"Fernández",N:["Gonzalo","Pablo"]},{A:"Martínez",N:["María","Cecilia"]},{A:["Martínez", "López"],N:["Pablo","E"]}],
-    en: "Simposio Argentino de Educación en Informática (SAEI) - Jornadas Argentinas de Informática e Investigación Operativa (JAIIO) 2023, 4-8 de septiembre de 2023, Buenos Aires, Argentina",
+    en: "Simposio Argentino de Educación en Informática (SAEI) - Jornadas Argentinas de Informática e Investigación Operativa (JAIIO) 2023, 4-8 de septiembre de 2023, La Plata, Argentina",
     web: 'https://publicaciones.sadio.org.ar/index.php/JAIIO/article/view/632/647'
   },
   'conocimientosPrevios_2024':{ // JAIIO EXT 24
@@ -110,7 +110,7 @@ bib.papers = {
     nombre: "AelE: a versatile tool for teaching programming and robotics using Arduino",
     año: 2024,
     autores: [{A:"Fernández",N:["Gonzalo","Pablo"]},{A:"Cossio-Mercado",N:"Christian"}],
-    en: {T:"2024 L Latin American Computer Conference (CLEI)", l:"Buenos Aires, Argentina"},
+    en: {T:"2024 L Latin American Computer Conference (CLEI)", l:"La Plata, Argentina"},
     doi: "10.1109/CLEI64178.2024.10700288",
     tags: ["Arduino","AelE","Bloques"]
   },
@@ -118,7 +118,7 @@ bib.papers = {
     nombre: "AelE: una herramienta para la enseñanza de programación basada en Arduino",
     año: 2024,
     autores: [{A:"Fernández",N:["Gonzalo","Pablo"]},{A:"Cossio-Mercado",N:"Christian"}],
-    en: "Jornadas Argentinas de Robótica (JAR), 4-7 de junio de 2024, Buenos Aires, Argentina",
+    en: "Jornadas Argentinas de Robótica (JAR), 4-7 de junio de 2024, La Plata, Argentina",
     tags: ["Arduino","AelE","Bloques"]
   },
   'dov_2024':{ // JADICC 24 ( reversión del rechazado de CLEI )
@@ -151,7 +151,7 @@ bib.papers = {
     nombre: "Aceptación y apropiación del entorno AelE por parte de docentes en formación",
     año: 2025,
     autores: [{A:"Brassesco",N:"Virginia"},{A:"Fernández",N:["Gonzalo","Pablo"]},{A:"Ojeda",N:"Yamila"}],
-    en: "Simposio Argentino de Educación en Informática (SAEI) - Jornadas Argentinas de Informática e Investigación Operativa (JAIIO) 2025, 4-7 de agosto de 2025, Buenos Aires, Argentina",
+    en: "Simposio Argentino de Educación en Informática (SAEI) - Jornadas Argentinas de Informática e Investigación Operativa (JAIIO) 2025, 4-7 de agosto de 2025, La Plata, Argentina",
     tags: ["Arduino","AelE","Bloques"]
   },
   'comparativaArduino_2025':{ // CLEI 25 ( reversión del rechazado de WiPSCE )
@@ -173,15 +173,15 @@ bib.papers = {
   'Caballero2025':{ // JAIIO 25 - ProgrEval
     nombre: "ProgrEval: Una propuesta metodológica para la evaluación de conocimientos de programación",
     año: 2025,
-    autores: [{A:"Caballero, Tomás AND Fernández-Ortúzar, Agustín AND Fernández, Gonzalo Pablo AND Cossio-Mercado, Christian",N:"Caballero, Tomás AND Fernández-Ortúzar, Agustín AND Fernández, Gonzalo Pablo AND Cossio-Mercado, Christian"}],
-    en: {T:"54 Jornadas Argentinas de Informática (JAIIO), 4-7 de agosto de 2025, Buenos Aires, Argentina"},
+    autores: [{A:"Caballero", N:"Tomás"},{A:"Fernández-Ortúzar", N:"Agustín"},{A:"Fernández", N:["Gonzalo","Pablo"]},{A:"Cossio-Mercado", N:"Christian"}],
+    en: {T:"54 Jornadas Argentinas de Informática (JAIIO), 4-7 de agosto de 2025, La Plata, Argentina"},
     web: "https://revistas.unlp.edu.ar/JAIIO/article/view/19967/20204"
   },
   'Alliani2025':{ // JAIIO 25 - DALA
     nombre: "DALALearn: Una App educativa de programación para enseñar y realizar experimentos",
     año: 2025,
     autores: [{A:"Alliani",N:"Federico"},{A:"Raposeiras",N:"Lucas"},{A:"Fernández",N:["Gonzalo","P"]},{A:"Cossio-Mercado",N:"Christian"}],
-    en: {T:"54 Jornadas Argentinas de Informática (JAIIO), 4-7 de agosto de 2025, Buenos Aires, Argentina"}
+    en: {T:"54 Jornadas Argentinas de Informática (JAIIO), 4-7 de agosto de 2025, La Plata, Argentina"}
   },
   'Alliani2026':{ // JAIIO 25 EXT - DALA
     nombre: "DALALearn: Una plataforma para la enseñanza y la investigación en programación",
@@ -189,24 +189,48 @@ bib.papers = {
     autores: [{A:"Alliani",N:"Federico"},{A:"Raposeiras",N:"Lucas"},{A:"Fernández",N:["Gonzalo","P"]},{A:"Cossio-Mercado",N:"Christian"}],
     en: {T:"SADIO Electronic Journal of Informatics and Operations Research (EJS)", v:25, n:2}
   },
-  'problematicasPrimerCurso':{
+  'problematicasPrimerCurso':{ // JADICC 25 - Problemáticas
     nombre: "Problemáticas del diseño de un primer curso de programación profesional",
     año: 2025,
     autores: [{A:"Fernández",N:["Gonzalo","Pablo"]},{A:["Martínez", "López"],N:["Pablo","E"]},{A:"Garzón",N:"Magdalena"}],
     en: {C:"JADICC_2025"}
   },
-  'PCIA':{
+  'PCIA':{ // Capítulo PC
     nombre: "Repensando el Pensamiento Computacional en tiempos de IA",
     año: 2026,
     autores: [{A:"Artopoulos",N:"Alejandro"},{A:"Fernández",N:["Gonzalo","Pablo"]},{A:["Martínez", "López"],N:["Pablo","E"]},{A:"Lliteras",N:"Alejandra"}],
     en: 'tecnoPedagogias',
   },
-  'tecnoPedagogias':{
+  'tecnoPedagogias':{ // Libro PC
     nombre: "Tecnopedagogías: Superpoderes docentes en la era de la IA",
     año: 2026,
     autores: [{A:"Artopoulos",N:"Alejandro"}],
     editorial: "Aique Grupo Editor",
     isbn: "978-987-06-1140-0"
+  },
+  'progrEvalJAIIO26':{ // JAIIO 26 - ProgrEval
+    nombre: "ProgrEval: Generación asistida de consignas de evaluación para la enseñanza de programación",
+    año: 2026,
+    autores: [{A:"Caballero", N:"Tomás"},{A:"Fernández-Ortúzar", N:"Agustín"},{A:"Fernández", N:["Gonzalo","Pablo"]},{A:"Cossio-Mercado", N:"Christian"}],
+    en: {T:"55 Jornadas Argentinas de Informática (JAIIO), 10-13 de agosto de 2026, La Plata, Argentina"}
+  },
+  'qoCodeJAIIO26':{ // JAIIO 26 - QoCode
+    nombre: "QoCode: Evaluación automática de calidad de código en tareas de programación",
+    año: 2026,
+    autores: [{A:"Varani", N:"Victoria"},{A:"Ventrici", N:"Bruno"},{A:"Fernández", N:["Gonzalo","Pablo"]},{A:"Cossio-Mercado", N:"Christian"}],
+    en: {T:"55 Jornadas Argentinas de Informática (JAIIO), 10-13 de agosto de 2026, La Plata, Argentina"}
+  },
+  'progrEvalCLEI26':{ // CLEI 26 - ProgrEval
+    nombre: "ProgrEval: Assisted Generation of Assessment Tasks for Programming Education",
+    año: 2026,
+    autores: [{A:"Caballero", N:"Tomás"},{A:"Fernández-Ortúzar", N:"Agustín"},{A:"Fernández", N:["Gonzalo","Pablo"]},{A:"Cossio-Mercado", N:"Christian"}],
+    en: {T:"2026 LII Latin American Computer Conference (CLEI)", l:"Ciudad de México, México"}
+  },
+  'qoCodeCLEI26':{ // CLEI 26 - QoCode
+    nombre: "QoCode: Automated Code Quality Assessment in Programming Assignments",
+    año: 2026,
+    autores: [{A:"Varani", N:"Victoria"},{A:"Ventrici", N:"Bruno"},{A:"Fernández", N:["Gonzalo","Pablo"]},{A:"Cossio-Mercado", N:"Christian"}],
+    en: {T:"2026 LII Latin American Computer Conference (CLEI)", l:"Ciudad de México, México"}
   },
   'codingAsLanguage':{
     nombre: "Coding as another language: a pedagogical approach for teaching computer science in early childhood",
@@ -234,7 +258,7 @@ bib.papers = {
     nombre: "Propuesta curricular para la inclusión de las Ciencias de la Computación en la educación obligatoria de Argentina",
     año: 2023,
     autores: [{A:"Dabbah",N:"Julián"},{A:"Garzón",N:"Magdalena"},{A:"Gomez",N:["Marcos","Javier"]},{A:"Martínez",N:["María","Cecilia"]},{A:["Martínez", "López"],N:["Pablo","E"]}],
-    editorial: "Fundación Sadosky, Buenos Aires",
+    editorial: "Fundación Sadosky, La Plata",
     web: 'https://curriculum.program.ar/',
     tags: ["Enfoque"]
   },
@@ -268,7 +292,7 @@ bib.papers = {
     nombre: "Ciencias de la computación para el aula: 1er. ciclo de secundaria (libro para docentes)",
     año: 2019,
     autores: [{A:["Martínez","López"],N:["Pablo","Ernesto"]},{A:"Aloi",N:"Federico"},{A:"Ciolek",N:["Daniel","A"]},{A:"Martínez",N:"Federico"},{A:"Pari",N:"Denise"},{A:"Tobia",N:"Pablo"}],
-    editorial: "Ciudad Autónoma de Buenos Aires, Argentina: Fundación Sadosky",
+    editorial: "Ciudad Autónoma de La Plata, Argentina: Fundación Sadosky",
     web: 'http://program.ar/descargas/cc_para_el_aula-1er_ciclo_secundaria.pdf',
     tags: ["Enfoque"]
   },
@@ -276,7 +300,7 @@ bib.papers = {
     nombre: "Ciencias de la computación para el aula: 2do. ciclo de secundaria (libro para docentes)",
     año: 2019,
     autores: [{A:"Banchoff",N:"Claudia"},{A:"Czemerinski",N:"Hernán"},{A:"Dabbah",N:"Julián"},{A:"Frizzo",N:"Franco"},{A:"Queiruga",N:"Claudia"},{A:"Venosa",N:"Paula"}],
-    editorial: "Ciudad Autónoma de Buenos Aires, Argentina: Fundación Sadosky",
+    editorial: "Ciudad Autónoma de La Plata, Argentina: Fundación Sadosky",
     web: 'https://program.ar/descargas/cc_para_el_aula-2do_ciclo_secundaria.pdf',
     tags: ["Enfoque"]
   },
@@ -1611,7 +1635,7 @@ bib.papers = {
     nombre: "Aprender a hablar ciencia. Lenguaje, aprendizaje y valores",
     año: 1997,
     autores: [{A:"Lemke",N:["Jay","L"]}],
-    editorial: "Buenos Aires, Argentina: Paidós"
+    editorial: "La Plata, Argentina: Paidós"
   },
   'Pozo1994': {
     nombre:"La solución de problemas",
@@ -1681,14 +1705,14 @@ bib.papers = {
     nombre: "La enseñanza para la comprensión",
     año: 1999,
     autores: [{A:["Stone","Wiske"],N:"Martha"}],
-    editorial: "Buenos Aires, Argentina: Paidós"
+    editorial: "La Plata, Argentina: Paidós"
   },
   'Anijovich_Cappelletti_2017':{dup:'AnijovichyCappelletti2018'},
   'AnijovichyCappelletti2018':{
     nombre: "La evaluación como oportunidad",
     año: 2018,
     autores: [{A:"Anijovich",N:"Rebeca"},{A:"Cappelletti",N:"Graciela"}],
-    editorial: "Buenos Aires, Argentina: Paidós",
+    editorial: "La Plata, Argentina: Paidós",
     tags: ["Evaluación"]
   },
   'GomezYepes2004':{
@@ -1858,7 +1882,7 @@ bib.papers = {
     nombre: "¿De qué hablamos cuando hablamos de educación?",
     año: 2007,
     autores: [{A:"Gvirtz",N:"Silvina"}],
-    en: {T:"La educación ayer, hoy y mañana. El ABC de la Pedagogía", editorial:"Aique: Buenos Aires", cap:1},
+    en: {T:"La educación ayer, hoy y mañana. El ABC de la Pedagogía", editorial:"Aique: La Plata", cap:1},
     // REVISAR :
     drive:'1sC5hvnFQDgl9V-TRHLb5772E5aOLHq1U',
     // REVISAR :
@@ -2231,13 +2255,13 @@ bib.papers = {
     nombre: "Métodos de enseñanza: didáctica general para maestros y profesores",
     año: 2008,
     autores: [{A:"Davini",N:["María","Cristina"]}],
-    editorial: "Buenos Aires: Sanlillana"
+    editorial: "La Plata: Sanlillana"
   },
   'Feldman2010':{
     nombre: "Didáctica general",
     año: 2010,
     autores: [{A:"Feldman",N:"Daniel"}],
-    editorial: "Buenos Aires : Ministerio de Educación de la Nación"
+    editorial: "La Plata : Ministerio de Educación de la Nación"
   },
   'massa_2023':{
     nombre: "Hacia un Análisis de Contenidos y Lenguajes de Programación en Materias iniciales de Programación de Carreras de Ciencias de la Computación",
@@ -2533,7 +2557,7 @@ bib.papers = {
     nombre: "Hacer visible el pensamiento",
     año: 2014,
     autores: [{A:"Ritchhart",N:"R"},{A:"Church",N:"M"},{A:"Morrison",N:"K"}],
-    editorial:"Ciudad Autónoma de Buenos Aires: Paidós"
+    editorial:"Ciudad Autónoma de La Plata: Paidós"
   },
   'Pozo2014':{
     nombre: "Psicología del Aprendizaje Humano: Adquisición de conocimiento y cambio personal",
@@ -2890,7 +2914,7 @@ bib.papers = {
     nombre: "Enseñar y aprender con informática/ enseñar y aprender informática. Medios informáticos en la escuela argentina",
     año: 2007,
     autores: [{A:"Levis",N:"D"}],
-    editorial: "Buenos Aires: Prometeo"
+    editorial: "La Plata: Prometeo"
   },
   'CompCurr2005':{
     nombre: "Computing curricula 2005: The overview report",
@@ -5645,13 +5669,13 @@ bib.papers = {
     nombre: "La universidad en la cárcel: Programa UBA XXII",
     año: 2006,
     autores: [{A:"Laferriere",N:"Marta"}],
-    editorial: "Buenos Aires, Editorial Universidad"
+    editorial: "La Plata, Editorial Universidad"
   },
   'Laferriere2019':{
     nombre: "Programa UBA XXII: herramienta para la construcción de ciudadanía",
     año: 2019,
     autores: [{A:"Laferriere",N:"Marta"}],
-    editorial: "Universidad de Buenos Aires. Facultad de Ciencias Sociales. Carrera de Trabajo Social"
+    editorial: "Universidad de La Plata. Facultad de Ciencias Sociales. Carrera de Trabajo Social"
   },
   'Lescano2012':{
     nombre: "Estímulo educativo en contexto de encierro. La ley 26.695, un nuevo instrumento legal que garantiza y asegura el acceso a la educación de los internos del sistema penitenciario",
