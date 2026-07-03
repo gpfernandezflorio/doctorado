@@ -122,10 +122,12 @@ def main(ruta):
   entradas = {}
   resultado = {}
   for linea in filter(lambda x : len(x) > 0, contenido.split('\n')):
-    if linea == "}":
-      entradas[entradaActual] = resultado
-      resultado = {}
+    if linea.startswith("}"):
+      pass
     elif linea.startswith("@"):
+      if not (entradaActual is None) and len(resultado.keys()) > 0:
+        entradas[entradaActual] = resultado
+      resultado = {}
       entradaActual = linea[linea.find('{')+1:-1]
     else:
       infoLinea = parseLinea(linea)
