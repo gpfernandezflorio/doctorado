@@ -2916,14 +2916,6 @@ bib.papers = {
     autores: [{A:"Levis",N:"D"}],
     editorial: "La Plata: Prometeo"
   },
-  'CompCurr2005':{
-    nombre: "Computing curricula 2005: The overview report",
-    año: 2006,
-    autores: [{A:"Shackelford",N:"R"}],
-    en: {T:"SIGCSEBull_38_1", p:"456-457"},
-    url: 'http://www.acm.org/education/curric_vols/CC2005-March06Final.pdf',
-    tags: ["Curriculum"]
-  },
   'SystemsCareerChoices':{
     nombre: "More than a bumper sticker: The factors influencing information systems career choices",
     año: 2009,
@@ -6246,5 +6238,241 @@ bib.papers = {
     año: 2010,
     autores: [{A:"Pedre",N:"Sol"},{A:"De Cristóforis",N:"Pablo"},{A:"Caccavelli",N:"Javier"},{A:"Stoliar",N:"Andrés"}],
     en: {T:"Journal of Applied Computer Science Methods", v:2, p:"41-59"}
+  },
+  'duBoulay1986':{
+    nombre: "Some Difficulties of Learning to Program",
+    año: 1986,
+    autores: [{A:"Du Boulay",N:"Benedict"}],
+    en: {T:"Journal of Educational Computing Research", v:2, n:1, p:"57-73"},
+    doi: "10.2190/3LFX-9RRF-67T8-UVK9"
+  },
+  'BellScott1987':{
+    nombre: "A first course in programming",
+    año: 1987,
+    autores: [{A:"Bell",N:"Doug"},{A:"Scott",N:"Peter"}],
+    en: {T:"SIGCSE Bull.", v:19, n:2, p:"48-50", editorial:"Association for Computing Machinery"},
+    issn: "0097-8418",
+    doi: "10.1145/24728.24739",
+    web: "doi"
+  },
+  'Schneider1978':{
+    nombre: "The introductory programming course in computer science: ten principles",
+    año: 1978,
+    autores: [{A:"Schneider",N:["G.","Michael"]}],
+    en: {T:"SIGCSE Bull.", v:10, n:1, p:"107-114", editorial:"Association for Computing Machinery"},
+    isbn: "9781450374767",
+    issn: "0097-8418",
+    doi: "10.1145/990654.990598",
+    web: "doi"
+  },
+  'Locklair1991':{
+    nombre: "The introductory computer science course",
+    año: 1991,
+    autores: [{A:"Locklair",N:["Gary","H"]}],
+    en: {T:"SIGCSE Bull.", v:23, n:1, p:"235-239", editorial:"Association for Computing Machinery"},
+    isbn: "0897913779",
+    issn: "0097-8418",
+    doi: "10.1145/107004.107049",
+    web: "doi"
+  },
+  'Keller1976':{
+    nombre: "A modern beginning programming course",
+    año: 1976,
+    autores: [{A:"Keller",N:["Roy","F"]}],
+    en: {T:"Proceedings of the June 7-10, 1976, National Computer Conference and Exposition", p:"165-170", editorial:"Association for Computing Machinery"},
+    isbn: "9781450379175",
+    doi: "10.1145/1499799.1499824",
+    web: "doi"
+  },
+  'Hyde1979':{
+    nombre: "The integration of a Problem Solving Process in the first course",
+    año: 1979,
+    autores: [{A:"Hyde",N:["Daniel","C"]},{A:"Gay",N:["Ben","D"]},{A:"Utter",N:"Donald"}],
+    en: {T:"SIGCSE Bull.", v:11, n:1, p:"54-59", editorial:"Association for Computing Machinery"},
+    isbn: "9781450374316",
+    issn: "0097-8418",
+    doi: "10.1145/800126.809552",
+    web: "doi"
+  },
+  'Gries1974':{
+    nombre: "What should we teach in an introductory programming course?",
+    año: 1974,
+    autores: [{A:"Gries",N:"David"}],
+    en: {T:"SIGCSE Bull.", v:6, n:1, p:"81-89", editorial:"Association for Computing Machinery"},
+    issn: "0097-8418",
+    isbn: "9781450374835",
+    doi: "10.1145/953057.810447",
+    web: "doi"
+  },
+  'Riley1981':{
+    nombre: "Teaching problem solving in an introductory computer science class",
+    año: 1981,
+    autores: [{A:"Riley",N:["David","D"]}],
+    en: {T:"SIGCSE Bull.", v:13, n:1, p:"244-251", editorial:"Association for Computing Machinery"},
+    isbn: "0897910362",
+    issn: "0097-8418",
+    doi: "10.1145/953049.800995",
+    web: "doi"
+  },
+  'Tucker1994':{
+    nombre: "New directions in the introductory computer science curriculum",
+    año: 1994,
+    autores: [{A:"Tucker",N:["Allen","B"]},{A:"Wegner",N:"Peter"}],
+    en: {T:"SIGCSE Bull.", v:26, n:1, p:"11-15", editorial:"Association for Computing Machinery"},
+    isbn: "0897916468",
+    issn: "0097-8418",
+    doi: "10.1145/191033.191038",
+    web: "doi"
+  },
+  'OldehoeftRoman1977':{
+    nombre: "Methodology for teaching introductory computer science",
+    año: 1977,
+    autores: [{A:"Oldehoeft",N:["R","R"]},{A:"Roman",N:["R","V"]}],
+    en: {T:"SIGCSE Bull.", v:9, n:1, p:"123-128", editorial:"Association for Computing Machinery"},
+    isbn: "9781450374071",
+    issn: "0097-8418",
+    doi: "10.1145/382063.803373",
+    web: "doi"
+  },
+  'Conner1977':{
+    nombre: "A concept-oriented approach to introductory computer science",
+    año: 1977,
+    autores: [{A:"Conner",N:["William","M"]}],
+    en: {T:"SIGCSE Bull.", v:9, n:1, p:"162-164", editorial:"Association for Computing Machinery"},
+    isbn: "9781450374071",
+    issn: "0097-8418",
+    doi: "10.1145/382063.803382",
+    web: "doi"
+  },
+  'VanDam1974':{
+    nombre: "A survey of introductory and advanced programming courses",
+    año: 1974,
+    autores: [{A:"van Dam",N:"Andries"},{A:"Strauss",N:["Charles","M"]},{A:"McGowan",N:"Clement"},{A:"Morse",N:"Jean"}],
+    en: {T:"SIGCSE Bull.", v:6, n:1, p:"174-183", editorial:"Association for Computing Machinery"},
+    isbn: "9781450374835",
+    issn: "0097-8418",
+    doi: "10.1145/953057.810465",
+    web: "doi"
+  },
+  'Henderson1986':{
+    nombre: "Anatomy of An Introductory Computer Science Course",
+    año: 1986,
+    autores: [{A:"Henderson",N:"Peter"}],
+    en: {T:"ACM Sigcse Bulletin", v:18, p:"257-264"},
+    doi: "10.1145/953055.5708"
+  },
+  'Furugori1977':{
+    nombre: "First course in computer science, a small survey",
+    año: 1977,
+    autores: [{A:"Furugori",N:"T"},{A:"Jalics",N:"P"}],
+    en: {T:"SIGCSE Bull.", v:9, n:1, p:"119-122", editorial:"Association for Computing Machinery"},
+    isbn: "9781450374071",
+    issn: "0097-8418",
+    doi: "10.1145/382063.803372",
+    web: "doi"
+  },
+  'Foughali2024':{
+    nombre: "Some thoughts on teaching introductory programming and the first language dilemma (Discussion Paper)",
+    año: 2024,
+    autores: [{A:"Foughali",N:["Mohammed","Aristide"]}],
+    en: {T:"Proceedings of the 23rd Koli Calling International Conference on Computing Education Research", editorial:"Association for Computing Machinery"},
+    isbn: "9798400716539",
+    doi: "10.1145/3631802.3631812",
+    web: "doi"
+  },
+  'Jenkins2004':{
+    nombre: "The First Language - A Case for Python?",
+    año: 2004,
+    autores: [{A:"Tony",N:"Jenkins"}],
+    en: {T:"ITALICS", v:3},
+    doi: "10.11120/ital.2004.03020004"
+  },
+  'SmithRickman1976':{
+    nombre: "Selecting languages for pedagogical tools in the computer science curriculum",
+    año: 1976,
+    autores: [{A:"Smith",N:"Carol"},{A:"Rickman",N:"Jon"}],
+    en: {T:"SIGCSE Bull.", v:8, n:3, p:"39-47", editorial:"Association for Computing Machinery"},
+    isbn: "9781450374453",
+    issn: "0097-8418",
+    doi: "10.1145/952991.804753",
+    web: "doi"
+  },
+  'HuangBriggs2009':{
+    nombre: "A unified approach to introductory computer science: can one size fit all?",
+    año: 2009,
+    autores: [{A:"Huang",N:"Timothy"},{A:"Briggs",N:"Amy"}],
+    en: {T:"SIGCSE Bull.", v:41, n:3, p:"253-257", editorial:"Association for Computing Machinery"},
+    isbn: "9781605583815",
+    issn: "0097-8418",
+    doi: "10.1145/1595496.1562956",
+    web: "doi"
+  },
+  'Khailany1977':{
+    nombre: "Alternative teaching strategy for an introductory computer language course",
+    año: 1977,
+    autores: [{A:"Khailany",N:"Asad"}],
+    en: {T:"SIGCSE Bull.", v:9, n:1, p:"93-95", editorial:"Association for Computing Machinery"},
+    isbn: "9781450374071",
+    issn: "0097-8418",
+    doi: "10.1145/382063.803366",
+    web: "doi"
+  },
+  'CompCurr2005':{dup:'CC2005'},
+  'CC2005':{
+    nombre: "Computing Curricula 2005: The Overview Report",
+    año: 2006,
+    autores: [{A:"Shackelford",N:"Russell"},{A:"McGettrick",N:"Andrew"},{A:"Sloan",N:"Robert"},{A:"Topi",N:"Heikki"},{A:"Davies",N:"Gordon"},{A:"Kamali",N:"Reza"},{A:"Cross",N:"James"},{A:"Impagliazzo",N:"John"},{A:"Leblanc",N:"Richard"},{A:"Lunt",N:"Barry"}],
+    en: {T:"ACM SIGCSE Bulletin", v:38, p:"456-457"},
+    doi: "10.1145/1121341.1121482",
+    url: 'https://www.acm.org/binaries/content/assets/education/curricula-recommendations/cc2005-march06final.pdf',
+    tags: ["Curriculum"]
+  },
+  'CC2001':{
+    nombre: "Computing curricula 2001: computer science",
+    año: 2001,
+    autores: [{A:"Roberts",N:"Eric"},{A:"Engel",N:"G."},{A:"Chang",N:"Carl"},{A:"Cross",N:"J."},{A:"Shackelford",N:"R."},{A:"Sloan",N:"Robert"},{A:"Carver",N:"D."},{A:"Eckhouse",N:"Richard"},{A:"King",N:"W."},{A:"Lau",N:"Francis"},{A:"Srimani",N:"Pradip"},{A:"Austing",N:"R."}],
+    en: {T:"ACM Transactions on Computing Education / ACM Journal of Educational Resources in Computing - TOCE/JERIC"}
+  },
+  'CC1991':{
+    nombre: "Computing Curricula 1991: Report of the ACM/IEEE-CS Joint Curriculum Task Force",
+    año: 1991,
+    autores: "ACM/IEEE-CS Joint Curriculum Task Force",
+    editorial: "Association for Computing Machinery",
+    doi: "10.1145/2594148",
+    web: "https://dl.acm.org/doi/epdf/10.1145/2594148"
+  },
+  'ACM78':{
+    nombre: "Curriculum '78: recommendations for the undergraduate program in computer science— a report of the ACM curriculum committee on computer science",
+    año: 1979,
+    autores: [{A:"Austing",N:["Richard","H"]},{A:"Barnes",N:["Bruce","H"]},{A:"Bonnette",N:["Della","T"]},{A:"Engel",N:["Gerald","L"]},{A:"Stokes",N:"Gordon"}],
+    en: {T:"Commun. ACM", v:22, n:3, p:"147-166", editorial:"Association for Computing Machinery"},
+    issn: "0001-0782",
+    doi: "10.1145/359080.359083",
+    web: "doi"
+  },
+  'ACM77':{
+    nombre: "Curriculum recommendations for the undergraduate program in computer science: a working report of the ACM committee on curriculum in computer sciences",
+    año: 1977,
+    autores: [{A:"Austing",N:["Richard","H"]},{A:"Barnes",N:["Bruce","H"]},{A:"Bonnette",N:["Delle.","T"]},{A:"Engel",N:["Gerald","L"]},{A:"Stokes",N:"Gordon"}],
+    en: {T:"SIGCSE Bull.", v:9, n:2, p:"1-16", editorial:"Association for Computing Machinery"},
+    issn: "0097-8418",
+    doi: "10.1145/988948.988950",
+    web: "doi"
+  },
+  'ACM68':{
+    nombre: "Curriculum 68: Recommendations for academic programs in computer science: a report of the ACM curriculum committee on computer science",
+    año: 1968,
+    autores: [{A:"Atchison",N:["William","F"]},{A:"Conte",N:["Samuel","D"]},{A:"Hamblen",N:["John","W"]},{A:"Hull",N:["Thomas","E"]},{A:"Keenan",N:["Thomas","A"]},{A:"Kehl",N:["William","B"]},{A:"McCluskey",N:["Edward","J"]},{A:"Navarro",N:["Silvio","O"]},{A:"Rheinboldt",N:["Werner","C"]},{A:"Schweppe",N:["Earl","J"]},{A:"Viavant",N:"William"},{A:"Young",N:["David","M"]}],
+    en: {T:"Commun. ACM", v:11, n:3, p:"151–197", editorial:"Association for Computing Machinery"},
+    issn: "0001-0782",
+    doi: "10.1145/362929.362976",
+    web: "doi"
+  },
+  'CSC2013':{
+    nombre: "Computer Science Curricula 2013: Curriculum Guidelines for Undergraduate Degree Programs in Computer Science",
+    año: 2013,
+    autores: [{A:"Curricula",N:"Association"}],
+    isbn: "978-1-4503-2309-3",
+    doi: "10.1145/2534860"
   }
 };
