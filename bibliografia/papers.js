@@ -6007,7 +6007,7 @@ bib.papers = {
     autores: [{A:"Messer",N:"Marcus"},{A:"Brown",N:"Neil C. C."},{A:"Kölling",N:"Michael"},{A:"Shi",N:"Miaojing"}],
     en: {T:"ACM Trans. Comput. Educ.", v:24, n:1, editorial:"Association for Computing Machinery"},
     doi: "10.1145/3636515",
-    web: "https://doi.org/10.1145/3636515"
+    web: "doi"
   },
   'Shortt2023':{
     nombre: "Gamification in mobile-assisted language learning: A systematic review of Duolingo literature from public release of 2012 to early 2020",
@@ -6086,7 +6086,7 @@ bib.papers = {
     autores: [{A:"Řechtáčková",N:"Anna"},{A:"Pelánek",N:"Radek"},{A:"Effenberger",N:"Tomáš"}],
     en: {T:"ACM Trans. Comput. Educ.", v:25, n:4, editorial:"Association for Computing Machinery"},
     doi: "10.1145/3749996",
-    web: "https://doi.org/10.1145/3749996"
+    web: "doi"
   },
   'Ala-Mutka2004':{
     nombre: "Assessment Process for Programming Assignments",
@@ -6217,7 +6217,7 @@ bib.papers = {
     en: {T:"Robot Operating System (ROS): The Complete Reference (Volume 7)", p:"3-55", autores:[{A:"Koubaa",N:"Anis"}], editorial:"Springer International Publishing"},
     isbn: "978-3-031-09062-2",
     doi: "10.1007/978-3-031-09062-2_2",
-    web: "https://doi.org/10.1007/978-3-031-09062-2_2"
+    web: "doi"
   },
   'Turtlebot3':{
     nombre: "Turtlebot 3 as a Robotics Education Platform",
@@ -6417,6 +6417,60 @@ bib.papers = {
     doi: "10.1145/382063.803366",
     web: "doi"
   },
+  'Alenezi2026':{
+    nombre: "The Rise of AI-Native Software Engineering: Implications for Practice, Education, and the Future Workforce",
+    año: 2026,
+    autores: [{A:"Alenezi",N:"Mamdouh"}],
+    doi: "10.48550/arXiv.2606.12986"
+  },
+  'Dobslaw2023':{
+    nombre: "The Gap between Higher Education and the Software Industry - A Case Study on Technology Differences",
+    año: 2023,
+    autores: [{A:"Dobslaw",N:"Felix"},{A:"Angelin",N:"Kristian"},{A:"\\\"{O}berg",N:"Lena-Maria"},{A:"Ahmad",N:"Awais"}],
+    en: {T:"Proceedings of the 5th European Conference on Software Engineering Education", p:"11-21", editorial:"Association for Computing Machinery"},
+    isbn: "9781450399562",
+    doi: "10.1145/3593663.3593690",
+    web: "doi"
+  },
+  'Marlowe2026':{
+    nombre: "A Systemic View of a Software Engineering Education Curriculum: Requirements and Guidelines in the Era of Generative AI",
+    año: 2026,
+    autores: [{A:"Marlowe",N:"Thomas"},{A:"Ku",N:"Cyril"},{A:"Laracy",N:"Joseph"},{A:"Kirova",N:"Vassilka"},{A:"Herbert",N:"Katherine"}],
+    en: {T:"Journal of Integrated Design and Process Science"},
+    doi: "10.1177/10920617251405471"
+  },
+  'Janakiraman2026':{
+    nombre: "Preliminary Results from a Systematic Literature Review on Computing Competencies Valued in the Workplace",
+    año: 2026,
+    autores: [{A:"Janakiraman",N:"Shamila"},{A:"Sabin",N:"Mihaela"},{A:"Exter",N:"Marisa"},{A:"Duan",N:"Suzhen"}],
+    en: {T:"ACM Trans. Comput. Educ.", v:26, n:2, editorial:"Association for Computing Machinery"},
+    doi: "10.1145/3785359",
+    web: "doi"
+  },
+  'Mittas2026':{
+    nombre: "Required knowledge, skills and transversal competences for a career in software engineering",
+    año: 2026,
+    autores: [{A:"Mittas",N:"Nikolaos"},{A:"Trygoniaris",N:"Dimitrios"},{A:"Ampatzoglou",N:"Apostolos"},{A:"Arvanitou",N:"Elvira-Maria"},{A:"Volioti",N:"Christina"},{A:"Chatzigeorgiou",N:"Alexander"},{A:"Angelis",N:"Lefteris"}],
+    en: {T:"Information and Software Technology", v:190, p:"107949"},
+    issn: "0950-5849",
+    doi: "10.1016/j.infsof.2025.107949",
+    web: "https://www.sciencedirect.com/science/article/pii/S0950584925002885"
+  },
+  'RabostoZukerfeld2019':{
+    nombre: "El sector argentino de software: Desacoples entre empleo, salarios y educación",
+    año: 2019,
+    autores: [{A:"Rabosto",N:"Andrés"},{A:"Zukerfeld",N:"Mariano"}],
+    en: {T:"Ciencia, Tecnología y Política", v:2, n:2, p:"021"},
+    doi: "10.24215/26183188e021",
+    web: "https://revistas.unlp.edu.ar/CTyP/article/view/7386"
+  },
+  'SchirfSerapiglia2017':{
+    nombre: "Identifying the Real Technology Skills Gap: A Qualitative Look across Disciplines.",
+    año: 2017,
+    autores: [{A:"Schirf",N:"Evan"},{A:"Serapiglia",N:"Anthony"}],
+    en: {T:"Information Systems Education Journal", v:15, p:"72-82"},
+    web: "https://api.semanticscholar.org/CorpusID:58033484"
+  },
   'CompCurr2005':{dup:'CC2005'},
   'CC2005':{
     nombre: "Computing Curricula 2005: The Overview Report",
@@ -6471,8 +6525,15 @@ bib.papers = {
   'CSC2013':{
     nombre: "Computer Science Curricula 2013: Curriculum Guidelines for Undergraduate Degree Programs in Computer Science",
     año: 2013,
-    autores: [{A:"Curricula",N:"Association"}],
+    autores: "Curricula Association",
     isbn: "978-1-4503-2309-3",
     doi: "10.1145/2534860"
+  },
+  'CC2020':{
+    nombre: "Computing Curricula 2020: Paradigms for Global Computing Education",
+    año: 2020,
+    autores: "CC2020 Task Force",
+    en: {T:"Computing Curricula 2020"},
+    web: "https://api.semanticscholar.org/CorpusID:235337485"
   }
 };
