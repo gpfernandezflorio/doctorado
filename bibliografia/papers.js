@@ -250,7 +250,7 @@ bib.papers = {
   'Sadosky2016':{
     nombre:"Una propuesta para refundar la enseñanza de la computación en las escuelas argentinas",
     año: 2013,
-    autores: "Fundación Sadosky",
+    autores: "{Fundación Sadosky}",
     web: "https://fundacionsadosky.org.ar/wp-content/uploads/2023/03/cc-2016.pdf",
     tags: ["Enfoque"]
   },
@@ -771,7 +771,7 @@ bib.papers = {
   'ISTE2011':{
     nombre: "Operational Definition of Computational Thinking for K-12 Education",
     año: 2011,
-    autores: "CSTA AND ISTE",
+    autores: "{CSTA AND ISTE}",
     web: "https://cdn.iste.org/www-root/Computational_Thinking_Operational_Definition_ISTE.pdf",
     tags: ["PC","K12"]
   },
@@ -1047,20 +1047,20 @@ bib.papers = {
   'NAPs':{
     nombre: "Núcleos de Aprendizajes Prioritarios para Educación Digital, Programación y Robótica",
     año: 2018,
-    autores: "Consejo Federal de Educación",
+    autores: "{Consejo Federal de Educación}",
     en: "Anexo I de la Resolución CFE Nro. 343/18",
     web: "http://www.bnm.me.gov.ar/giga1/normas/RCFE_343-18.pdf"
   },
   'cfe_263_15':{
     nombre: "Resolución CFE Nro. 263/15",
     año: 2015,
-    autores: "Consejo Federal de Educación",
+    autores: "{Consejo Federal de Educación}",
     web: "http://www.bnm.me.gov.ar/giga1/normas/RCFE_263-15.pdf"
   },
   'cfe_343_18':{
     nombre: "Resolución CFE Nro. 343/18",
     año: 2018,
-    autores: "Consejo Federal de Educación",
+    autores: "{Consejo Federal de Educación}",
     web: "http://www.bnm.me.gov.ar/giga1/normas/RCFE_343-18.pdf"
   },
   'blocklino':{
@@ -2937,7 +2937,7 @@ bib.papers = {
   'FalaciaNativoDigital':{
     nombre: "La Falacia del Nativo Digital",
     año: 2015,
-    autores: "European Computing Driver Licence Foundation"
+    autores: "{European Computing Driver Licence Foundation}"
   },
   'NativosDigitalesOrfandad':{
     nombre: "La orfandad de los nativos digitales",
@@ -4013,7 +4013,7 @@ bib.papers = {
   'SnapScratch':{
     nombre: "Snap, create, and share with scratch (case study 5)",
     año: 2008,
-    autores: "NCWIT (National Center for Women and Information Technology).",
+    autores: "{National Center for Women and Information Technology}",
     url: 'https://ncwit.org/images/practicefiles/SnapCreateSharewithScratch_EngagingWayIntroduceComputing.pdf'
   },
   'CompareAliceGreenfootScratch':{
@@ -4381,7 +4381,7 @@ bib.papers = {
   },
   'K12CSFramework':{
     nombre: "K-12 computer science framework",
-    autores: "K-12 Computer Science Framework Steering Committee et al",
+    autores: "{K-12 Computer Science Framework Steering Committee}",
     año: 2016,
     tags: ["K12"]
   },
@@ -4932,7 +4932,7 @@ bib.papers = {
   'MindstormsNXT':{
     nombre: "Lego Mindstorms NXT-G System",
     año: 2008,
-    autores: "Lego Systems Inc"
+    autores: "{Lego Systems Inc}"
   },
   'OpenBlocks':{
     nombre: "OpenBlocks: An extendable framework for graphical block programming systems",
@@ -5194,7 +5194,7 @@ bib.papers = {
   'truthsThatHurt':{
     nombre: "How do we tell truths that might hurt? Selected Writings on Computing: A Personal Perspective",
     año: 1982,
-    autores: "Dijkstra, E.W.",
+    autores: [{A:"Dijkstra",N:["Edsger","W"]}],
     en: {T:"Springer", p:"129-131"}
   },
   'LogoVsScratch':{
@@ -5678,7 +5678,7 @@ bib.papers = {
   'SNEEP2022':{
     nombre: "Sistema Nacional de Estadísticas sobre Ejecución de la Pena (SNEEP) - Informe 2022",
     año: 2022,
-    autores: "Dirección Nacional de Política Criminal en materia de Justicia y Legislación Penal",
+    autores: "{Dirección Nacional de Política Criminal en materia de Justicia y Legislación Penal}",
     web: "https://www.argentina.gob.ar/justicia/politicacriminal/estadisticas/sneep"
   },
   'Silva2024':{
@@ -5966,7 +5966,7 @@ bib.papers = {
     doi: "10.1145/2181037.2181040"
   },
   'Flavell1979':{
-    nombre: "Metacognition and cognitive monitoring: A new area of cognitive–developmental inquiry",
+    nombre: "Metacognition and cognitive monitoring: A new area of cognitive-developmental inquiry",
     año: 1979,
     autores: [{A:"Flavell",N:"John"}],
     en: {T:"American Psychologist", v:34, p:"906-911"},
@@ -6471,6 +6471,65 @@ bib.papers = {
     en: {T:"Information Systems Education Journal", v:15, p:"72-82"},
     web: "https://api.semanticscholar.org/CorpusID:58033484"
   },
+  'Natarajan2025':{
+    nombre: "Human-in-the-loop or AI-in-the-loop? Automate or Collaborate?",
+    año: 2025,
+    autores: [{A:"Natarajan",N:"Sriraam"},{A:"Mathur",N:"Saurabh"},{A:"Sidheekh",N:"Sahil"},{A:"Stammer",N:"Wolfgang"},{A:"Kersting",N:"Kristian"}],
+    en: {T:"Proceedings of the AAAI Conference on Artificial Intelligence", v:39, n:27, p:"28594-28600"},
+    doi: "10.1609/aaai.v39i27.35083",
+    web: "https://ojs.aaai.org/index.php/AAAI/article/view/35083"
+  },
+  'Razzak2026':{
+    nombre: "A Systematic Literature Review on Generative AI in Software Engineering: Code Generation and Refactoring",
+    año: 2026,
+    autores: [{A:"Razzak",N:["Rafshan","Bin"]}],
+    en: {T:"Preprints", editorial:"Preprints"},
+    doi: "10.20944/preprints202605.1638.v1",
+    web: "doi"
+  },
+  'Lee2026':{
+    nombre: "Play with AI (PL-AI): A play-centered, design-based curriculum for AI literacy in pre-K and kindergarten",
+    año: 2026,
+    autores: [{A:"Lee",N:"Joohi"}],
+    en: {T:"Computers and Education: Artificial Intelligence", v:10, p:"100569"},
+    issn: "2666-920X",
+    doi: "https://doi.org/10.1016/j.caeai.2026.100569",
+    web: "https://www.sciencedirect.com/science/article/pii/S2666920X26000317"
+  },
+  'Kwubeghari2025':{
+    nombre: "The Imparts and Pedagogical Challenges of AIGenerated Codes on Computer Programming Education at Introductory Level: Curriculum Design Recommendations",
+    año: 2025,
+    autores: [{A:"Kwubeghari",N:"Anthony"}],
+    en: {T:"Caliphate Journal of Science and Technology", v:7, n:2, p:"221-227"},
+    doi: "10.4314/cajost.v7i2.4",
+    web: "https://www.ajol.info/index.php/cajost/article/view/302611"
+  },
+  'Kirova2024':{
+    nombre: "Software Engineering Education Must Adapt and Evolve for an LLM Environment",
+    año: 2024,
+    autores: [{A:"Kirova",N:["Vassilka","D"]},{A:"Ku",N:["Cyril","S"]},{A:"Laracy",N:["Joseph","R"]},{A:"Marlowe",N:["Thomas","J"]}],
+    en: {T:"Proceedings of the 55th ACM Technical Symposium on Computer Science Education V. 1", p:"666-672", editorial:"Association for Computing Machinery"},
+    isbn: "9798400704239",
+    doi: "10.1145/3626252.3630927",
+    web: "doi"
+  },
+  'Solntseff1978':{
+    nombre: "Programming languages for introductory computing courses: a position paper",
+    año: 1978,
+    autores: [{A:"Solntseff",N:"N."}],
+    en: {T:"Papers of the SIGCSE/CSA Technical Symposium on Computer Science Education", p:"119-124", editorial:"Association for Computing Machinery"},
+    isbn: "9781450374767",
+    issn: "0097-8418",
+    doi: "10.1145/990555.990600",
+    web: "doi"
+  },
+  'EWD667':{
+    nombre: "On the Foolishness of \"Natural Language Programming\"",
+    año: 1978,
+    autores: [{A:"Dijkstra",N:["Edsger","W"]}],
+    en: {T:"Program Construction, International Summer School", p:"51-53", editorial:"Springer-Verlag"},
+    isbn: "354009251X"
+  },
   'CompCurr2005':{dup:'CC2005'},
   'CC2005':{
     nombre: "Computing Curricula 2005: The Overview Report",
@@ -6490,7 +6549,7 @@ bib.papers = {
   'CC1991':{
     nombre: "Computing Curricula 1991: Report of the ACM/IEEE-CS Joint Curriculum Task Force",
     año: 1991,
-    autores: "ACM/IEEE-CS Joint Curriculum Task Force",
+    autores: "{ACM/IEEE-CS Joint Curriculum Task Force}",
     editorial: "Association for Computing Machinery",
     doi: "10.1145/2594148",
     web: "https://dl.acm.org/doi/epdf/10.1145/2594148"
@@ -6517,7 +6576,7 @@ bib.papers = {
     nombre: "Curriculum 68: Recommendations for academic programs in computer science: a report of the ACM curriculum committee on computer science",
     año: 1968,
     autores: [{A:"Atchison",N:["William","F"]},{A:"Conte",N:["Samuel","D"]},{A:"Hamblen",N:["John","W"]},{A:"Hull",N:["Thomas","E"]},{A:"Keenan",N:["Thomas","A"]},{A:"Kehl",N:["William","B"]},{A:"McCluskey",N:["Edward","J"]},{A:"Navarro",N:["Silvio","O"]},{A:"Rheinboldt",N:["Werner","C"]},{A:"Schweppe",N:["Earl","J"]},{A:"Viavant",N:"William"},{A:"Young",N:["David","M"]}],
-    en: {T:"Commun. ACM", v:11, n:3, p:"151–197", editorial:"Association for Computing Machinery"},
+    en: {T:"Commun. ACM", v:11, n:3, p:"151-197", editorial:"Association for Computing Machinery"},
     issn: "0001-0782",
     doi: "10.1145/362929.362976",
     web: "doi"
@@ -6525,14 +6584,14 @@ bib.papers = {
   'CSC2013':{
     nombre: "Computer Science Curricula 2013: Curriculum Guidelines for Undergraduate Degree Programs in Computer Science",
     año: 2013,
-    autores: "Curricula Association",
+    autores: "{Curricula Association}",
     isbn: "978-1-4503-2309-3",
     doi: "10.1145/2534860"
   },
   'CC2020':{
     nombre: "Computing Curricula 2020: Paradigms for Global Computing Education",
     año: 2020,
-    autores: "CC2020 Task Force",
+    autores: "{CC2020 Task Force}",
     en: {T:"Computing Curricula 2020"},
     web: "https://api.semanticscholar.org/CorpusID:235337485"
   }
