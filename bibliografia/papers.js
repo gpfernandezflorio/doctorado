@@ -6538,6 +6538,250 @@ bib.papers = {
     doi: "10.1145/990555.990600",
     web: "doi"
   },
+  'OECD2023':{
+    nombre: "Digital divide in education: Equity and Inclusion in Education",
+    año: 2023,
+    autores: "{Organisation for Economic Co-operation and Development}"
+  },
+  'VitaBarrull2023':{
+    nombre: "Board game-based intervention to improve executive functions and academic skills in rural schools: A randomized controlled trial",
+    año: 2023,
+    autores: [{A:"Vita-Barrull",N:"Nuria"},{A:"Estrada",N:"Verónica"},{A:"March",N:"Jaume"},{A:"Guzmán",N:"Núria"},{A:"Fernández-Muñoz",N:"Carlos"},{A:"Ayesa",N:"Rosa"},{A:"Moya-Higueras",N:"Jorge"}],
+    en: {T:"Trends in Neuroscience and Education", v:33, p:"100216"},
+    doi: "10.1016/j.tine.2023.100216"
+  },
+  'RaBitEscApe':{
+    nombre: "RaBit EscAPE: a board game for computational thinking",
+    año: 2014,
+    autores: [{A:"Apostolellis",N:"Panagiotis"},{A:"Stewart",N:"Michael"},{A:"Frisina",N:"Chris"},{A:"Kafura",N:"Dennis"}],
+    en: {T:"ACM International Conference Proceeding Series", p:"349-352"},
+    doi: "10.1145/2593968.2610489"
+  },
+  'ReevesHuapaya2025':{
+    nombre: "Exploring inclusion and digital literacy in Latin America as a means for social change: a systematic literature review",
+    año: 2025,
+    autores: [{A:"Reeves-Huapaya",N:["Enma","Sofía"]},{A:"Quispe-Berríos",N:"Haydeé"},{A:"Saravia-Parra",N:"Leonardo"},{A:"Chambilla-Baylón",N:["Jaime","Renee"]},{A:["Rucoba","del Castillo"],N:["Luis","Ronald"]},{A:"Vásquez-Dorado",N:["Judith","Elena"]},{A:"Oscco-Solorzano",N:"Rolando"},{A:"Jaime-Andia",N:"Mario"}],
+    en: {T:"Social Sciences & Humanities Open", v:12, p:"102219"},
+    issn: "2590-2911",
+    doi: "10.1016/j.ssaho.2025.102219",
+    web: "https://www.sciencedirect.com/science/article/pii/S2590291125009490"
+  },
+  'MartinsGresseVonWangenheim2024':{
+    nombre: "Teaching Computing to Middle and High School Students from a Low Socio-Economic Status Background: A Systematic Literature Review",
+    año: 2023,
+    autores: [{A:"Martins",N:"Ramon"},{A:["Gresse","von Wangenheim"],N:"Christiane"}],
+    en: {T:"Informatics in Education", v:23},
+    doi: "10.15388/infedu.2024.01"
+  },
+  'DolencBoh2026':{
+    nombre: "Implementation of Computer Science Unplugged in Schools: A Narrative Review of Outcomes, Motivations, and Pedagogical Perspectives",
+    año: 2026,
+    autores: [{A:"Dolenc",N:"Kosta"},{A:"Boh",N:"Anže"}],
+    en: {T:"Applied Sciences", v:16, n:1},
+    issn: "2076-3417",
+    doi: "10.3390/app16010380",
+    web: "https://www.mdpi.com/2076-3417/16/1/380"
+  },
+  'Tsarava2018':{
+    nombre: "Training Computational Thinking through board games: The case of Crabs & Turtles",
+    año: 2018,
+    autores: [{A:"Tsarava",N:"Katerina"},{A:"Moeller",N:"Korbinian"},{A:"Ninaus",N:"Manuel"}],
+    en: {T:"International Journal of Serious Games", v:5, p:"25-44"},
+    doi: "10.17083/ijsg.v5i2.248"
+  },
+  'Bayeck2023':{
+    nombre: "Understanding computational thinking in the gameplay of the African Songo board game",
+    año: 2023,
+    autores: [{A:"Bayeck",N:"Rebecca"}],
+    en: {T:"British Journal of Educational Technology", v:55},
+    doi: "10.1111/bjet.13353"
+  },
+  'LiuHu2024':{
+    nombre: "Unplugged programming practice in Chinese rural primary schools: a method to foster students' computational thinking and resilience",
+    año: 2024,
+    autores: [{A:"Liu",N:"Wenhui"},{A:"Hu",N:"Linlin"}],
+    en: {T:"Interactive Learning Environments", v:33, p:"1-21"},
+    doi: "10.1080/10494820.2024.2349883"
+  },
+  'Nouri2020':{
+    nombre: "Development of computational thinking, digital competence and 21st century skills when learning programming in K-9",
+    año: 2019,
+    autores: [{A:"Nouri",N:"Jalal"},{A:"Zhang",N:"Lechen"},{A:"Mannila",N:"Linda"},{A:"Norén",N:"Eva"}],
+    en: {T:"Education Inquiry", v:11, p:"1-17"},
+    doi: "10.1080/20004508.2019.1627844"
+  },
+  'ONeillHolmes2022':{
+    nombre: "The Power of Board Games for Multidomain Learning in Young Children",
+    año: 2022,
+    autores: [{A:"O'Neill",N:"Daniela"},{A:"Holmes",N:"Paige"}]
+  },
+  'DiamondLee2011':{
+    nombre: "Interventions Shown to Aid Executive Function Development in Children 4 to 12 Years Old",
+    año: 2011,
+    autores: [{A:"Diamond",N:"Adele"},{A:"Lee",N:"Kathleen"}],
+    en: {T:"Science (New York, N.Y.)", v:333, p:"959-64"},
+    doi: "10.1126/science.1204529"
+  },
+  'Shute2017':{
+    nombre: "Demystifying computational thinking",
+    año: 2017,
+    autores: [{A:"Shute",N:"Valerie"},{A:"Sun",N:"Chen"},{A:"Asbell-Clarke",N:"Jodi"}],
+    en: {T:"Educational Research Review", v:22},
+    doi: "10.1016/j.edurev.2017.09.003"
+  },
+  'Tshidi2025':{
+    nombre: "Rethinking Programming Pedagogy amid the Digital Divide: Resources, Appropriation, and Agency in Ekurhuleni Township Schools",
+    año: 2025,
+    autores: [{A:"Tshidi",N:"Mashite"}],
+    en: {T:"Journal of Education and Learning Technology", v:6, p:"1070-1081"},
+    doi: "10.38159/jelt.20256112-2"
+  },
+  'Chen2023':{
+    nombre: "Fostering computational thinking through unplugged activities - A systematic literature review and meta-analysis",
+    año: 2023,
+    autores: [{A:"Chen",N:"Peng"},{A:"Yang",N:"Dong"},{A:"Metwally",N:"Ahmed"},{A:"Lavonen",N:"Jari"},{A:"Wang",N:"Xiao"}],
+    en: {T:"International Journal of STEM Education", v:10},
+    doi: "10.1186/s40594-023-00434-7"
+  },
+  'Teran2025':{
+    nombre: "Unplugged Activities to Support Computational Thinking in Youth from Low-Income Backgrounds",
+    año: 2025,
+    autores: [{A:"Teran",N:"Hector"},{A:["Corrales","Barrera"],N:"Alejandro"},{A:"Leal",N:"Jimmy"},{A:"Cortez",N:"Laura"},{A:"Vasquez",N:"Laura"},{A:"Peñata",N:"Luis"},{A:"Coba",N:"Esteban"}],
+    en: {T:"2025 IEEE Colombian Caribbean Conference (C3)", p:"1-4"},
+    doi: "10.1109/C366505.2025.11340251"
+  },
+  'Tshidi2025b':{
+    nombre: "Teaching Programming in Township Schools: A Mental Model Approach to Developing Computational Thinking",
+    año: 2025,
+    autores: [{A:"Tshidi",N:"Mashite"}],
+    en: {T:"African Journal of Research in Mathematics, Science and Technology Education", v:29, p:"322-334"},
+    doi: "10.1080/18117295.2025.2533736"
+  },
+  'YangKopcha2025':{
+    nombre: "Introducing Children to Computational Thinking Concepts Through A Tabletop Board Game: An Exploratory Study",
+    año: 2025,
+    autores: [{A:"Yang",N:"Dayae"},{A:"Kopcha",N:"Theodore"}],
+    en: {T:"Journal of Formative Design in Learning", v:9, p:"62-76"},
+    doi: "10.1007/s41686-025-00101-w"
+  },
+  'Huang2023':{
+    nombre: "Effectiveness of AR Board Game on Computational Thinking and Programming Skills for Elementary School Students",
+    año: 2023,
+    autores: [{A:"Huang",N:"Shih-Yun"},{A:"Tarng",N:"Wernhuar"},{A:"Ou",N:"Kuo-Liang"}],
+    en: {T:"Systems", v:11, p:"25"},
+    doi: "10.3390/systems11010025"
+  },
+  'SanchezCornejo2026':{
+    nombre: "Estrategias para la enseñanza de la programación con recursos tecnológicos limitados en instituciones educativas",
+    año: 2026,
+    autores: [{A:"Sánchez-Cornejo",N:"Israel"},{A:"Avendaño-Figueroa",N:"Andres"},{A:"Alberca-Jaya",N:"Doris"},{A:"Apolinario-Tomala",N:"Rosa"},{A:"Granda-López",N:"Ricardo"}],
+    en: {T:"Revista Científica Ciencia y Método", v:4, p:"385-398"},
+    doi: "10.55813/gaea/rcym/v4/n1/158"
+  },
+  'Hermida2026':{
+    nombre: "Can Programming Improve Executive Functions in Preschoolers? A Pilot Study on Low- and Middle-Socioeconomic Status Schools",
+    año: 2026,
+    autores: [{A:"Hermida",N:["M","J"]},{A:"Goldin",N:["A.","P"]},{A:["Perez","Santangelo"],N:"A"},{A:"Lipina",N:["S","J"]},{A:"Schapachnik",N:["F","P"]}],
+    en: {T:"Developmental Science", v:29, n:3, p:"e70161"},
+    doi: "10.1111/desc.70161",
+    web: "https://onlinelibrary.wiley.com/doi/abs/10.1111/desc.70161"
+  },
+  'Lampropoulos2024':{
+    nombre: "Impact of Gamification on Students' Learning Outcomes and Academic Performance: A Longitudinal Study Comparing Online, Traditional, and Gamified Learning",
+    año: 2024,
+    autores: [{A:"Lampropoulos",N:"Georgios"},{A:"Sidiropoulos",N:"Antonis"}],
+    en: {T:"Education Sciences", v:14, n:4},
+    issn: "2227-7102",
+    doi: "10.3390/educsci14040367",
+    web: "https://www.mdpi.com/2227-7102/14/4/367"
+  },
+  'Elshani2021':{
+    nombre: "Constructing a personalized learning path using genetic algorithms approach",
+    año: 2021,
+    autores: [{A:"Elshani",N:"Lumbardh"},{A:"Nuçi",N:["Krenare","Pireva"]}],
+    web: "https://arxiv.org/abs/2104.11276"
+  },
+  'Limantara2023':{
+    nombre: "Designing Gamified Learning Management Systems for Higher Education",
+    año: 2023,
+    autores: [{A:"Limantara",N:"Natalia"},{A:"Widjaja",N:"Meyliana"},{A:"Gaol",N:"Ford"},{A:"Prabowo",N:"Harjanto"}],
+    en: {T:"International Journal of Information and Education Technology", v:13, p:"25-32"},
+    doi: "10.18178/ijiet.2023.13.1.1776"
+  },
+  'Ozaksehir2025':{
+    nombre: "The Connection Between Gamification and Intrinsic Motivation: An Analysis from the Perspective of Self-Determination Theory",
+    año: 2025,
+    autores: [{A:"Özakşehir",N:"Merve"},{A:["Arkün","Kocadere"],N:"Selay"}],
+    en: {T:"Van Yüzüncü Yıl Üniversitesi Eğitim Fakültesi Dergisi", v:22, p:"828-849"},
+    doi: "10.33711/yyuefd.1624548"
+  },
+  'Adam2026':{
+    nombre: "Human-centered adaptive e-learning: leveraging learner profiling and adaptive algorithms to enhance satisfaction in digital learning environments",
+    año: 2026,
+    autores: [{A:"Adam",N:"Ibrahim"},{A:"Tengku Shariman",N:"Tengku Putri Norishah"},{A:"Siran",N:"Zainudin"}],
+    en: {T:"Frontiers in Computer Science", v:8},
+    issn: "2624-9898",
+    doi: "10.3389/fcomp.2026.1826488",
+    web: "https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2026.1826488"
+  },
+  'Wu2000':{
+    nombre: "AHAM: A Reference Model to Support Adaptive Hypermedia Authoring",
+    año: 2000,
+    autores: [{A:"Wu",N:"Hongjing"},{A:"Houben",N:"Geert-Jan"},{A:"De Bra",N:"Paul"}]
+  },
+  'Toda2018':{
+    nombre: "The Dark Side of Gamification: An Overview of Negative Effects of Gamification in Education",
+    año: 2018,
+    autores: [{A:"Toda",N:["Armando","M"]},{A:"Valle",N:["Pedro","Henrique","D"]},{A:"Isotani",N:"Seiji"}],
+    en: {T:"Higher Education for All. From Challenges to Novel Technology-Enhanced Solutions", p:"143-156", autores:[{A:"Cristea",N:["Alexandra","Ioana"]},{A:"Bittencourt",N:["Ig","Ibert"]},{A:"Lima",N:"Fernanda"}], editorial:"Springer International Publishing"},
+    isbn: "978-3-319-97934-2",
+    doi: "10.1007/978-3-319-97934-2_9"
+  },
+  'Toda2019':{
+    nombre: "Analysing gamification elements in educational environments using an existing Gamification taxonomy",
+    año: 2020,
+    autores: [{A:"Toda",N:["Armando","Maciel"]},{A:"Klock",N:["Ana","Carolina","Tom{\\'{e}}"]},{A:"Oliveira",N:"Wilk"},{A:"Palomino",N:["Paula","Toledo"]},{A:"Rodrigues",N:["Luiz","A","L"]},{A:"Shi",N:"Lei"},{A:"Bittencourt",N:["Ig","Ibert"]},{A:"Gasparini",N:"Isabela"},{A:"Isotani",N:"Seiji"},{A:"Cristea",N:["Alexandra","I"]}],
+    en: {T:"CoRR", v:"abs/2008.05473"},
+    web: "https://arxiv.org/abs/2008.05473"
+  },
+  'Marquardt2025':{
+    nombre: "Gamification with Purpose: What Learners Prefer to Motivate Their Learning",
+    año: 2025,
+    autores: [{A:"Marquardt",N:"Kai"},{A:"Schulz",N:"Mona"},{A:"Koziolek",N:"Anne"},{A:"Happe",N:"Lucia"}],
+    web: "https://arxiv.org/abs/2512.08551"
+  },
+  'Burgos2006':{
+    nombre: "How to represent adaptation in e-learning with IMS learning design",
+    año: 2007,
+    autores: [{A:"Burgos",N:"Daniel"},{A:"Tattersall",N:"Colin"},{A:"Koper",N:"Rob"}],
+    en: {T:"Interactive Learning Environments - INTERACT LEARN ENVIRON", v:15, p:"161-170"},
+    doi: "10.1080/10494820701343736"
+  },
+  'Almeida2023':{
+    nombre: "Negative effects of gamification in education software: Systematic mapping and practitioner perceptions",
+    año: 2023,
+    autores: [{A:"Almeida",N:"Cláuvin"},{A:"Kalinowski",N:"Marcos"},{A:"Uchôa",N:"Anderson"},{A:"Feijó",N:"Bruno"}],
+    en: {T:"Information and Software Technology", v:156, p:"107142"},
+    issn: "0950-5849",
+    doi: "10.1016/j.infsof.2022.107142",
+    web: "https://www.sciencedirect.com/science/article/pii/S0950584922002518"
+  },
+  'Negyesi2026':{
+    nombre: "Adaptive e-Learning for Number Theory: A Mixed Methods Evaluation of Usability, Perceived Learning Outcomes, and Engagement",
+    año: 2026,
+    autores: [{A:"Négyesi",N:"Péter"},{A:"Téglási",N:["Ilona","Oláhné"]},{A:"Lengyelné Molnár",N:"Tünde"},{A:"Racsko",N:"Réka"}],
+    en: {T:"Education Sciences", v:16, n:1},
+    issn: "2227-7102",
+    doi: "10.3390/educsci16010127",
+    web: "https://www.mdpi.com/2227-7102/16/1/127"
+  },
+  'Kukartsev2018':{
+    nombre: "Development of Adaptive Educational Course in the SibFU E-Learning System",
+    año: 2018,
+    autores: [{A:"Kukartsev",N:["Vladislav","V"]},{A:"Chzhan",N:["Ekaterina","A"]},{A:"Tynchenko",N:["Vadim","S"]},{A:"Antamoshkin",N:["Oleslav","A"]},{A:"Stupina",N:["Alena","A"]}],
+    en: {T:"Journal of Siberian Federal University. Humanities & Social Sciences", v:11, p:"740-752"},
+    doi: "10.17516/1997-1370-0267"
+  },
   'EWD667':{
     nombre: "On the Foolishness of \"Natural Language Programming\"",
     año: 1978,
