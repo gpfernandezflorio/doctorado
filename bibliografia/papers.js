@@ -5987,6 +5987,21 @@ bib.papers = {
     isbn: "978-981-15-7017-9",
     doi: "10.1007/978-981-15-7018-6_29"
   },
+  'twist-etal-2026-study':{
+    nombre: "A Study of {LLM}s' Preferences for Libraries and Programming Languages",
+    año: 2026,
+    autores: [{A:"Twist",N:"Lukas"},{A:"Harman",N:"Mark"},{A:"Syme",N:"Don"},{A:"Noppen",N:"Joost"},{A:"Yannakoudakis",N:"Helen"},{A:"Nauck",N:"Detlef"},{A:"Zhang",N:["Jie","M"]}],
+    en: {T:"Findings of the {A}ssociation for {C}omputational {L}inguistics: {ACL} 2026", p:"331-351", autores:[{A:"Liakata",N:"Maria"},{A:"Moreira",N:["Viviane","P"]},{A:"Zhang",N:"Jiajun"},{A:"Jurgens",N:"David"}], editorial:"Association for Computational Linguistics"},
+    isbn: "979-8-89176-395-1",
+    doi: "10.18653/v1/2026.findings-acl.15",
+    web: "https://aclanthology.org/2026.findings-acl.15/"
+  },
+  'raihan2026taxonomy':{
+    nombre: "A Taxonomy of Programming Languages for Code Generation",
+    año: 2026,
+    autores: [{A:"Raihan",N:"Nishat"},{A:"Newman",N:"Christian"},{A:"Zampieri",N:"Marcos"}],
+    web: "https://arxiv.org/abs/2604.00239"
+  },
   'Sailer2020':{
     nombre: "The Gamification of Learning: a Meta-analysis",
     año: 2020,
