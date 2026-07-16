@@ -1,5 +1,7 @@
 import os, io, sys
 
+ignoreKeys = ['month','abstract','keywords']
+
 def addAuthor(res, autores):
   res['autores'] = []
   for a in autores.split(' and '):
@@ -131,10 +133,11 @@ def main(ruta):
       entradaActual = linea[linea.find('{')+1:-1]
     else:
       infoLinea = parseLinea(linea)
-      if 'clave' in infoLinea and infoLinea['clave'] in dictData:
-        agregarData(dictData[infoLinea['clave']], resultado, infoLinea['dato'])
-      elif 'clave' in infoLinea:
-        print("WARN: clave " + infoLinea['clave'] + " no procesada")
+      if 'clave' in infoLinea:
+        if infoLinea['clave'] in dictData:
+          agregarData(dictData[infoLinea['clave']], resultado, infoLinea['dato'])
+        elif not (infoLinea['clave'] in ignoreKeys):
+          print("WARN: clave " + infoLinea['clave'] + " no procesada")
   if len(resultado.keys()) > 0:
     entradas[entradaActual] = resultado
   if len(entradas.keys()) == 1:
@@ -245,7 +248,7 @@ def mostrar(b, id):
 if __name__ == '__main__':
   archivos = []
   if len(sys.argv) == 1:
-    archivos = list(filter(lambda x : x.endswith(".bib"), os.listdir(".")))
+    archivos = sorted(list(filter(lambda x : x.endswith(".bib"), os.listdir("."))))
   else:
     archivos = [sys.argv[1]]
   for archivo in archivos:
