@@ -6845,6 +6845,50 @@ bib.papers = {
     en: {T:"Journal of Engineering Education Transformations", v:34, p:"535"},
     doi: "10.16920/jeet/2021/v34i0/157209"
   },
+  'Gordon2026':{
+    nombre: "ACM Task Force on Generative AI and Programming Assessment",
+    año: 2026,
+    autores: [
+      {A:"Gordon", N:"Steven"}, {A:"Denny", N:"Paul"}, {A:"Keuning", N:"Hieke"}, {A:"Kiesler", N:"Natalie"}, {A:"Kumar", N:["Amruth","N"]}, {A:"Kumar", N:"Viraj"}, {A:"Leinonen", N:"Juho"}, {A:"Prather", N:"James"}],
+    web: "https://juholeinonen.com/assets/pdf/gordon2026acm.pdf"
+  },
+  'ErezHazzan2025':{
+    nombre: "Program Comprehension as a Central Skill in CS Education in the Era of Generative AI",
+    año: 2025,
+    autores:[{A:"Erez", N:"Yael"},{A:"Hazzan", N:"Orit"}],
+    web: "https://cacm.acm.org/blogcacm/program-comprehension-as-a-central-skill-in-cs-education-in-the-era-of-generative-ai/"
+  },
+  'Albrant2025':{
+    nombre: "Engaging Students with AI for Code Comprehension, Critique, and Explanation",
+    año: 2025,
+    autores: [{A:"Albrant",N:"Laura"},{A:"Suhag",N:"Jyoti"},{A:"Ureel II",N:"Leo"},{A:"Jarvie-Eggart",N:"Michelle"}],
+    en: {T:"Artificial Intelligence in Education - Creating an Equitable, Creative, and Effective Learning Environment", p:"1-17"},
+    isbn: "978-1-83635-545-8",
+    doi: "10.5772/intechopen.1012995"
+  },
+  'HazzanErez2025':{
+    nombre: "Rethinking Computer Science Education in the Age of GenAI",
+    año: 2025,
+    autores: [{A:"Hazzan",N:"Orit"},{A:"Erez",N:"Yael"}],
+    en: {T:"ACM Trans. Comput. Educ.", v:25, n:3, editorial:"Association for Computing Machinery"},
+    doi: "10.1145/3732792",
+    web: "doi"
+  },
+  'Qiao2026':{
+    nombre: "Code Comprehension with GitHub Copilot: Performance Gains, Comprehension Trade-offs, and Behavioral Predictors in Brownfield Programming",
+    año: 2026,
+    autores: [{A:"Qiao",N:"Yunhan"},{A:"Shihab",N:["Md","Istiak","Hossain"]},{A:"Haque",N:"Summit"},{A:"Hundhausen",N:"Christopher"}],
+    web: "https://arxiv.org/abs/2511.02922"
+  },
+  'Shihab2025':{
+    nombre: "The Effects of GitHub Copilot on Computing Students' Programming Effectiveness, Efficiency, and Processes in Brownfield Coding Tasks",
+    año: 2025,
+    autores: [{A:"Shihab",N:["Md","Istiak","Hossain"]},{A:"Hundhausen",N:"Christopher"},{A:"Tariq",N:"Ahsun"},{A:"Haque",N:"Summit"},{A:"Qiao",N:"Yunhan"},{A:"Mulanda",N:["Brian","Wise"]}],
+    en: {T:"Proceedings of the 2025 ACM Conference on International Computing Education Research V.1", p:"407-420", editorial:"Association for Computing Machinery"},
+    isbn: "9798400713408",
+    doi: "10.1145/3702652.3744219",
+    web: "doi"
+  },
   'EWD667':{
     nombre: "On the Foolishness of \"Natural Language Programming\"",
     año: 1978,
