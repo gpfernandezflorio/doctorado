@@ -6782,6 +6782,69 @@ bib.papers = {
     en: {T:"Journal of Siberian Federal University. Humanities & Social Sciences", v:11, p:"740-752"},
     doi: "10.17516/1997-1370-0267"
   },
+  'ADVIS':{
+    nombre: "Implementation of Arduino Simulator ADVIS Visualizing the Value of Voltage on the Circuit",
+    año: 2019,
+    autores: [{A:"Katayama",N:"Tetsuro"},{A:"Nishida",N:"Tatsumi"},{A:"Kita",N:"Yoshihiro"},{A:"Yamaba",N:"Hisaaki"},{A:"Aburada",N:"Kentaro"},{A:"Okazaki",N:"Naonobu"}],
+    en: {T:"Journal of Robotics, Networking and Artificial Life", v:5, p:"249"},
+    doi: "10.2991/jrnal.k.190220.009"
+  },
+  'AhFur2018':{
+    nombre: "Developing an Arduino Simulation-based Learning System and Evaluating its Suitability",
+    año: 2018,
+    autores: [{A:"Ah-Fur",N:"Lai"},{A:"Chien-Hung",N:"Chen"},{A:"Horng-Yih",N:"Lai"}],
+    en: {T:"Proceedings of the 2018 2nd International Conference on E-Education, E-Business and E-Technology", p:"38-42", editorial:"Association for Computing Machinery"},
+    isbn: "9781450364812",
+    doi: "10.1145/3241748.3241764",
+    web: "doi"
+  },
+  'Atanaskovic2024':{
+    nombre: "Empowering IoT Education Utilizing Free Online Arduino Simulators",
+    año: 2024,
+    autores: [{A:"Atanasković",N:"Aleksandar"},{A:"Dimitrijevic",N:"Tijana"},{A:"Maleš-Ilić",N:"Nataša"},{A:"Čabarkapa",N:"Milan"}],
+    en: {T:"2024 59th International Scientific Conference on Information, Communication and Energy Systems and Technologies (ICEST)", p:"1-4"},
+    doi: "10.1109/ICEST62335.2024.10639688"
+  },
+  'Erdogan2023':{
+    nombre: "Examination of the usability of Tinkercad application in educational robotics teaching by eye tracking technique",
+    año: 2023,
+    autores: [{A:["Erdoğan","Bodur"],N:"Rumeysa"},{A:"Saglam",N:"Zeynep"},{A:"Çetintav",N:"Gülay"},{A:["Karaoğlan","Yılmaz"],N:["Fatma","Gizem"]}],
+    en: {T:"Smart Learning Environments", v:10},
+    doi: "10.1186/s40561-023-00242-0"
+  },
+  'Goncalves2020':{
+    nombre: "An Arduino Simulator in Classroom - a Case Study",
+    año: 2020,
+    autores: [{A:"Gon\\c{c}alves",N:["Paulo","F"]},{A:"S\\'{a}",N:"Jo\\~{a}o"},{A:"Coelho",N:"Anabela"},{A:"Dur\\~{a}es",N:"Jo\\~{a}o"}],
+    en: {T:"First International Computer Programming Education Conference (ICPEC 2020)", v:81, p:"12:1--12:12", autores:[{A:"Queir\\'{o}s",N:"Ricardo"},{A:"Portela",N:"Filipe"},{A:"Pinto",N:"M\\'{a}rio"},{A:"Sim\\~{o}es",N:"Alberto"}], editorial:"Schloss Dagstuhl -- Leibniz-Zentrum f{\\\"u}r Informatik"},
+    isbn: "978-3-95977-153-5",
+    issn: "2190-6807",
+    doi: "10.4230/OASIcs.ICPEC.2020.12",
+    web: "https://drops.dagstuhl.de/entities/document/10.4230/OASIcs.ICPEC.2020.12"
+  },
+  'KushalKumar2025':{
+    nombre: "Design and Development of a Web-Based Three-Dimensional Arduino Simulator for Embedded Systems Education - GameWise",
+    año: 2025,
+    autores: [{A:"Kushal", N:["Kumar","B","N"]}, {A:"Gagandeep", N:["Naidu","L"]}, {A:"Tanish", N:["Kaveriappa","P"]}, {A:"Tushar",N:"Bhat"}, {A:"Varun", N:["N","Prakash"]}],
+    en: {T:"International Journal of Sciences and Innovation Engineering", v:2, n:12, p:"1143-1148"},
+    doi: "10.70849/IJSCI",
+    web: "https://ijsci.com/index.php/home/article/view/1160"
+  },
+  'Mohapatra2020':{
+    nombre: "Smart Performance of Virtual Simulation Experiments Through Arduino Tinkercad Circuits",
+    año: 2020,
+    autores: [{A:"Mohapatra",N:["Badri","Narayan"]},{A:"Mohapatra",N:["Rashmita","Kumari"]},{A:"Jagdhane",N:"Vaishnavi"},{A:"Ajay",N:["Chanakhekar","Ashwini"]},{A:"Sherkar",N:["Siddhi","Sambhaji"]},{A:"Phadtare",N:["Vaishnavi","Suhas"]}],
+    en: {T:"Perspectives in Communication, Embedded-systems and Signal-processing - PiCES", v:4, n:7},
+    doi: "10.5281/zenodo.4249073",
+    web: "doi"
+  },
+  'TinkerCad':{
+    nombre: "TinkerCad - A Web Based Application for Virtual Labs to help Learners Think, Create and Make",
+    año: 2021,
+    autores: [{A:"Abburi",N:"Radha"},{A:"Praveena",N:"Manne"},{A:"Ramagiri",N:"Priyakanth"}],
+    en: {T:"Journal of Engineering Education Transformations", v:34, p:"535"},
+    doi: "10.16920/jeet/2021/v34i0/157209"
+  },
   'EWD667':{
     nombre: "On the Foolishness of \"Natural Language Programming\"",
     año: 1978,
