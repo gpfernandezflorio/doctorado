@@ -992,6 +992,7 @@ bib.papers = {
     autores: [{A:"Lye",N:["Sze","Yee"]},{A:"Koh",N:["Joyce","Hwee","Ling"]}],
     en: {C:"CompHumanBehave_41", p:"51-61"},
     doi: '10.1016/j.chb.2014.09.012',
+    url: "https://sci-hub.box/storage/2024/2774/7996a586e0e97a7319d7bc580e037b28/lye2014.pdf",
     web: "doi",
     tags: ["PC","Review"]
   },
