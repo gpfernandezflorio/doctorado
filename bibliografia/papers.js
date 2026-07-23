@@ -5948,8 +5948,8 @@ bib.papers = {
   'AmroRomli2019':{
     nombre: "Investigation on the Learning Programming Techniques via Mobile Learning Application",
     año: 2019,
-    autores: [{A:"Amro",N:"Jamal"},{A:"Romli",N:"Rohaida"}],
-    en: {p:"1-7"},
+    autores: [{A:"Amro",N:["Jamal","Salem"]},{A:"Romli",N:"Rohaida"}],
+    en: {T:"2019 4th International Conference and Workshops on Recent Advances and Innovations in Engineering (ICRAIE)", p:"1-7"},
     doi: "10.1109/ICRAIE47735.2019.9037764"
   },
   'Chen2016':{
@@ -5984,9 +5984,10 @@ bib.papers = {
     nombre: "Coding as an Essential Skill in the Twenty-First Century",
     año: 2020,
     autores: [{A:"Nambiar",N:"Raman"}],
-    en: {p:"237-243"},
-    isbn: "978-981-15-7017-9",
-    doi: "10.1007/978-981-15-7018-6_29"
+    en: {T:"Anticipating and Preparing for Emerging Skills and Jobs: Key Issues, Concerns, and Prospects", p:"237-243", autores:[{A:"Panth",N:"Brajesh"},{A:"Maclean",N:"Rupert"}], editorial:"Springer Singapore"},
+    isbn: "978-981-15-7018-6",
+    doi: "10.1007/978-981-15-7018-6_29",
+    web: "doi"
   },
   'twist-etal-2026-study':{
     nombre: "A Study of {LLM}s' Preferences for Libraries and Programming Languages",
@@ -6798,6 +6799,12 @@ bib.papers = {
     isbn: "9781450364812",
     doi: "10.1145/3241748.3241764",
     web: "doi"
+  },
+  'GomesMendes2007':{
+    nombre: "Learning to program - difficulties and solutions",
+    año: 2007,
+    autores: [{A:"Gomes",N:"Anabela"},{A:"Mendes",N:"Antonio"}],
+    en: {T:"International Conference on Engineering Education", v:7, p:"283-287"}
   },
   'Atanaskovic2024':{
     nombre: "Empowering IoT Education Utilizing Free Online Arduino Simulators",
