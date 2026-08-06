@@ -531,6 +531,12 @@ bib.papers = {
     isbn:"978-1623961114",
     tags: ["Evaluación"]
   },
+  'Programar2022':{
+    nombre: "Aportando precisión a la noción de Pensamiento computacional - Diferencias entre Pensamiento Computacional, programación, robótica y Ciencias de la Computación",
+    año: 2022,
+    autores: "{Fundación Sadosky}",
+    web: "https://www.studocu.com/es-ar/document/instituto-superior-de-investigacion-docencia-y-actualizacion-profesional/ciencias-de-la-computacion/actividad-integradora-aportando-precision-al-pensamiento-computacional/128044740"
+  },
   'Popham1999':{
     nombre: "Why Standardized Test Scores Don't Measure Educational Quality",
     año: 1999,
@@ -1708,6 +1714,7 @@ bib.papers = {
     autores: [{A:["Stone","Wiske"],N:"Martha"}],
     editorial: "La Plata, Argentina: Paidós"
   },
+  'Anijovich2017':{dup:'AnijovichyCappelletti2018'},
   'Anijovich_Cappelletti_2017':{dup:'AnijovichyCappelletti2018'},
   'AnijovichyCappelletti2018':{
     nombre: "La evaluación como oportunidad",
@@ -1715,6 +1722,168 @@ bib.papers = {
     autores: [{A:"Anijovich",N:"Rebeca"},{A:"Cappelletti",N:"Graciela"}],
     editorial: "La Plata, Argentina: Paidós",
     tags: ["Evaluación"]
+  },
+  'Bejar2002':{
+    nombre: "Generative testing: From conception to implementation.",
+    año: 2002,
+    autores: [{A:"Bejar",N:"Isaac"}],
+    en: {T:"Item generation for test development", p:"199-217", autores:[{A:"Irvine",N:["S","H"]},{A:"Kyllonen",N:["P","C"]}], editorial:"Lawrence Erlbaum Associates Publishers"}
+  },
+  'Chughtai2022':{
+    nombre: "A Lecture Centric Automated Distractor Generation for Post-Graduate Software Engineering Courses",
+    año: 2022,
+    autores: [{A:"Chughtai",N:"Rudeema"},{A:"Azam",N:"Farooque"},{A:"Anwar",N:["Muhammad","Waseem"]},{A:"Haider But",N:"Wasi"},{A:"Farooq",N:["Muhammad","Umar"]}],
+    en: {T:"2022 International Conference on Frontiers of Information Technology (FIT)", p:"100-105"},
+    doi: "10.1109/FIT57066.2022.00028"
+  },
+  'Circi2023':{
+    nombre: "Automatic item generation: foundations and machine learning-based approaches for assessments",
+    año: 2023,
+    autores: [{A:"Circi",N:"Ruhan"},{A:"Hicks",N:"Juanita"},{A:"Sikali",N:"Emmanuel"}],
+    en: {T:"Frontiers in Education", v:8},
+    issn: "2504-284X",
+    doi: "10.3389/feduc.2023.858273",
+    web: "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2023.858273"
+  },
+  'Das2022':{
+    nombre: "Automatic question generation and answer assessment for subjective examination",
+    año: 2022,
+    autores: [{A:"Das",N:"Bidyut"},{A:"Majumder",N:"Mukta"},{A:"Sekh",N:["Arif","Ahmed"]},{A:"Phadikar",N:"Santanu"}],
+    en: {T:"Cognitive Systems Research", v:72, p:"14-22"},
+    issn: "1389-0417",
+    doi: "https://doi.org/10.1016/j.cogsys.2021.11.002",
+    web: "https://www.sciencedirect.com/science/article/pii/S1389041721000826"
+  },
+  'Diyab2025':{
+    nombre: "Engineered Prompts in ChatGPT for Educational Assessment in Software Engineering and Computer Science",
+    año: 2025,
+    autores: [{A:"Diyab",N:"Ayman"},{A:"Frost",N:["Russell","Morris"]},{A:"Fedoruk",N:["Benjamin","David"]},{A:"Diyab",N:"Ahmad"}],
+    en: {T:"Education Sciences", v:15, n:2},
+    issn: "2227-7102",
+    doi: "10.3390/educsci15020156",
+    web: "https://www.mdpi.com/2227-7102/15/2/156"
+  },
+  'FinnAnsley2022':{
+    nombre: "The Robots Are Coming: Exploring the Implications of OpenAI Codex on Introductory Programming",
+    año: 2022,
+    autores: [{A:"Finnie-Ansley",N:"James"},{A:"Denny",N:"Paul"},{A:"Becker",N:["Brett","A"]},{A:"Luxton-Reilly",N:"Andrew"},{A:"Prather",N:"James"}],
+    en: {T:"Proceedings of the 24th Australasian Computing Education Conference", p:"10-19", editorial:"Association for Computing Machinery"},
+    isbn: "9781450396431",
+    doi: "10.1145/3511861.3511863",
+    web: "doi"
+  },
+  'Hively1974':{
+    nombre: "A \"Universe-Defined\" System of Arithmetic Achievement Tests",
+    año: 1968,
+    autores: [{A:"Hively",N:"Wells"},{A:"Patterson",N:["Harry","L"]},{A:"Page",N:["Sara","H"]}],
+    en: {T:"Journal of Educational Measurement", v:5, n:4, p:"275-290", editorial:"[National Council on Measurement in Education, Wiley]"},
+    issn: "00220655, 17453984",
+    web: "http://www.jstor.org/stable/1433778"
+  },
+  'Kowal2025':{
+    nombre: "Harnessing Generative AI for Assessment Item Development: Comparing AI-Generated and Human-Authored Items",
+    año: 2025,
+    autores: [{A:"Kowal",N:"Jaclyn"},{A:"Bryant",N:"Kenzie"},{A:"Segall",N:"Dan"},{A:"Kantrowitz",N:"Tracy"}],
+    en: {T:"International Journal of Selection and Assessment", v:33, n:3},
+    doi: "10.1111/ijsa.70021"
+  },
+  'Lehtinen2021':{
+    nombre: "Let’s Ask Students About Their Programs, Automatically",
+    año: 2021,
+    autores: [{A:"Lehtinen",N:"Teemu"},{A:"Santos",N:["André","L"]},{A:"Sorva",N:"Juha"}],
+    en: {T:"2021 IEEE/ACM 29th International Conference on Program Comprehension (ICPC)", p:"467-475"},
+    doi: "10.1109/ICPC52881.2021.00054"
+  },
+  'Millman1978':{
+    nombre: "Testing by Computer",
+    año: 1978,
+    autores: [{A:"Millman",N:"Jason"},{A:"Outlaw",N:["W","Scott"]}],
+    en: {T:"AEDS Journal", v:11, n:3, p:"57-72", editorial:"Taylor \\& Francis"},
+    doi: "10.1080/00011037.1978.11008226",
+    web: "doi"
+  },
+  'NRC2010':{
+    nombre: "Report of a Workshop on the Scope and Nature of Computational Thinking",
+    año: 2010,
+    autores: "{National Research Council}",
+    editorial: "The National Academies Press",
+    isbn: "978-0-309-14957-0",
+    doi: "10.17226/12840",
+    web: "https://nap.nationalacademies.org/catalog/12840/report-of-a-workshop-on-the-scope-and-nature-of-computational-thinking"
+  },
+  'Osburn1968':{
+    nombre: "Item Sampling for Achievement Testing",
+    año: 1968,
+    autores: [{A:"Osburn",N:["H","G"]}],
+    en: {T:"Educational and Psychological Measurement", v:28, n:1, p:"95-104"},
+    doi: "10.1177/001316446802800109",
+    web: "doi"
+  },
+  'Papasalouros2008':{
+    nombre: "Automatic Generation Of Multiple Choice Questions From Domain Ontologies.",
+    año: 2008,
+    autores: [{A:"Papasalouros",N:"Andreas"},{A:"Kanaris",N:"Konstantinos"},{A:"Kotis",N:"Konstantinos"}],
+    en: {T:"MCCSIS'08 - IADIS Multi Conference on Computer Science and Information Systems; Proceedings of e-Learning 2008", v:1, p:"427-434"}
+  },
+  'Qi2020':{
+    nombre: "Unlimited Trace Tutor: Learning Code Tracing With Automatically Generated Programs",
+    año: 2020,
+    autores: [{A:"Qi",N:"Ruixiang"},{A:"Fossati",N:"Davide"}],
+    en: {T:"Proceedings of the 51st ACM Technical Symposium on Computer Science Education", p:"427-433", editorial:"Association for Computing Machinery"},
+    isbn: "9781450367936",
+    doi: "10.1145/3328778.3366939",
+    web: "doi"
+  },
+  'RoidHaladyna1978':{
+    nombre: "A Comparison of Objective-Based and Modified-Bormuth Item Writing Techniques",
+    año: 1978,
+    autores: [{A:"Roid",N:["Gale","H"]},{A:"Haladyna",N:["Thomas","M"]}],
+    en: {T:"Educational and Psychological Measurement", v:38, p:"19-28"},
+    doi: "10.1177/001316447803800104",
+    web: "https://api.semanticscholar.org/CorpusID:144212616"
+  },
+  'Selby2015':{
+    nombre: "Relationships: computational thinking, pedagogy of programming, and Bloom's Taxonomy",
+    año: 2015,
+    autores: [{A:"Selby",N:["Cynthia","C"]}],
+    en: {T:"Proceedings of the Workshop in Primary and Secondary Computing Education", p:"80-87", editorial:"Association for Computing Machinery"},
+    isbn: "9781450337533",
+    doi: "10.1145/2818314.2818315",
+    web: "doi"
+  },
+  'Traynor2005':{
+    nombre: "Synthesis and analysis of automatic assessment methods in CS1: generating intelligent MCQs",
+    año: 2005,
+    autores: [{A:"Traynor",N:"Des"},{A:"Gibson",N:["J.","Paul"]}],
+    en: {T:"SIGCSE Bull.", v:37, n:1, p:"495-499", editorial:"Association for Computing Machinery"},
+    issn: "0097-8418",
+    doi: "10.1145/1047124.1047502",
+    web: "doi"
+  },
+  'Wiggins2005':{
+    nombre: "Understanding by Design",
+    año: 2005,
+    autores: [{A:"Wiggins",N:["G","P"]},{A:"McTighe",N:"J"}],
+    editorial: "Association for Supervision and Curriculum Development",
+    isbn: "9781416600350",
+    web: "https://books.google.com.ar/books?id=N2EfKlyUN4QC"
+  },
+  'Zavala2018':{
+    nombre: "On the Use of Semantic-Based AIG to Automatically Generate Programming Exercises",
+    año: 2018,
+    autores: [{A:"Zavala",N:"Laura"},{A:"Mendoza",N:"Benito"}],
+    en: {T:"Proceedings of the 49th ACM Technical Symposium on Computer Science Education", p:"14-19", editorial:"Association for Computing Machinery"},
+    isbn: "9781450351034",
+    doi: "10.1145/3159450.3159608",
+    web: "doi"
+  },
+  'Millman1989':{
+    nombre: "Computer-Assisted Writing of Achievement Test Items: Toward a Future Technology",
+    año: 1989,
+    autores: [{A:"Millman",N:"Jason"},{A:"Westman",N:["Ronald","S"]}],
+    en: {T:"Journal of Educational Measurement", v:26, n:2, p:"177-190", editorial:"{National Council on Measurement in Education, Wiley}"},
+    issn: "00220655, 17453984",
+    web: "http://www.jstor.org/stable/1434864"
   },
   'GomezYepes2004':{
     nombre: "Calidad Educativa: Más que resultados en pruebas estandarizadas",
@@ -1972,6 +2141,12 @@ bib.papers = {
     doi: "10.1145/343048.343063",
     url: "https://dl.acm.org/doi/pdf/10.1145/343048.343063",
     tags: ["Conocimientos Previos"]
+  },
+  'UNESCO2019':{
+    nombre: "Codificación, programación y los cambios en la currícula de Informática en las Escuelas",
+    año: 2019,
+    autores: "{UNESCO}",
+    web: "https://www.ifip-tc3.org/app/download/7193549351/OCCE+2018+TC3+UNESCO+meeting+040219+CS+coding.pdf"
   },
   'PredictComputerProficiency':{
     nombre: "What Best Predicts Computer Proficiency?",
@@ -4087,6 +4262,17 @@ bib.papers = {
     autores: [{A:"Roy",N:"K"}],
     en: {C:"SIGCSE_2012", p:"283-288"},
     url: 'https://dl.acm.org/doi/pdf/10.1145/2157136.2157222'
+  },
+  'Finn1975':{
+    nombre: "A question writing algorithm",
+    año: 1975,
+    autores: [{A:"Finn", N:["Patrick","J"]}],
+    en: {T:"Journal of Reading Behavior", v: 7, n:4, p:"341-367"},
+  },
+  'OsburnShoemaker1968': {
+    nombre: "Pilot project on computer generated test items",
+    año: 1968,
+    autores: [{A:"Osburn", N:["H","G"]}, {A:"Shoemaker", N:["D","M"]}]
   },
   'AppInventor':{
     nombre: "App inventor and real-world motivation",
