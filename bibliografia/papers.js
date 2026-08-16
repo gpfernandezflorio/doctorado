@@ -1827,7 +1827,7 @@ bib.papers = {
     nombre: "Testing by Computer",
     año: 1978,
     autores: [{A:"Millman",N:"Jason"},{A:"Outlaw",N:["W","Scott"]}],
-    en: {T:"AEDS Journal", v:11, n:3, p:"57-72", editorial:"Taylor \\& Francis"},
+    en: {T:"AEDS Journal", v:11, n:3, p:"57-72", editorial:"Taylor & Francis"},
     doi: "10.1080/00011037.1978.11008226",
     web: "doi"
   },
@@ -7248,7 +7248,7 @@ bib.papers = {
     web: "doi"
   },
   'Moreira2002':{
-    nombre: "Modelos mentales y modelos conceptuales en la enseñanza \\& aprendizaje de las ciencias",
+    nombre: "Modelos mentales y modelos conceptuales en la enseñanza & aprendizaje de las ciencias",
     año: 2002,
     autores: [{A:"Moreira",N:["Marco","Antonio"]},{A:"Greca",N:["Ileana","María"]},{A:["Rodríguez","Palmero"],N:["María","Luz"]}],
     en: {T:"Revista Brasileira de Pesquisa em Educaçao em Ciências", v:2, n:3, p:"36-56"}
