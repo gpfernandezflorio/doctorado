@@ -552,6 +552,7 @@ bib.papers = {
     en: {T:"Temas de Educación", v:22, p:"83-96"},
     tags: ["Evaluación"]
   },
+  'parker2021uses':{dup:'Parker2021'},
   'Parker2021':{
     nombre: "Uses, Revisions, and the Future of Validated Assessments in Computing Education: A Case Study of the FCS1 and SCS1",
     año: 2021,
@@ -1638,6 +1639,42 @@ bib.papers = {
     en: {T:"Early Childhood Research & Practice", v:12, n:2},
     tags: ["Robótica"]
   },
+  'CampanarioOtero2000':{
+    nombre: "Más allá de las ideas previas como dificultades de aprendizaje: las pautas de pensamiento, las concepciones epistemológicas y las estrategias metacognitivas de los alumnos de ciencias",
+    año: 2000,
+    autores: [{A:"Campanario",N:"Juan"},{A:"Otero",N:["José","C"]}],
+    en: {T:"Enseñanza de las Ciencias. Revista de investigación y experiencias didácticas", v:18, p:"155-169"},
+    doi: "10.5565/rev/ensciencias.4036"
+  },
+  'Carrascosa2005':{
+    nombre: "El problema de las concepciones alternativas en la actualidad (Parte I). Análisis sobre las causas que las originan y/o mantienen",
+    año: 2017,
+    autores: [{A:["Carrascosa","Alís"],N:"Jaime"}],
+    en: {T:"Revista Eureka sobre Enseñanza y Divulgación de las Ciencias", v:2, n:2, p:"pp. 183-208"},
+    web: "https://revistas.uca.es/index.php/eureka/article/view/3918"
+  },
+  'Llorens1989':{
+    nombre: "La función del lenguaje en un enfoque constructivista del aprendizaje de las ciencias",
+    año: 2006,
+    autores: [{A:["Llorens","Molina"],N:["Juan","Antonio"]},{A:"de Jaime",N:"Marc"},{A:"Llopis",N:"R."}],
+    en: {T:"Enseñanza de las Ciencias. Revista de investigación y experiencias didácticas", v:7, p:"111-119"},
+    doi: "10.5565/rev/ensciencias.5013"
+  },
+  'PozoGomezCrespo1998':{
+    nombre: "Aprender y ense{\\~n}ar ciencia: del conocimiento cotidiano al conocimiento cient{\\'\\i}fico",
+    año: 1998,
+    autores: [{A:["Pozo","Municio"],N:["Juan","Ignacio"]},{A:["Gómez","Crespo"],N:["Miguel","{\\'A}ngel"]}],
+    editorial: "Morata",
+    isbn: "9788471124401",
+    web: "https://books.google.com.ar/books?id=aTo6TMfVEIgC"
+  },
+  'Lemke1990':{
+    nombre: "Talking Science: Language, Learning, and Values",
+    año: 1990,
+    autores: [{A:"Lemke",N:["Jay","L"]}],
+    editorial: "Ablex Publishing Corporation",
+    isbn: "0-89391-565-3"
+  },
   'Lemke1997': {
     nombre: "Aprender a hablar ciencia. Lenguaje, aprendizaje y valores",
     año: 1997,
@@ -1726,7 +1763,7 @@ bib.papers = {
   'Bejar2002':{
     nombre: "Generative testing: From conception to implementation.",
     año: 2002,
-    autores: [{A:"Bejar",N:"Isaac"}],
+    autores: [{A:"Bejar",N:["Isaac","I"]}],
     en: {T:"Item generation for test development", p:"199-217", autores:[{A:"Irvine",N:["S","H"]},{A:"Kyllonen",N:["P","C"]}], editorial:"Lawrence Erlbaum Associates Publishers"}
   },
   'Chughtai2022':{
@@ -1751,7 +1788,7 @@ bib.papers = {
     autores: [{A:"Das",N:"Bidyut"},{A:"Majumder",N:"Mukta"},{A:"Sekh",N:["Arif","Ahmed"]},{A:"Phadikar",N:"Santanu"}],
     en: {T:"Cognitive Systems Research", v:72, p:"14-22"},
     issn: "1389-0417",
-    doi: "https://doi.org/10.1016/j.cogsys.2021.11.002",
+    doi: "10.1016/j.cogsys.2021.11.002",
     web: "https://www.sciencedirect.com/science/article/pii/S1389041721000826"
   },
   'Diyab2025':{
@@ -1763,7 +1800,7 @@ bib.papers = {
     doi: "10.3390/educsci15020156",
     web: "https://www.mdpi.com/2227-7102/15/2/156"
   },
-  'FinnAnsley2022':{
+  'FinnieAnsley2022':{
     nombre: "The Robots Are Coming: Exploring the Implications of OpenAI Codex on Introductory Programming",
     año: 2022,
     autores: [{A:"Finnie-Ansley",N:"James"},{A:"Denny",N:"Paul"},{A:"Becker",N:["Brett","A"]},{A:"Luxton-Reilly",N:"Andrew"},{A:"Prather",N:"James"}],
@@ -1772,18 +1809,10 @@ bib.papers = {
     doi: "10.1145/3511861.3511863",
     web: "doi"
   },
-  'Hively1974':{
-    nombre: "A \"Universe-Defined\" System of Arithmetic Achievement Tests",
-    año: 1968,
-    autores: [{A:"Hively",N:"Wells"},{A:"Patterson",N:["Harry","L"]},{A:"Page",N:["Sara","H"]}],
-    en: {T:"Journal of Educational Measurement", v:5, n:4, p:"275-290", editorial:"[National Council on Measurement in Education, Wiley]"},
-    issn: "00220655, 17453984",
-    web: "http://www.jstor.org/stable/1433778"
-  },
   'Kowal2025':{
     nombre: "Harnessing Generative AI for Assessment Item Development: Comparing AI-Generated and Human-Authored Items",
     año: 2025,
-    autores: [{A:"Kowal",N:"Jaclyn"},{A:"Bryant",N:"Kenzie"},{A:"Segall",N:"Dan"},{A:"Kantrowitz",N:"Tracy"}],
+    autores: [{A:"Kowal",N:["Jaclyn","Martin"]},{A:"Bryant",N:["Kenzie","Hurley"]},{A:"Segall",N:"Dan"},{A:"Kantrowitz",N:"Tracy"}],
     en: {T:"International Journal of Selection and Assessment", v:33, n:3},
     doi: "10.1111/ijsa.70021"
   },
@@ -1802,6 +1831,7 @@ bib.papers = {
     doi: "10.1080/00011037.1978.11008226",
     web: "doi"
   },
+  'nrc2010computational':{dup:'NRC2010'},
   'NRC2010':{
     nombre: "Report of a Workshop on the Scope and Nature of Computational Thinking",
     año: 2010,
@@ -1814,7 +1844,7 @@ bib.papers = {
   'Osburn1968':{
     nombre: "Item Sampling for Achievement Testing",
     año: 1968,
-    autores: [{A:"Osburn",N:["H","G"]}],
+    autores: [{A:"Osburn",N:["H","Gurnee"]}],
     en: {T:"Educational and Psychological Measurement", v:28, n:1, p:"95-104"},
     doi: "10.1177/001316446802800109",
     web: "doi"
@@ -1838,7 +1868,7 @@ bib.papers = {
     nombre: "A Comparison of Objective-Based and Modified-Bormuth Item Writing Techniques",
     año: 1978,
     autores: [{A:"Roid",N:["Gale","H"]},{A:"Haladyna",N:["Thomas","M"]}],
-    en: {T:"Educational and Psychological Measurement", v:38, p:"19-28"},
+    en: {T:"Educational and Psychological Measurement", v:38, n:1, p:"19-28"},
     doi: "10.1177/001316447803800104",
     web: "https://api.semanticscholar.org/CorpusID:144212616"
   },
@@ -1882,6 +1912,7 @@ bib.papers = {
     año: 1989,
     autores: [{A:"Millman",N:"Jason"},{A:"Westman",N:["Ronald","S"]}],
     en: {T:"Journal of Educational Measurement", v:26, n:2, p:"177-190", editorial:"{National Council on Measurement in Education, Wiley}"},
+    doi: "10.1111/j.1745-3984.1989.tb00327.x",
     issn: "00220655, 17453984",
     web: "http://www.jstor.org/stable/1434864"
   },
@@ -2120,11 +2151,14 @@ bib.papers = {
       {id:'misconceptionsStatements', n: 3, desc:"misconceptions en principiantes"}
     ]
   },
+  'BaymanMayer1983': {dup:'misconceptionsStatements'},
   'misconceptionsStatements':{
-    nombre: "A diagnosis of beginning programmers' misconceptions of Basic programming statements",
+    nombre: "A diagnosis of beginning programmers' misconceptions of BASIC programming statements",
     año: 1983,
-    autores: [{A:"Bayman",N:"P"},{A:"Mayer",N:["R","E"]}],
+    autores: [{A:"Bayman",N:"Piraye"},{A:"Mayer",N:["Richard","E"]}],
     en: {C:"ACMComm_26_9", v:26, n:9, p:"677-679"},
+    doi: "10.1145/358172.358408",
+    url: "https://dl.acm.org/doi/epdf/10.1145/358172.358408",
     tags: ["Misconceptions"]
   },
   'Potential2ProgrammingSkill':{
@@ -2467,10 +2501,17 @@ bib.papers = {
   'Camilloni2008':{
     nombre: "La Evaluación de los aprendizajes en el debate didáctico contemporáneo",
     año: 2008,
-    autores: [{A:"de Camilloni", N:["Alicia","R","W"]}, {A:"Cehnan",N:"Susana"}, {A:"Litwin",N:"Edith"},{A:["Palou","de Maté"],N:["M","del Carmen"]}],
+    autores: [{A:"de Camilloni", N:["Alicia","R","W"]}, {A:"Celman",N:"Susana"}, {A:"Litwin",N:"Edith"},{A:"de Maté",N:["M","del Carmen","Palou"]}],
     editorial: "Paidós",
     tags: ["Evaluación"],
     drive: "1nsFakmo1rq_qyPJu4v-qatFRqq7mgz7Q"
+  },
+  'Camilloni1998':{
+    nombre: "La Evaluación de los aprendizajes en el debate didáctico contemporáneo",
+    año: 1998,
+    autores: [{A:"de Camilloni", N:["Alicia","R","W"]}, {A:"Celman",N:"Susana"}, {A:"Litwin",N:"Edith"},{A:"de Maté",N:["M","del Carmen","Palou"]}],
+    isbn: "9789501221299",
+    editorial: "Paidós",
   },
   'Ruf2015':{
     nombre: "Classification of Programming Tasks According to Required Skills and Knowledge Representation",
@@ -4272,7 +4313,8 @@ bib.papers = {
   'OsburnShoemaker1968': {
     nombre: "Pilot project on computer generated test items",
     año: 1968,
-    autores: [{A:"Osburn", N:["H","G"]}, {A:"Shoemaker", N:["D","M"]}]
+    autores: [{A:"Osburn", N:["H","Gurnee"]}, {A:"Shoemaker", N:["David","M"]}],
+    school: "U.S. Department of Health, Education, and Welfare, Office of Education, Bureau of Research"
   },
   'AppInventor':{
     nombre: "App inventor and real-world motivation",
@@ -6426,7 +6468,7 @@ bib.papers = {
     nombre: "Turtlebot 3 as a Robotics Education Platform",
     año: 2020,
     autores: [{A:"Amsters",N:"Robin"},{A:"Slaets",N:"Peter"}],
-    en: {T:"Robotics in Education", p:"170--181", autores:[{A:"Merdan",N:"Munir"},{A:"Lepuschitz",N:"Wilfried"},{A:"Koppensteiner",N:"Gottfried"},{A:"Balogh",N:"Richard"},{A:"Obdr{\\v{z}}{\\'a}lek",N:"David"}], editorial:"Springer International Publishing"},
+    en: {T:"Robotics in Education", p:"170-181", autores:[{A:"Merdan",N:"Munir"},{A:"Lepuschitz",N:"Wilfried"},{A:"Koppensteiner",N:"Gottfried"},{A:"Balogh",N:"Richard"},{A:"Obdr{\\v{z}}{\\'a}lek",N:"David"}], editorial:"Springer International Publishing"},
     isbn: "978-3-030-26945-6"
   },
   'mbot':{
@@ -6696,7 +6738,7 @@ bib.papers = {
     autores: [{A:"Lee",N:"Joohi"}],
     en: {T:"Computers and Education: Artificial Intelligence", v:10, p:"100569"},
     issn: "2666-920X",
-    doi: "https://doi.org/10.1016/j.caeai.2026.100569",
+    doi: "10.1016/j.caeai.2026.100569",
     web: "https://www.sciencedirect.com/science/article/pii/S2666920X26000317"
   },
   'Kwubeghari2025':{
@@ -7010,7 +7052,7 @@ bib.papers = {
     nombre: "An Arduino Simulator in Classroom - a Case Study",
     año: 2020,
     autores: [{A:"Gon\\c{c}alves",N:["Paulo","F"]},{A:"S\\'{a}",N:"Jo\\~{a}o"},{A:"Coelho",N:"Anabela"},{A:"Dur\\~{a}es",N:"Jo\\~{a}o"}],
-    en: {T:"First International Computer Programming Education Conference (ICPEC 2020)", v:81, p:"12:1--12:12", autores:[{A:"Queir\\'{o}s",N:"Ricardo"},{A:"Portela",N:"Filipe"},{A:"Pinto",N:"M\\'{a}rio"},{A:"Sim\\~{o}es",N:"Alberto"}], editorial:"Schloss Dagstuhl -- Leibniz-Zentrum f{\\\"u}r Informatik"},
+    en: {T:"First International Computer Programming Education Conference (ICPEC 2020)", v:81, p:"12:1-12:12", autores:[{A:"Queir\\'{o}s",N:"Ricardo"},{A:"Portela",N:"Filipe"},{A:"Pinto",N:"M\\'{a}rio"},{A:"Sim\\~{o}es",N:"Alberto"}], editorial:"Schloss Dagstuhl -- Leibniz-Zentrum f{\\\"u}r Informatik"},
     isbn: "978-3-95977-153-5",
     issn: "2190-6807",
     doi: "10.4230/OASIcs.ICPEC.2020.12",
@@ -7089,6 +7131,169 @@ bib.papers = {
     autores: [{A:"Dijkstra",N:["Edsger","W"]}],
     en: {T:"Program Construction, International Summer School", p:"51-53", editorial:"Springer-Verlag"},
     isbn: "354009251X"
+  },
+  'Bloom1968':{
+    nombre: "Learning for Mastery",
+    año: 1968,
+    autores: [{A:"Bloom",N:["Benjamin","S"]}],
+    en: {T:"Evaluation Comment", v:1, n:2, p:"1-12", editorial:"Center for the Study of Evaluation of Instructional Programs"}
+  },
+  'Bloom1971':{
+    nombre: "Handbook on Formative and Summative Evaluation of Student Learning",
+    año: 1971,
+    autores: [{A:"Bloom",N:["Benjamin","S"]},{A:"Hastings",N:["J","T"]},{A:"Madaus",N:["G","F"]}],
+    editorial: "McGraw-Hill",
+    isbn: "9780070061149",
+    web: "https://books.google.com.ar/books?id=iSnoAAAAIAAJ"
+  },
+  'jimenez2024computational':{
+    nombre: "Computational Concepts and their Assessment in Preschool Students: An Empirical Study",
+    año: 2024,
+    autores: [{A:"Jim{\\'e}nez",N:"Marcos"},{A:"Moreno-Le{\\'o}n",N:"Jes{\\'u}s"},{A:"Zapata-C{\\'a}ceres",N:"Mar{\\'\\i}a"},{A:"Rom{\\'a}n-Gonz{\\'a}lez",N:"Marcos"},{A:"Robles",N:"Gregorio"},{A:"Mart{\\'\\i}n-Barroso",N:"Estefan{\\'\\i}a"}],
+    en: {T:"Journal of Science Education and Technology", v:33, p:"998-1020", editorial:"Springer"},
+    doi: "10.1007/s10956-024-10142-8"
+  },
+  'sadosky2022programar':{
+    nombre: "La ense{\\~n}anza de la programaci{\\'o}n en la escuela: aprendizajes fundamentales para la educaci{\\'o}n obligatoria",
+    año: 2022,
+    autores: [{A:"Sadosky",N:"Fundaci{\\'o}n"}],
+    web: "https://program.ar"
+  },
+  'UNESCO2019':{
+    nombre: "Coding, Programming and the Changing Curriculum for Computing in Schools: Report of {UNESCO/IFIP TC3} Meeting at {OCCE} -- Wednesday 27th of June 2018, Linz, Austria",
+    año: 2019,
+    autores: [{A:"Storte",N:"D"},{A:"Webb",N:"M"},{A:"Bottino",N:["R","M"]},{A:"Passey",N:"D"},{A:"Kalas",N:"I"},{A:"Bescherer",N:"C"},{A:"Smith",N:["J","M"]},{A:"Fuschek",N:"G"}],
+    en: {p:"1-45"},
+    web: "https://www.ifip-tc3.org/publications/"
+  },
+  'Hively1974':{
+    nombre: "Introduction to domain-reference testing",
+    año: 1974,
+    autores: [{A:"Hively",N:"Wells"}],
+    en: {T:"Educational Technology", v:14, n:6, p:"5-10"}
+  },
+  'DeKetele1984':{
+    nombre: "Observar para educar: observaci{\\'o}n y evaluaci{\\'o}n en la pr{\\'a}ctica educativa",
+    año: 1984,
+    autores: [{A:"de Ketele",N:"J.M."}],
+    editorial: "Visor",
+    isbn: "9788475226149"
+  },
+  'Sadler1989':{
+    nombre: "Formative Assessment and the Design of Instructional Systems",
+    año: 1989,
+    autores: [{A:"Sadler",N:["D.","Royce"]}],
+    en: {T:"Instructional Science", v:18, p:"119-144"},
+    doi: "10.1007/BF00117714"
+  },
+  'Pellegrino2001':{
+    nombre: "Knowing What Students Know: The Science and Design of Educational Assessment",
+    año: 2001,
+    autores: [{A:"Pellegrino",N:"James"},{A:"Chudowsky",N:"Naomi"},{A:"Glaser",N:"Robert"}],
+    en: {p:"379", editorial:"National Academy Press"},
+    isbn: "0309072727"
+  },
+  'Mislevy2003':{
+    nombre: "Focus Article: On the Structure of Educational Assessments",
+    año: 2003,
+    autores: [{A:"Mislevy",N:"Robert"},{A:"Steinberg",N:"Linda"},{A:"Almond",N:"Russell"}],
+    en: {T:"Measurement: Interdisciplinary Research & Perspective", v:1, p:"3-62"},
+    doi: "10.1207/S15366359MEA0101_02"
+  },
+  'Besnard2004':{
+    nombre: "When mental models go wrong: Co-occurrences in dynamic, critical systems",
+    año: 2004,
+    autores: [{A:"Besnard",N:"Denis"},{A:"Greathead",N:"David"},{A:"Baxter",N:"Gordon"}],
+    en: {T:"International Journal of Human-Computer Studies", v:60, p:"117-128"},
+    doi: "10.1016/j.ijhcs.2003.09.001"
+  },
+  'GalagovskyAdurizBravo2001':{
+    nombre: "Modelos y analogías en la enseñanza de las ciencias naturales. El concepto de modelo didáctico analógico",
+    año: 2001,
+    autores: [{A:"Galagovsky",N:"Lydia"},{A:"Adúriz-Bravo",N:"Agustín"}],
+    en: {T:"Enseñanza de las Ciencias. Revista de investigación y experiencias didácticas", v:19, p:"231-242"},
+    doi: "10.5565/rev/ensciencias.4000"
+  },
+  'HalaszMoran1983':{
+    nombre: "Mental models and problem solving in using a calculator",
+    año: 1983,
+    autores: [{A:"Halasz",N:["Frank","G"]},{A:"Moran",N:["Thomas","P"]}],
+    en: {T:"Proceedings of the SIGCHI Conference on Human Factors in Computing Systems", p:"212-216", editorial:"Association for Computing Machinery"},
+    isbn: "0897911210",
+    doi: "10.1145/800045.801613",
+    web: "doi"
+  },
+  'IzquierdoAymerich2007':{
+    nombre: "Enseñar Ciencias, una nueva ciencia",
+    año: 2007,
+    autores: [{A:"Izquierdo",N:"Mercè"}],
+    en: {T:"Enseñanza de las ciencias sociales: revista de investigación", n:6, p:"125-138"},
+    web: "https://raco.cat/index.php/EnsenanzaCS/article/view/126338"
+  },
+  'ModeloDeModelo':{
+    nombre: "Un modelo de modelo científico para la enseñanza de las ciencias naturales",
+    año: 2009,
+    autores: [{A:"Adúriz-Bravo", N:"Agustín"},{A:"Izquierdo-Aymerich",N:"Mercè"}],
+    en: {T:"Revista electrónica de investigación en educación en ciencias", p:"40-49", editorial:"scielo"},
+    issn: "1850-6666",
+    web: "http://www.scielo.org.ar/scielo.php?script=sci_arttext&pid=S1850-66662009000100004&nrm=iso"
+  },
+  'Moran1981':{
+    nombre: "Guest Editor's Introduction: An Applied Psychology of the User",
+    año: 1981,
+    autores: [{A:"Moran",N:["Thomas","P"]}],
+    en: {T:"ACM Comput. Surv.", v:13, n:1, p:"1-11", editorial:"Association for Computing Machinery"},
+    issn: "0360-0300",
+    doi: "10.1145/356835.356836",
+    web: "doi"
+  },
+  'Moreira2002':{
+    nombre: "Modelos mentales y modelos conceptuales en la enseñanza \\& aprendizaje de las ciencias",
+    año: 2002,
+    autores: [{A:"Moreira",N:["Marco","Antonio"]},{A:"Greca",N:["Ileana","María"]},{A:["Rodríguez","Palmero"],N:["María","Luz"]}],
+    en: {T:"Revista Brasileira de Pesquisa em Educaçao em Ciências", v:2, n:3, p:"36-56"}
+  },
+  'Pea1986':{
+    nombre: "Language-Independent Conceptual “Bugs” in Novice Programming",
+    año: 1986,
+    autores: [{A:"Pea",N:["Roy","D"]}],
+    en: {T:"Journal of Educational Computing Research", v:2, n:1, p:"25-36"},
+    doi: "10.2190/689T-1R2A-X4W4-29J2",
+    web: "doi"
+  },
+  'Sleeman1986':{
+    nombre: "Pascal and High School Students: A Study of Errors",
+    año: 1986,
+    autores: [{A:"Sleeman",N:"D."},{A:"Putnam",N:["Ralph","T"]},{A:"Baxter",N:"Juliet"},{A:"Kuspa",N:"Laiani"}],
+    en: {T:"Journal of Educational Computing Research", v:2, n:1, p:"5-23"},
+    doi: "10.2190/2XPP-LTYH-98NQ-BU77",
+    web: "doi"
+  },
+  'Sorva2013':{
+    nombre: "Notional machines and introductory programming education",
+    año: 2013,
+    autores: [{A:"Sorva",N:"Juha"}],
+    en: {T:"ACM Trans. Comput. Educ.", v:13, n:2, editorial:"Association for Computing Machinery"},
+    doi: "10.1145/2483710.2483713",
+    web: "doi"
+  },
+  'Young1981':{
+    nombre: "The machine inside the machine: users' models of pocket calculators",
+    año: 1981,
+    autores: [{A:"Young",N:["Richard","M"]}],
+    en: {T:"International Journal of Man-Machine Studies", v:15, n:1, p:"51-85"},
+    issn: "0020-7373",
+    doi: "https://doi.org/10.1016/S0020-7373(81)80023-5",
+    web: "https://www.sciencedirect.com/science/article/pii/S0020737381800235"
+  },
+  'duBoulay1981':{
+    nombre: "The black box inside the glass box: presenting computing concepts to novices",
+    año: 1981,
+    autores: [{A:"du Boulay",N:"Benedict"},{A:"O'Shea",N:"Tim"},{A:"Monk",N:"John"}],
+    en: {T:"International Journal of Man-Machine Studies", v:14, n:3, p:"237-249"},
+    issn: "0020-7373",
+    doi: "https://doi.org/10.1016/S0020-7373(81)80056-9",
+    web: "https://www.sciencedirect.com/science/article/pii/S0020737381800569"
   },
   'CompCurr2005':{dup:'CC2005'},
   'CC2005':{
