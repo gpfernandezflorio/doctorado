@@ -255,10 +255,10 @@ bib.papers = {
     tags: ["Enfoque"]
   },
   'propuestaCurricularSadosky':{
-    nombre: "Propuesta curricular para la inclusión de las Ciencias de la Computación en la educación obligatoria de Argentina",
-    año: 2023,
-    autores: [{A:"Dabbah",N:"Julián"},{A:"Garzón",N:"Magdalena"},{A:"Gomez",N:["Marcos","Javier"]},{A:"Martínez",N:["María","Cecilia"]},{A:["Martínez", "López"],N:["Pablo","E"]}],
-    editorial: "Fundación Sadosky, La Plata",
+    nombre: "Propuesta curricular para la inclusión de las Ciencias de la Computación en la educación obligatoria de la Argentina",
+    año: 2024,
+    autores: [{A:"Dabbah",N:"Julián"},{A:"Fleitas",N:"Dolores"},{A:"Garzón",N:"Magdalena"},{A:"Gómez",N:["Marcos","Javier"]},{A:"Martínez",N:["María","Cecilia"]},{A:["Martínez", "López"],N:["Pablo","E"]},{A:"Peretti",N:"Gabriela"}],
+    editorial: "Fundación Sadosky, Buenos Aires",
     web: 'https://curriculum.program.ar/',
     tags: ["Enfoque"]
   },
@@ -2069,9 +2069,8 @@ bib.papers = {
     año: 2012,
     autores: [{A:"Resnick",N:"Michel"}],
     en: {C:"EducTech_52_4", p:"42-46"},
-    url:'https://web.media.mit.edu/~mres/papers.html',
-    // REVISAR :
-    resumen: '1TRuGqWZsx8p2YpYlk03MywO1QWH7fs-wEkrCEnDEbKU'
+    url:'https://web.media.mit.edu/~mres/papers/educational-technology-2012.pdf',
+    resumen: '1c8k4CkXcfMwIK5jjc4smdBINOFhqTpkmI8etE1Wi9Yw'
   },
   'StructureInsight':{
     nombre: "Structure and Insight",
@@ -2300,7 +2299,7 @@ bib.papers = {
     año: 2021,
     autores: [{A:"Gómez",N:["Marcos","Javier"]},{A:["Martínez", "López"],N:["Pablo","E"]}],
     en: "JADICC 2021",
-    url:'https://jadicc.program.ar/wp-content/uploads/2021/10/JADICC2021_paper_1.pdf',
+    url:'https://jadicc2021.program.ar/wp-content/uploads/2021/10/JADICC2021_paper_1.pdf',
     // REVISAR :
     resumen:'1QhPCUH8nSQ_I96gp1kDjHzCbdHcUdZWcU4sH99aOwuM',
     citas: [
@@ -3224,6 +3223,154 @@ bib.papers = {
       {id:'LogoVsScratch', n:13, desc:'Experiencia que mide interés de estudiantes por aprender a programar'},
       {id:'feedbackGen', n:15, desc:'Análisis de código para feedback automático'}
     ]
+  },
+  'Gomez2026': {
+    nombre: "Formación docente innovadora en programación desenchufada: impacto y resultados de una intervención en Nivel Inicial",
+    año: 2026,
+    autores: [{A:"Gómez",N:"Marcos"},{A:"Martinez",N:"Cecilia"},{A:"Roggi",N:"Inés"},{A:"Gonzalez",N:"Rocío"},{A:["López","Alvas"],N:"Diana"}],
+    en: {T:"55 Jornadas Argentinas de Informática (JAIIO), 10-13 de agosto de 2026, La Plata, Argentina"}
+  },
+  'Anvik2019':{
+    nombre: "Program Wars: A Card Game for Learning Programming and Cybersecurity Concepts",
+    año: 2019,
+    autores: [{A:"Anvik",N:"John"},{A:"Cote",N:"Vincent"},{A:"Riehl",N:"Jace"}],
+    en: {T:"Proceedings of the 50th ACM Technical Symposium on Computer Science Education", p:"393-399", editorial:"Association for Computing Machinery"},
+    isbn: "9781450358903",
+    doi: "10.1145/3287324.3287496",
+    web: "doi"
+  },
+  'Bayeck2020':{
+    nombre: "Examining Board Gameplay and Learning: A Multidisciplinary Review of Recent Research",
+    año: 2020,
+    autores: [{A:"Bayeck",N:["Rebecca","Yvonne"]}],
+    en: {T:"Simul. Gaming", v:51, n:4, p:"411-431", editorial:"Sage Publications, Inc."},
+    issn: "1046-8781",
+    doi: "10.1177/1046878119901286",
+    web: "doi"
+  },
+  'Dicheva2015':{
+    nombre: "Gamification in Education: A Systematic Mapping Study",
+    año: 2015,
+    autores: [{A:"Dicheva",N:"Darina"},{A:"Dichev",N:"Christo"},{A:"Agre",N:"Gennady"},{A:"Angelova",N:"Galia"}],
+    en: {T:"Journal of Educational Technology & Society", v:18, n:3, p:"75-88", editorial:"International Forum of Educational Technology & Society"},
+    issn: "11763647, 14364522",
+    web: "http://www.jstor.org/stable/jeductechsoci.18.3.75"
+  },
+  'Gomez2025':{
+    nombre: "El impacto de un juego de mesa para introducir conceptos fundamentales de programación en nivel inicial",
+    año: 2025,
+    autores: [{A:"Gomez",N:["Marcos","J"]},{A:"Gonzalez",N:"Rocío"},{A:"López Alvas",N:"Diana"},{A:"Roggi",N:"Inés"},{A:"Martinez",N:"Cecilia"}],
+    en: {T:"JAIIO, Jornadas Argentinas de Informática", v:11, n:8, p:"80-93"},
+    web: "https://revistas.unlp.edu.ar/JAIIO/article/view/19935"
+  },
+  'Hamari2014':{
+    nombre: "Does Gamification Work? -- A Literature Review of Empirical Studies on Gamification",
+    año: 2014,
+    autores: [{A:"Hamari",N:"Juho"},{A:"Koivisto",N:"Jonna"},{A:"Sarsa",N:"Harri"}],
+    en: {T:"2014 47th Hawaii International Conference on System Sciences", p:"3025-3034"},
+    doi: "10.1109/HICSS.2014.377"
+  },
+  'Huang2020':{
+    nombre: "The design and implementation of “unplugged” game-based learning in computing education",
+    año: 2020,
+    autores: [{A:"Huang",N:"Wendy"},{A:"Batura",N:"Aditya"},{A:"Seah",N:["Tat","Leong"]}],
+    editorial: "SocArXiv",
+    doi: "10.31235/osf.io/ykq82",
+    web: "osf.io/preprints/socarxiv/ykq82_v1"
+  },
+  'LiKangas2024':{
+    nombre: "A systematic literature review of playful learning in primary education: teachers’ pedagogical activities",
+    año: 2026,
+    autores: [{A:"Li",N:"Xiaoyan"},{A:"Kangas",N:"Marjaana"}],
+    en: {T:"Education 3-13", v:54, n:7, p:"1549-1564", editorial:"Routledge"},
+    doi: "10.1080/03004279.2024.2416954",
+    web: "doi"
+  },
+  'LopezRosenfeld2021':{
+    nombre: "Exactas Programa: llevando la programación a cada rincón de la ciencia",
+    año: 2021,
+    autores: [{A:"López-Rosenfeld",N:"Matías"},{A:"Mocskos",N:"Esteban"},{A:["Gonzalez","Lebrero"],N:"Mariano"},{A:"Crespo",N:"José"},{A:"Arrar",N:"Mehrnoosh"},{A:"Caridi",N:"Inés"},{A:"Sued",N:"Mariela"}],
+    en: {T:"SADIO Electronic Journal of Informatics and Operations Research", v:20, n:1, p:"56-76"},
+    web: "https://revistas.unlp.edu.ar/ejs/article/view/17647"
+  },
+  'Menon2019':{
+    nombre: "Computational thinking development and assessment through tabletop escape games",
+    año: 2019,
+    autores: [{A:"Menon",N:"Divya"},{A:"Vi{\\'e}ville",N:"Thierry"},{A:"Romero",N:"Margarida"}],
+    en: {T:"Int. J. Serious Games", v:6, p:"3-18"},
+    web: "https://api.semanticscholar.org/CorpusID:211137733"
+  },
+  'Naz2021':{
+    nombre: "The Starter Activity of the Lesson; Considerable Categories and Dynamics",
+    año: 2021,
+    autores: [{A:"Naz",N:"Anjum"},{A:"Nasreen",N:"Abida"},{A:"Rashid",N:"Sumaira"}],
+    en: {T:"Sir Syed Journal of Education & Social Research (SJESR)", v:4, n:1, p:"350-357"},
+    doi: "10.36902/sjesr-vol4-iss1-2021(350-357)",
+    web: "https://www.sjesr.org.pk/ojs/index.php/ojs/article/view/609"
+  },
+  'ParhamMocello2023':{
+    nombre: "Putting Computing on the Table: Using Physical Games to Teach Computer Science",
+    año: 2023,
+    autores: [{A:"Parham-Mocello",N:"Jennifer"},{A:"Erwig",N:"Martin"},{A:"Niess",N:"Margaret"},{A:"Weber",N:"Jason"},{A:"Smith",N:"Madelyn"},{A:"Berliner",N:"Garrett"}],
+    en: {T:"Proceedings of the 54th ACM Technical Symposium on Computer Science Education", v:1, p:"444-450", editorial:"Association for Computing Machinery"},
+    isbn: "9781450394314",
+    doi: "10.1145/3545945.3569883",
+    web: "doi"
+  },
+  'Plass2015':{
+    nombre: "Foundations of Game-Based Learning",
+    año: 2015,
+    autores: [{A:"Plass",N:["Jan","L"]},{A:"Homer",N:["Bruce","D"]},{A:"Kinzer",N:["Charles","K"]}],
+    en: {T:"Educational Psychologist", v:50, n:4, p:"258-283", editorial:"Routledge"},
+    doi: "10.1080/00461520.2015.1122533",
+    web: "https://www.tandfonline.com/doi/abs/10.1080/00461520.2015.1122533"
+  },
+  'RiberaPuchades2024':{
+    nombre: "Desarrollo de habilidades de pensamiento computacional y visualización a través del juego de mesa Colour Code",
+    año: 2024,
+    autores: [{A:["Ribera","Puchades"],N:["Juan","Miguel"]},{A:["Rotger","García"],N:"Lucía"},{A:["Petro","Balaguer"],N:["Ana","Belén"]}],
+    en: {T:"Quadrante", v:33, n:2, p:"244-266"},
+    doi: "10.48489/quadrante.36881",
+    web: "https://quadrante.apm.pt/article/view/36881"
+  },
+  'ScireaValente2020':{
+    nombre: "Boardgames and Computational Thinking: how to identify games with potential to support CT in the classroom",
+    año: 2020,
+    autores: [{A:"Scirea",N:"Marco"},{A:"Valente",N:"Andrea"}],
+    en: {T:"Proceedings of the 15th International Conference on the Foundations of Digital Games", editorial:"Association for Computing Machinery"},
+    isbn: "9781450388078",
+    doi: "10.1145/3402942.3409616",
+    web: "doi"
+  },
+  'Singh2007b':{
+    nombre: "Learning Computer Programming Using A Board Game-Case Study on C-Jump",
+    año: 2007,
+    autores: [{A:"Singh",N:"Jaspaljeet"},{A:"Dorairaj",N:"Siva"},{A:"Woods",N:"Peter"}],
+    en: {T:"Proceedings of the 10th MMU International Symposium on Information and Communications Technologies"}
+  },
+  'Sousa2023':{
+    nombre: "Playing at the school table: Systematic literature review of board, tabletop, and other analog game-based learning approaches",
+    año: 2023,
+    autores: [{A:"Sousa",N:"Carla"},{A:"Rye",N:"Sara"},{A:"Sousa",N:"Micael"},{A:"Torres",N:["Pedro","Juan"]},{A:"Perim",N:"Claudilene"},{A:"Mansuklal",N:["Shivani","Atul"]},{A:"Ennami",N:"Firdaous"}],
+    en: {T:"Frontiers in Psychology", v:14},
+    issn: "1664-1078",
+    doi: "10.3389/fpsyg.2023.1160591",
+    web: "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1160591"
+  },
+  'YangKopcha2022':{
+    nombre: "Developing a Board Game For Beginning Block-Based Programmers",
+    año: 2022,
+    autores: [{A:"Yang",N:"Dayae"},{A:"Kopcha",N:["Theodore","J"]}],
+    en: {T:"International Journal of Designs for Learning", v:13, n:1, p:"35-45"},
+    doi: "10.14434/ijdl.v13i1.32211",
+    web: "https://scholarworks.iu.edu/journals/index.php/ijdl/article/view/32211"
+  },
+  'delOlmoMunoz2020':{
+    nombre: "Computational thinking through unplugged activities in early years of Primary Education",
+    año: 2020,
+    autores: [{A:"del Olmo-Mu{\\~n}oz",N:"Javier"},{A:"C{\\'o}zar-Guti{\\'e}rrez",N:"Ram{\\'o}n"},{A:"Gonz{\\'a}lez-Calero",N:["Jos{\\'e}","Antonio"]}],
+    en: {T:"Comput. Educ.", v:150, p:"103832"},
+    web: "https://api.semanticscholar.org/CorpusID:212663873"
   },
   'Simari2013':{
     nombre: "Los fundamentos computacionales como parte de las ciencias básicas en las terminales de la disciplina Informática",
@@ -5641,10 +5788,8 @@ bib.papers = {
     autores: [{A:"Resnick",N:"Mitchel"},{A:"Maloney",N:["John","H"]},{A:["Monroy","Hernández"],N:"Andrés"},{A:"Rusk",N:"Natalie"},{A:"Eastmond",N:"Evelyn"},{A:"Brennan",N:"Karen"},{A:"Millner",N:"Amon"},{A:"Rosenbaum",N:"Eric"},{A:"Silver",N:"Jay"},{A:"Silverman",N:"Brian"},{A:"Kafai",N:"Yasmin"}],
     en: {C:"ACMComm_52_11", p:"60-67"},
     doi: '10.1145/1592761.1592779',
-    // REVISAR :
     drive: '1WrdweBSv3OsJE81wnozjgE1GAp4SEmEg',
-    // REVISAR :
-    resumen: '1xCh3VM8OzfBA9rx5sPT3pxZbUILN1Su7G1FSez5PcO8',
+    resumen: '1QzjEGTp4i3Y8OSCcSFdXQHEDXCUKYvz0HdbpZ5eyFB4',
     citas: [
       {id:'EnvTaxonomy', n:7, desc:'Intentos de introducir programación a niñes'},
       {id:'DigitalNatives', n:15, desc:'Nativos digitales'},
@@ -7294,6 +7439,12 @@ bib.papers = {
     issn: "0020-7373",
     doi: "https://doi.org/10.1016/S0020-7373(81)80056-9",
     web: "https://www.sciencedirect.com/science/article/pii/S0020737381800569"
+  },
+  'Reuter2021':{
+    nombre: "Using Board Games to Support Computer Science Learning",
+    año: 2021,
+    autores: [{A:"Reuter", N:"Shawn"}],
+    web: "https://umm-csci.github.io/senior-seminar/seminars/fall2021/reuter.pdf"
   },
   'CompCurr2005':{dup:'CC2005'},
   'CC2005':{
