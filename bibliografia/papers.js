@@ -114,11 +114,11 @@ bib.papers = {
     doi: "10.1109/CLEI64178.2024.10700288",
     tags: ["Arduino","AelE","Bloques"]
   },
-  'aele_jar':{ // JAR
+  'aele_jar':{ // JAR - AelE
     nombre: "AelE: una herramienta para la enseñanza de programación basada en Arduino",
     año: 2024,
     autores: [{A:"Fernández",N:["Gonzalo","Pablo"]},{A:"Cossio-Mercado",N:"Christian"}],
-    en: "Jornadas Argentinas de Robótica (JAR), 4-7 de junio de 2024, La Plata, Argentina",
+    en: "Jornadas Argentinas de Robótica (JAR), 4-7 de junio de 2024, Buenos Aires, Argentina",
     tags: ["Arduino","AelE","Bloques"]
   },
   'dov_2024':{ // JADICC 24 ( reversión del rechazado de CLEI )
@@ -231,6 +231,12 @@ bib.papers = {
     año: 2026,
     autores: [{A:"Varani", N:"Victoria"},{A:"Ventrici", N:"Bruno"},{A:"Fernández", N:["Gonzalo","Pablo"]},{A:"Cossio-Mercado", N:"Christian"}],
     en: {T:"2026 LII Latin American Computer Conference (CLEI)", l:"Ciudad de México, México"}
+  },
+  'ar2r4':{ // JAR - AR2-R4
+    nombre: "AR2-R4: Robot Educativo de diseño abierto ROS2-compatible basado en Arduino UNO R4",
+    año: 2026,
+    autores: [{A:"Fernández",N:["Gonzalo","Pablo"]},{A:"Herrera",N:"Leon"},{A:"Cossio-Mercado",N:"Christian"},{A:"de Cristóforis",N:"Pablo"}],
+    en: "Jornadas Argentinas de Robótica (JAR), 3-6 de noviembre de 2026, Rosario, Argentina"
   },
   'codingAsLanguage':{
     nombre: "Coding as another language: a pedagogical approach for teaching computer science in early childhood",
@@ -1807,6 +1813,95 @@ bib.papers = {
     en: {T:"Proceedings of the 24th Australasian Computing Education Conference", p:"10-19", editorial:"Association for Computing Machinery"},
     isbn: "9781450396431",
     doi: "10.1145/3511861.3511863",
+    web: "doi"
+  },
+  'Anderson2013':{
+    nombre: "The architecture of cognition",
+    año: 1983,
+    autores: [{A:"Anderson",N:["John","R"]}],
+    editorial: "Cambridge, Mass. Harvard University Press",
+    isbn: "9780674044258"
+  },
+  'Basawapatna2013':{
+    nombre: "CS4Impact: measuring computational thinking concepts present in CS4HS participant lesson plans",
+    año: 2013,
+    autores: [{A:"Bort",N:"Heather"},{A:"Brylow",N:"Dennis"}],
+    en: {T:"Proceeding of the 44th ACM Technical Symposium on Computer Science Education", p:"427-432", editorial:"Association for Computing Machinery"},
+    isbn: "9781450318686",
+    doi: "10.1145/2445196.2445323",
+    web: "doi"
+  },
+  'Becker2023':{
+    nombre: "Programming Is Hard -- Or at Least It Used to Be: Educational Opportunities And Challenges of AI Code Generation",
+    año: 2022,
+    autores: [{A:"Becker",N:["Brett","A"]},{A:"Denny",N:"Paul"},{A:"Finnie-Ansley",N:"James"},{A:"Luxton-Reilly",N:"Andrew"},{A:"Prather",N:"James"},{A:"Santos",N:["Eddie","Antonio"]}],
+    web: "https://arxiv.org/abs/2212.01020"
+  },
+  'Ihantola2010':{
+    nombre: "Review of recent systems for automatic assessment of programming assignments",
+    año: 2010,
+    autores: [{A:"Ihantola",N:"Petri"},{A:"Ahoniemi",N:"Tuukka"},{A:"Karavirta",N:"Ville"},{A:"Sepp{\\\"a}l{\\\"a}",N:"Otto"}],
+    en: {T:"Proceedings of the 10th Koli Calling International Conference on Computing Education Research", p:"86-93", editorial:"Association for Computing Machinery"},
+    isbn: "9781450305204",
+    doi: "10.1145/1930464.1930480",
+    web: "doi"
+  },
+  'Kazemitabaar2024':{
+    nombre: "CodeAid: Evaluating a Classroom Deployment of an LLM-based Programming Assistant that Balances Student and Educator Needs",
+    año: 2024,
+    autores: [{A:"Kazemitabaar",N:"Majeed"},{A:"Ye",N:"Runlong"},{A:"Wang",N:"Xiaoning"},{A:"Henley",N:["Austin","Zachary"]},{A:"Denny",N:"Paul"},{A:"Craig",N:"Michelle"},{A:"Grossman",N:"Tovi"}],
+    en: {T:"Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems", editorial:"Association for Computing Machinery"},
+    isbn: "9798400703300",
+    doi: "10.1145/3613904.3642773",
+    web: "doi"
+  },
+  'Leinonen2023':{
+    nombre: "From \"Ban It Till We Understand It\" to \"Resistance is Futile\": How University Programming Instructors Plan to Adapt as More Students Use AI Code Generation and Explanation Tools such as ChatGPT and GitHub Copilot",
+    año: 2023,
+    autores: [{A:"Lau",N:"Sam"},{A:"Guo",N:"Philip"}],
+    en: {T:"Proceedings of the 2023 ACM Conference on International Computing Education Research - Volume 1", p:"106-121", editorial:"Association for Computing Machinery"},
+    isbn: "9781450399760",
+    doi: "10.1145/3568813.3600138",
+    web: "doi"
+  },
+  'Liffiton2023':{
+    nombre: "CodeHelp: Using Large Language Models with Guardrails for Scalable Support in Programming Classes",
+    año: 2023,
+    autores: [{A:"Liffiton",N:"Mark"},{A:"Sheese",N:"Brad"},{A:"Savelka",N:"Jaromir"},{A:"Denny",N:"Paul"}],
+    web: "https://arxiv.org/abs/2308.06921"
+  },
+  'Paiva2022':{
+    nombre: "Automated Assessment in Computer Science Education: A State-of-the-Art Review",
+    año: 2022,
+    autores: [{A:"Paiva",N:["Jos{\\'e}","Carlos"]},{A:"Leal",N:["Jos{\\'e}","Paulo"]},{A:"Figueira",N:"{\\'A}lvaro"}],
+    en: {T:"ACM Trans. Comput. Educ.", v:22, n:3, editorial:"Association for Computing Machinery"},
+    doi: "10.1145/3513140",
+    web: "doi"
+  },
+  'Prather2024':{
+    nombre: "The Robots Are Here: Navigating the Generative AI Revolution in Computing Education",
+    año: 2023,
+    autores: [{A:"Prather",N:"James"},{A:"Denny",N:"Paul"},{A:"Leinonen",N:"Juho"},{A:"Becker",N:["Brett","A"]},{A:"Albluwi",N:"Ibrahim"},{A:"Craig",N:"Michelle"},{A:"Keuning",N:"Hieke"},{A:"Kiesler",N:"Natalie"},{A:"Kohn",N:"Tobias"},{A:"Luxton-Reilly",N:"Andrew"},{A:"MacNeil",N:"Stephen"},{A:"Petersen",N:"Andrew"},{A:"Pettit",N:"Raymond"},{A:"Reeves",N:["Brent","N"]},{A:"Savelka",N:"Jaromir"}],
+    en: {T:"Proceedings of the 2023 Working Group Reports on Innovation and Technology in Computer Science Education", p:"108-159", editorial:"Association for Computing Machinery"},
+    isbn: "9798400704055",
+    doi: "10.1145/3623762.3633499",
+    web: "doi"
+  },
+  'Vygotsky1978':{
+    nombre: "Mind in Society: Development of Higher Psychological Processes",
+    año: 1978,
+    autores: [{A:"Vygotsky",N:["L.","S"]}],
+    editorial: "Harvard University Press",
+    isbn: "9780674576285",
+    web: "http://www.jstor.org/stable/j.ctvjf9vz4"
+  },
+  'Wasik2018':{
+    nombre: "A Survey on Online Judge Systems and Their Applications",
+    año: 2018,
+    autores: [{A:"Wasik",N:"Szymon"},{A:"Antczak",N:"Maciej"},{A:"Badura",N:"Jan"},{A:"Laskowski",N:"Artur"},{A:"Sternal",N:"Tomasz"}],
+    en: {T:"ACM Comput. Surv.", v:51, n:1, editorial:"Association for Computing Machinery"},
+    issn: "0360-0300",
+    doi: "10.1145/3143560",
     web: "doi"
   },
   'Kowal2025':{
