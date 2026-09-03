@@ -237,8 +237,11 @@ def mostrar(b, id):
   if 'editorial' in b and 'en' in b:
     b['en']['editorial'] = b['editorial']
     del b['editorial']
-  if 'doi' in b and 'web' in b and (b['web'] == 'https://doi.org/' + b['doi']):
-    b['web'] = "doi"
+  if 'doi' in b and 'web' in b:
+    if b['web'] == 'https://doi.org/' + b['doi']:
+      b['web'] = "doi"
+    elif b['web'] == 'http://dx.doi.org/' + b['doi']:
+      b['web'] = "dx.doi"
   s = []
   for k in listShow:
     if k in b:

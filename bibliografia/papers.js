@@ -807,7 +807,7 @@ bib.papers = {
     en: {C:"Comp&Educ_72", p:"145-157"},
     issn: "03601315",
     doi: "10.1016/j.compedu.2013.10.020",
-    web: "http://dx.doi.org/10.1016/j.compedu.2013.10.020",
+    web: "dx.doi",
     tags: ["Robótica","PC"]
   },
   'RomanGonzalez2015': {dup:'CTTest'},
@@ -1815,94 +1815,221 @@ bib.papers = {
     doi: "10.1145/3511861.3511863",
     web: "doi"
   },
-  'Anderson2013':{
-    nombre: "The architecture of cognition",
-    año: 1983,
-    autores: [{A:"Anderson",N:["John","R"]}],
-    editorial: "Cambridge, Mass. Harvard University Press",
-    isbn: "9780674044258"
-  },
-  'Basawapatna2013':{
-    nombre: "CS4Impact: measuring computational thinking concepts present in CS4HS participant lesson plans",
-    año: 2013,
-    autores: [{A:"Bort",N:"Heather"},{A:"Brylow",N:"Dennis"}],
-    en: {T:"Proceeding of the 44th ACM Technical Symposium on Computer Science Education", p:"427-432", editorial:"Association for Computing Machinery"},
-    isbn: "9781450318686",
-    doi: "10.1145/2445196.2445323",
-    web: "doi"
-  },
-  'Becker2023':{
-    nombre: "Programming Is Hard -- Or at Least It Used to Be: Educational Opportunities And Challenges of AI Code Generation",
-    año: 2022,
-    autores: [{A:"Becker",N:["Brett","A"]},{A:"Denny",N:"Paul"},{A:"Finnie-Ansley",N:"James"},{A:"Luxton-Reilly",N:"Andrew"},{A:"Prather",N:"James"},{A:"Santos",N:["Eddie","Antonio"]}],
-    web: "https://arxiv.org/abs/2212.01020"
-  },
-  'Ihantola2010':{
+  'ihantola2010reviewrecent':{
     nombre: "Review of recent systems for automatic assessment of programming assignments",
     año: 2010,
-    autores: [{A:"Ihantola",N:"Petri"},{A:"Ahoniemi",N:"Tuukka"},{A:"Karavirta",N:"Ville"},{A:"Sepp{\\\"a}l{\\\"a}",N:"Otto"}],
-    en: {T:"Proceedings of the 10th Koli Calling International Conference on Computing Education Research", p:"86-93", editorial:"Association for Computing Machinery"},
-    isbn: "9781450305204",
+    autores: [{A:"Ihantola",N:"Petri"},{A:"Ahoniemi",N:"Tuukka"},{A:"Karavirta",N:"Ville"},{A:"Seppälä",N:"Otto"}],
+    en: {T:"Proceedings of the 10th Koli Calling International Conference on Computing Education Research", p:"86-93", editorial:"ACM"},
     doi: "10.1145/1930464.1930480",
-    web: "doi"
+    web: "dx.doi"
   },
-  'Kazemitabaar2024':{
-    nombre: "CodeAid: Evaluating a Classroom Deployment of an LLM-based Programming Assistant that Balances Student and Educator Needs",
-    año: 2024,
-    autores: [{A:"Kazemitabaar",N:"Majeed"},{A:"Ye",N:"Runlong"},{A:"Wang",N:"Xiaoning"},{A:"Henley",N:["Austin","Zachary"]},{A:"Denny",N:"Paul"},{A:"Craig",N:"Michelle"},{A:"Grossman",N:"Tovi"}],
-    en: {T:"Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems", editorial:"Association for Computing Machinery"},
-    isbn: "9798400703300",
-    doi: "10.1145/3613904.3642773",
-    web: "doi"
+  'keuning2016towardssystematic':{
+    nombre: "Towards a Systematic Review of Automated Feedback Generation for Programming Exercises",
+    año: 2016,
+    autores: [{A:"Keuning",N:"Hieke"},{A:"Jeuring",N:"Johan"},{A:"Heeren",N:"Bastiaan"}],
+    en: {T:"Proceedings of the 2016 ACM Conference on Innovation and Technology in Computer Science Education", p:"41-46", editorial:"ACM"},
+    doi: "10.1145/2899415.2899422",
+    web: "dx.doi"
   },
-  'Leinonen2023':{
-    nombre: "From \"Ban It Till We Understand It\" to \"Resistance is Futile\": How University Programming Instructors Plan to Adapt as More Students Use AI Code Generation and Explanation Tools such as ChatGPT and GitHub Copilot",
-    año: 2023,
-    autores: [{A:"Lau",N:"Sam"},{A:"Guo",N:"Philip"}],
-    en: {T:"Proceedings of the 2023 ACM Conference on International Computing Education Research - Volume 1", p:"106-121", editorial:"Association for Computing Machinery"},
-    isbn: "9781450399760",
-    doi: "10.1145/3568813.3600138",
-    web: "doi"
-  },
-  'Liffiton2023':{
-    nombre: "CodeHelp: Using Large Language Models with Guardrails for Scalable Support in Programming Classes",
-    año: 2023,
-    autores: [{A:"Liffiton",N:"Mark"},{A:"Sheese",N:"Brad"},{A:"Savelka",N:"Jaromir"},{A:"Denny",N:"Paul"}],
-    web: "https://arxiv.org/abs/2308.06921"
-  },
-  'Paiva2022':{
-    nombre: "Automated Assessment in Computer Science Education: A State-of-the-Art Review",
-    año: 2022,
-    autores: [{A:"Paiva",N:["Jos{\\'e}","Carlos"]},{A:"Leal",N:["Jos{\\'e}","Paulo"]},{A:"Figueira",N:"{\\'A}lvaro"}],
-    en: {T:"ACM Trans. Comput. Educ.", v:22, n:3, editorial:"Association for Computing Machinery"},
-    doi: "10.1145/3513140",
-    web: "doi"
-  },
-  'Prather2024':{
-    nombre: "The Robots Are Here: Navigating the Generative AI Revolution in Computing Education",
-    año: 2023,
-    autores: [{A:"Prather",N:"James"},{A:"Denny",N:"Paul"},{A:"Leinonen",N:"Juho"},{A:"Becker",N:["Brett","A"]},{A:"Albluwi",N:"Ibrahim"},{A:"Craig",N:"Michelle"},{A:"Keuning",N:"Hieke"},{A:"Kiesler",N:"Natalie"},{A:"Kohn",N:"Tobias"},{A:"Luxton-Reilly",N:"Andrew"},{A:"MacNeil",N:"Stephen"},{A:"Petersen",N:"Andrew"},{A:"Pettit",N:"Raymond"},{A:"Reeves",N:["Brent","N"]},{A:"Savelka",N:"Jaromir"}],
-    en: {T:"Proceedings of the 2023 Working Group Reports on Innovation and Technology in Computer Science Education", p:"108-159", editorial:"Association for Computing Machinery"},
-    isbn: "9798400704055",
-    doi: "10.1145/3623762.3633499",
-    web: "doi"
-  },
-  'Vygotsky1978':{
-    nombre: "Mind in Society: Development of Higher Psychological Processes",
-    año: 1978,
-    autores: [{A:"Vygotsky",N:["L.","S"]}],
-    editorial: "Harvard University Press",
-    isbn: "9780674576285",
-    web: "http://www.jstor.org/stable/j.ctvjf9vz4"
-  },
-  'Wasik2018':{
+  'wasik2018surveyonline':{
     nombre: "A Survey on Online Judge Systems and Their Applications",
     año: 2018,
     autores: [{A:"Wasik",N:"Szymon"},{A:"Antczak",N:"Maciej"},{A:"Badura",N:"Jan"},{A:"Laskowski",N:"Artur"},{A:"Sternal",N:"Tomasz"}],
-    en: {T:"ACM Comput. Surv.", v:51, n:1, editorial:"Association for Computing Machinery"},
-    issn: "0360-0300",
+    en: {T:"ACM Computing Surveys", v:51, n:1, p:"1-34", editorial:"Association for Computing Machinery (ACM)"},
+    issn: "1557-7341",
     doi: "10.1145/3143560",
-    web: "doi"
+    web: "dx.doi"
+  },
+  'paiva2022automatedassessment':{
+    nombre: "Automated Assessment in Computer Science Education: A State-of-the-Art Review",
+    año: 2022,
+    autores: [{A:"Paiva",N:["José","Carlos"]},{A:"Leal",N:["José","Paulo"]},{A:"Figueira",N:"Álvaro"}],
+    en: {T:"ACM Transactions on Computing Education", v:22, n:3, p:"1-40", editorial:"Association for Computing Machinery (ACM)"},
+    issn: "1946-6226",
+    doi: "10.1145/3513140",
+    web: "dx.doi"
+  },
+  'wood1976roletutoring':{
+    nombre: "THE ROLE OF TUTORING IN PROBLEM SOLVING *",
+    año: 1976,
+    autores: [{A:"Wood",N:"David"},{A:"Bruner",N:["Jerome","S"]},{A:"Ross",N:"Gail"}],
+    en: {T:"Journal of Child Psychology and Psychiatry", v:17, n:2, p:"89-100", editorial:"Wiley"},
+    issn: "1469-7610",
+    doi: "10.1111/j.1469-7610.1976.tb00381.x",
+    web: "dx.doi"
+  },
+  'vygotsky1978mindsociety':{
+    nombre: "Mind in Society: Development of Higher Psychological Processes",
+    año: 1980,
+    autores: [{A:"VYGOTSKY",N:["L.","S"]}],
+    en: {autores:[{A:"Cole",N:"Michael"},{A:"Jolm-Steiner",N:"Vera"},{A:"Scribner",N:"Sylvia"},{A:"Souberman",N:"Ellen"}], editorial:"Harvard University Press"},
+    isbn: "9780674576285",
+    doi: "10.2307/j.ctvjf9vz4",
+    web: "dx.doi"
+  },
+  'anderson1983architecturecognition':{
+    nombre: "The Architecture of Cognition",
+    año: 2013,
+    autores: [{A:"Anderson",N:["John","R"]}],
+    editorial: "Psychology Press",
+    isbn: "9781317759539",
+    doi: "10.4324/9781315799438",
+    web: "dx.doi"
+  },
+  'basawapatna2013zonesproximal':{
+    nombre: "The zones of proximal flow: guiding students through a space of computational thinking skills and challenges",
+    año: 2013,
+    autores: [{A:"Basawapatna",N:["Ashok","R"]},{A:"Repenning",N:"Alexander"},{A:"Koh",N:["Kyu","Han"]},{A:"Nickerson",N:"Hilarie"}],
+    en: {T:"Proceedings of the ninth annual international ACM conference on International computing education research", p:"67-74", editorial:"ACM"},
+    doi: "10.1145/2493394.2493404",
+    web: "dx.doi"
+  },
+  'wiggins2021exploringnovice':{
+    nombre: "Exploring Novice Programmers’ Hint Requests in an Intelligent Block-Based Coding Environment",
+    año: 2021,
+    autores: [{A:"Wiggins",N:["Joseph","B"]},{A:"Fahid",N:["Fahmid","M"]},{A:"Emerson",N:"Andrew"},{A:"Hinckle",N:"Madeline"},{A:"Smith",N:"Andy"},{A:"Boyer",N:["Kristy","Elizabeth"]},{A:"Mott",N:"Bradford"},{A:"Wiebe",N:"Eric"},{A:"Lester",N:"James"}],
+    en: {T:"Proceedings of the 52nd ACM Technical Symposium on Computer Science Education", p:"52-58", editorial:"ACM"},
+    doi: "10.1145/3408877.3432538",
+    web: "dx.doi"
+  },
+  'prather2023robotsare':{
+    nombre: "The Robots Are Here: Navigating the Generative AI Revolution in Computing Education",
+    año: 2023,
+    autores: [{A:"Prather",N:"James"},{A:"Denny",N:"Paul"},{A:"Leinonen",N:"Juho"},{A:"Becker",N:["Brett","A"]},{A:"Albluwi",N:"Ibrahim"},{A:"Craig",N:"Michelle"},{A:"Keuning",N:"Hieke"},{A:"Kiesler",N:"Natalie"},{A:"Kohn",N:"Tobias"},{A:"Luxton-Reilly",N:"Andrew"},{A:"MacNeil",N:"Stephen"},{A:"Petersen",N:"Andrew"},{A:"Pettit",N:"Raymond"},{A:"Reeves",N:["Brent","N"]},{A:"Savelka",N:"Jaromir"}],
+    en: {T:"Proceedings of the 2023 Working Group Reports on Innovation and Technology in Computer Science Education", p:"108-159", editorial:"ACM"},
+    doi: "10.1145/3623762.3633499",
+    web: "dx.doi"
+  },
+  'alhossami2024canlanguage':{
+    nombre: "Can Language Models Employ the Socratic Method? Experiments with Code Debugging",
+    año: 2024,
+    autores: [{A:"Al-Hossami",N:"Erfan"},{A:"Bunescu",N:"Razvan"},{A:"Smith",N:"Justin"},{A:"Teehan",N:"Ryan"}],
+    en: {T:"Proceedings of the 55th ACM Technical Symposium on Computer Science Education V. 1", p:"53-59", editorial:"ACM"},
+    doi: "10.1145/3626252.3630799",
+    web: "dx.doi"
+  },
+  'bort2013csimpact':{
+    nombre: "CS4Impact: measuring computational thinking concepts present in CS4HS participant lesson plans",
+    año: 2013,
+    autores: [{A:"Bort",N:"Heather"},{A:"Brylow",N:"Dennis"}],
+    en: {T:"Proceeding of the 44th ACM technical symposium on Computer science education", p:"427-432", editorial:"ACM"},
+    doi: "10.1145/2445196.2445323",
+    web: "dx.doi"
+  },
+  'hou2025personalizedparsons':{
+    nombre: "Personalized Parsons Puzzles as Scaffolding Enhance Practice Engagement Over Just Showing LLM-Powered Solutions",
+    año: 2025,
+    autores: [{A:"Hou",N:"Xinying"},{A:"Wu",N:"Zihan"},{A:"Wang",N:"Xu"},{A:"Ericson",N:["Barbara","J"]}],
+    en: {T:"Proceedings of the 56th ACM Technical Symposium on Computer Science Education V. 2", p:"1483-1484", editorial:"ACM"},
+    doi: "10.1145/3641555.3705227",
+    web: "dx.doi"
+  },
+  'matjie2026aidigital':{
+    nombre: "AI and the digital divide in education",
+    año: 2026,
+    autores: [{A:"Matjie",N:["Mokgata","Alleen"]},{A:"Nethavhani",N:"Andani"},{A:"Matlakala",N:"Mary"}],
+    en: {T:"Frontiers in Computer Science", v:8, editorial:"Frontiers Media SA"},
+    issn: "2624-9898",
+    doi: "10.3389/fcomp.2026.1759027",
+    web: "dx.doi"
+  },
+  'becker2023programmingis':{
+    nombre: "Programming Is Hard - Or at Least It Used to Be: Educational Opportunities and Challenges of AI Code Generation",
+    año: 2023,
+    autores: [{A:"Becker",N:["Brett","A"]},{A:"Denny",N:"Paul"},{A:"Finnie-Ansley",N:"James"},{A:"Luxton-Reilly",N:"Andrew"},{A:"Prather",N:"James"},{A:"Santos",N:["Eddie","Antonio"]}],
+    en: {T:"Proceedings of the 54th ACM Technical Symposium on Computer Science Education V. 1", p:"500-506", editorial:"ACM"},
+    doi: "10.1145/3545945.3569759",
+    web: "dx.doi"
+  },
+  'lau2023fromban':{
+    nombre: "From “Ban It Till We Understand It” to “Resistance is Futile”: How University Programming Instructors Plan to Adapt as More Students Use AI Code Generation and Explanation Tools such as ChatGPT and GitHub Copilot",
+    año: 2023,
+    autores: [{A:"Lau",N:"Sam"},{A:"Guo",N:"Philip"}],
+    en: {T:"Proceedings of the 2023 ACM Conference on International Computing Education Research V.1", p:"106-121", editorial:"ACM"},
+    doi: "10.1145/3568813.3600138",
+    web: "dx.doi"
+  },
+  'liffiton2023codehelpusing':{
+    nombre: "CodeHelp: Using Large Language Models with Guardrails for Scalable Support in Programming Classes",
+    año: 2023,
+    autores: [{A:"Liffiton",N:"Mark"},{A:"Sheese",N:["Brad","E"]},{A:"Savelka",N:"Jaromir"},{A:"Denny",N:"Paul"}],
+    en: {T:"Proceedings of the 23rd Koli Calling International Conference on Computing Education Research", p:"1-11", editorial:"ACM"},
+    doi: "10.1145/3631802.3631830",
+    web: "dx.doi"
+  },
+  'kazemitabaar2024codeaidevaluating':{
+    nombre: "CodeAid: Evaluating a Classroom Deployment of an LLM-based Programming Assistant that Balances Student and Educator Needs",
+    año: 2024,
+    autores: [{A:"Kazemitabaar",N:"Majeed"},{A:"Ye",N:"Runlong"},{A:"Wang",N:"Xiaoning"},{A:"Henley",N:["Austin","Zachary"]},{A:"Denny",N:"Paul"},{A:"Craig",N:"Michelle"},{A:"Grossman",N:"Tovi"}],
+    en: {T:"Proceedings of the CHI Conference on Human Factors in Computing Systems", p:"1-20", editorial:"ACM"},
+    doi: "10.1145/3613904.3642773",
+    web: "dx.doi"
+  },
+  'liu2024teachingcs':{
+    nombre: "Teaching CS50 with AI: Leveraging Generative Artificial Intelligence in Computer Science Education",
+    año: 2024,
+    autores: [{A:"Liu",N:"Rongxin"},{A:"Zenke",N:"Carter"},{A:"Liu",N:"Charlie"},{A:"Holmes",N:"Andrew"},{A:"Thornton",N:"Patrick"},{A:"Malan",N:["David","J"]}],
+    en: {T:"Proceedings of the 55th ACM Technical Symposium on Computer Science Education V. 1", p:"750-756", editorial:"ACM"},
+    doi: "10.1145/3626252.3630938",
+    web: "dx.doi"
+  },
+  'liu2025improvingai':{
+    nombre: "Improving AI in CS50: Leveraging Human Feedback for Better Learning",
+    año: 2025,
+    autores: [{A:"Liu",N:"Rongxin"},{A:"Zhao",N:"Julianna"},{A:"Xu",N:"Benjamin"},{A:"Perez",N:"Christopher"},{A:"Zhukovets",N:"Yuliia"},{A:"Malan",N:["David","J"]}],
+    en: {T:"Proceedings of the 56th ACM Technical Symposium on Computer Science Education V. 1", p:"715-721", editorial:"ACM"},
+    doi: "10.1145/3641554.3701945",
+    web: "dx.doi"
+  },
+  'marquezcarpintero2025simulatingstudents':{
+    nombre: "Simulating students with large language models: A review of architecture, mechanisms, and role modeling in education with generative AI",
+    año: 2026,
+    autores: [{A:"Marquez-Carpintero",N:"Luis"},{A:"Lopez-Sellers",N:"Alberto"},{A:"Cazorla",N:"Miguel"}],
+    en: {T:"Computer Science Review", v:62, p:"101008", editorial:"Elsevier BV"},
+    issn: "1574-0137",
+    doi: "10.1016/j.cosrev.2026.101008",
+    web: "dx.doi"
+  },
+  'sonkar2024llmbased':{
+    nombre: "LLM-based Cognitive Models of Students with Misconceptions",
+    año: 2024,
+    autores: [{A:"Sonkar",N:"Shashank"},{A:"Chen",N:"Xinghe"},{A:"Liu",N:"Naiming"},{A:"Baraniuk",N:["Richard","G"]},{A:"Sachan",N:"Mrinmaya"}],
+    editorial: "arXiv",
+    doi: "10.48550/ARXIV.2410.12294",
+    web: "https://arxiv.org/abs/2410.12294"
+  },
+  'wu2025embracingimperfection':{
+    nombre: "Embracing Imperfection: Simulating Students with Diverse Cognitive Levels Using LLM-based Agents",
+    año: 2025,
+    autores: [{A:"Wu",N:"Tao"},{A:"Chen",N:"Jingyuan"},{A:"Lin",N:"Wang"},{A:"Li",N:"Mengze"},{A:"Zhu",N:"Yumeng"},{A:"Li",N:"Ang"},{A:"Kuang",N:"Kun"},{A:"Wu",N:"Fei"}],
+    editorial: "arXiv",
+    doi: "10.48550/ARXIV.2505.19997",
+    web: "https://arxiv.org/abs/2505.19997"
+  },
+  'wong2026diverseclairesimulating':{
+    nombre: "DiverseClaire: Simulating Students to Improve Introductory Programming Course Materials for All CS1 Learners",
+    año: 2026,
+    autores: [{A:"Wong",N:"Wendy"},{A:"Jiang",N:"Yuchao"},{A:"Li",N:"Yuekang"}],
+    en: {T:"Proceedings of the 57th ACM Technical Symposium on Computer Science Education V.2", p:"1585-1586", editorial:"ACM"},
+    doi: "10.1145/3770761.3777340",
+    web: "dx.doi"
+  },
+  'koutcheme2026aligningsmall':{
+    nombre: "Aligning Small Language Models for Programming Feedback: Towards Scalable Coding Support in a Massive Global Course",
+    año: 2026,
+    autores: [{A:"Koutcheme",N:"Charles"},{A:"Woodrow",N:"Juliette"},{A:"Piech",N:"Chris"}],
+    en: {T:"Proceedings of the 57th ACM Technical Symposium on Computer Science Education V.1", p:"610-616", editorial:"ACM"},
+    doi: "10.1145/3770762.3772539",
+    web: "dx.doi"
+  },
+  'tripathi2025teachinglearning':{
+    nombre: "Teaching and learning with AI: a qualitative study on K-12 teachers’ use and engagement with artificial intelligence",
+    año: 2025,
+    autores: [{A:"Tripathi",N:"Tarang"},{A:"Sharma",N:["Smriti","R"]},{A:"Singh",N:"Vatsala"},{A:"Bhargava",N:"Palaash"},{A:"Raj",N:"Chandraditya"}],
+    en: {T:"Frontiers in Education", v:10, editorial:"Frontiers Media SA"},
+    issn: "2504-284X",
+    doi: "10.3389/feduc.2025.1651217",
+    web: "dx.doi"
   },
   'Kowal2025':{
     nombre: "Harnessing Generative AI for Assessment Item Development: Comparing AI-Generated and Human-Authored Items",

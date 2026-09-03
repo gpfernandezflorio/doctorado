@@ -416,6 +416,11 @@
             return undefined;
             // return `"https://doi.org/${p.doi}"`;
           }
+          if (p.web == "dx.doi" && 'doi' in p) {
+            // Si ya está el doi, no hace falta poner también la url
+            return undefined;
+            // return `"http://dx.doi.org/${p.doi}"`;
+          }
           if ('doi' in p) {
             // Es más, si ya tiene doi, no hace falta ninguna url
             return undefined;
