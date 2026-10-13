@@ -1867,6 +1867,38 @@ bib.papers = {
     doi: "10.2307/j.ctvjf9vz4",
     web: "dx.doi"
   },
+  'Miljanovic2018':{
+    nombre: "A Review of Serious Games for Programming",
+    año: 2018,
+    autores: [{A:"Miljanovic",N:["Michael","A"]},{A:"Bradbury",N:["Jeremy","S"]}],
+    en: {T:"Serious Games: 4th Joint International Conference, JCSG 2018, Proceedings", v:11243, p:"204-216", autores:[{A:"G{\"o}bel",N:"Stefan"},{A:"Garcia-Agundez",N:"Augusto"},{A:"Tregel",N:"Thomas"},{A:"Ma",N:"Minhua"},{A:["Baalsrud","Hauge"],N:"Jannicke"},{A:"Oliveira",N:"Manuel"},{A:"Marsh",N:"Tim"},{A:"Caserman",N:"Polona"}], editorial:"Springer"},
+    doi: "10.1007/978-3-030-02762-9_21",
+    web: "doi"
+  },
+  'Videnovik2023':{
+    nombre: "Game-Based Learning in Computer Science Education: A Scoping Literature Review",
+    año: 2023,
+    autores: [{A:"Videnovik",N:"Maja"},{A:"Vold",N:"Tone"},{A:"Ki{\\o}nig",N:"Linda"},{A:["Madevska","Bogdanova"],N:"Ana"},{A:"Trajkovik",N:"Vladimir"}],
+    en: {T:"International Journal of STEM Education", v:10, n:1, p:"54"},
+    doi: "10.1186/s40594-023-00447-2",
+    web: "doi"
+  },
+  'Qian2016':{
+    nombre: "Game-Based Learning and 21st Century Skills: A Review of Recent Research",
+    año: 2016,
+    autores: [{A:"Qian",N:"Meihua"},{A:"Clark",N:["Karen","R"]}],
+    en: {T:"Computers in Human Behavior", v:63, p:"50-58"},
+    doi: "10.1016/j.chb.2016.05.023",
+    web: "doi"
+  },
+  'Talan2020':{
+    nombre: "Efficiency of Digital and Non-Digital Educational Games: A Comparative Meta-Analysis and a Meta-Thematic Analysis",
+    año: 2020,
+    autores: [{A:"Talan",N:"Tar{\\i}k"},{A:"Do{\\u{g}}an",N:"Yunus"},{A:"Batd{\\i",N:"Veli"}],
+    en: {T:"Journal of Research on Technology in Education", v:52, n:4, p:"474-514"},
+    doi: "10.1080/15391523.2020.1743798",
+    web: "doi"
+  },
   'anderson1983architecturecognition':{
     nombre: "The Architecture of Cognition",
     año: 2013,
