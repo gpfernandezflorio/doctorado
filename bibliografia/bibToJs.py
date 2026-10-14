@@ -4,7 +4,7 @@ ignoreKeys = ['month','abstract','keywords']
 
 def addAuthor(res, autores):
   res['autores'] = []
-  for a in autores.split(' and '):
+  for a in autores.replace(' AND ',' and ').split(' and '):
     autor = a.split(",")
     if len(autor) == 2:
       nombre = trim(autor[1])
