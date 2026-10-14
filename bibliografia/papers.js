@@ -95,7 +95,7 @@ bib.papers = {
     año: 2023,
     autores: [{A:"Fernández",N:["Gonzalo","Pablo"]},{A:"Cossio-Mercado",N:"Christian"}],
     en: {C:"JADICC_2023", p:"390-408"},
-    web: "https://www.researchgate.net/publication/380174232_Ensenanza_de_fundamentos_conceptuales_de_programacion_usando_Arduino",
+    web: "https://rdi.uncoma.edu.ar/handle/uncomaid/18418",
     tags: ["Arduino","AelE","Bloques"]
   },
   'PRENDER_2023':{ // JADICC 23 - PRENDER
@@ -103,7 +103,7 @@ bib.papers = {
     año: 2023,
     autores: [{A:"Cossio-Mercado",N:"Christian"},{A:"Fernández",N:["Gonzalo","Pablo"]}],
     en: {C:"JADICC_2023", p:"322-354"},
-    web: "https://www.researchgate.net/publication/380173508_PRENDER_Una_propuesta_didactico-pedagogica_para_la_ensenanza_de_las_Ciencias_de_la_Computacion",
+    web: "https://rdi.uncoma.edu.ar/handle/uncomaid/18418",
     tags: ["Enfoque"]
   },
   'aele_2024':{ // CLEI 24
@@ -1916,6 +1916,21 @@ bib.papers = {
     doi: "10.1145/2493394.2493404",
     web: "dx.doi"
   },
+  'Giovannetti2026':{
+    nombre: "Exploring Cognitive Diversity in a Sample of Children from {Unsatisfied Basic Needs} Homes",
+    año: 2026,
+    autores: [{A:"Giovannetti",N:"Federico"},{A:"Pietto",N:["Marcos","Luis"]},{A:"Lipina",N:["Sebasti{'a}n","Javier"]},{A:"Kamienkowski",N:["Juan","Esteban"]},{A:"Segretin",N:["Mar{'i}a","Soledad"]}],
+    en: {T:"Child Neuropsychology", p:"1-23"},
+    doi: "10.1080/09297049.2026.2685678"
+  },
+  'Margolis2017':{
+    nombre: "Stuck in the Shallow End: Education, Race, and Computing",
+    año: 2017,
+    autores: [{A:"Margolis",N:"Jane"},{A:"Estrella",N:"Rachel"},{A:"Goode",N:"Joanna"},{A:"Holme",N:["Jennifer","Jellison"]},{A:"Nao",N:"Kimberly"}],
+    editorial: "MIT Press",
+    isbn: "9780262533461",
+    web: "https://mitpress.mit.edu/9780262340182/stuck-in-the-shallow-end/%7D"
+  },
   'wiggins2021exploringnovice':{
     nombre: "Exploring Novice Programmers’ Hint Requests in an Intelligent Block-Based Coding Environment",
     año: 2021,
@@ -3620,11 +3635,11 @@ bib.papers = {
     web: "https://scholarworks.iu.edu/journals/index.php/ijdl/article/view/32211"
   },
   'delOlmoMunoz2020':{
-    nombre: "Computational thinking through unplugged activities in early years of Primary Education",
+    nombre: "Computational Thinking through Unplugged Activities in Early Years of Primary Education",
     año: 2020,
-    autores: [{A:"del Olmo-Mu{\\~n}oz",N:"Javier"},{A:"C{\\'o}zar-Guti{\\'e}rrez",N:"Ram{\\'o}n"},{A:"Gonz{\\'a}lez-Calero",N:["Jos{\\'e}","Antonio"]}],
-    en: {T:"Comput. Educ.", v:150, p:"103832"},
-    web: "https://api.semanticscholar.org/CorpusID:212663873"
+    autores: [{A:"del Olmo-Mu{~n}oz",N:"Javier"},{A:"C{'o}zar-Guti{'e}rrez",N:"Ram{'o}n"},{A:"Gonz{'a}lez-Calero",N:["Jos{'e}","Antonio"]}],
+    en: {T:"Computers & Education", v:150, p:"103832"},
+    doi: "10.1016/j.compedu.2020.103832"
   },
   'Simari2013':{
     nombre: "Los fundamentos computacionales como parte de las ciencias básicas en las terminales de la disciplina Informática",
@@ -6590,8 +6605,10 @@ bib.papers = {
     nombre: "From Game Design Elements to Gamefulness: Defining Gamification",
     año: 2011,
     autores: [{A:"Deterding",N:"Sebastian"},{A:"Dixon",N:"Dan"},{A:"Khaled",N:"Rilla"},{A:"Nacke",N:"Lennart"}],
-    en: {T:"Proceedings of the 15th International Academic MindTrek Conference: Envisioning Future Media Environments, MindTrek 2011", v:11, p:"9-15"},
-    doi: "10.1145/2181037.2181040"
+    en: {T:"Proceedings of the 15th International Academic MindTrek Conference: Envisioning Future Media Environments, MindTrek 2011", v:11, p:"9-15", editorial:"Association for Computing Machinery"},
+    doi: "10.1145/2181037.2181040",
+    isbn: "9781450308168",
+    web: "doi"
   },
   'Flavell1979':{
     nombre: "Metacognition and cognitive monitoring: A new area of cognitive-developmental inquiry",
@@ -7197,10 +7214,11 @@ bib.papers = {
   },
   'MartinsGresseVonWangenheim2024':{
     nombre: "Teaching Computing to Middle and High School Students from a Low Socio-Economic Status Background: A Systematic Literature Review",
-    año: 2023,
-    autores: [{A:"Martins",N:"Ramon"},{A:["Gresse","von Wangenheim"],N:"Christiane"}],
-    en: {T:"Informatics in Education", v:23},
-    doi: "10.15388/infedu.2024.01"
+    año: 2024,
+    autores: [{A:"Martins",N:["Ramon","Mayor"]},{A:["Gresse","von Wangenheim"],N:"Christiane"}],
+    en: {T:"Informatics in Education", v:23, n:1, p:"179-222", editorial:"Vilnius University Institute of Data Science and Digital Technologies"},
+    doi: "10.15388/infedu.2024.01",
+    issn: "1648-5831"
   },
   'DolencBoh2026':{
     nombre: "Implementation of Computer Science Unplugged in Schools: A Narrative Review of Outcomes, Motivations, and Pedagogical Perspectives",
@@ -7219,10 +7237,10 @@ bib.papers = {
     doi: "10.17083/ijsg.v5i2.248"
   },
   'Bayeck2023':{
-    nombre: "Understanding computational thinking in the gameplay of the African Songo board game",
-    año: 2023,
-    autores: [{A:"Bayeck",N:"Rebecca"}],
-    en: {T:"British Journal of Educational Technology", v:55},
+    nombre: "Understanding Computational Thinking in the Gameplay of the African {Songo} Board Game",
+    año: 2024,
+    autores: [{A:"Bayeck",N:["Rebecca","Y"]}],
+    en: {T:"British Journal of Educational Technology", v:55, n:1, p:"259-276"},
     doi: "10.1111/bjet.13353"
   },
   'LiuHu2024':{
@@ -7242,7 +7260,10 @@ bib.papers = {
   'ONeillHolmes2022':{
     nombre: "The Power of Board Games for Multidomain Learning in Young Children",
     año: 2022,
-    autores: [{A:"O'Neill",N:"Daniela"},{A:"Holmes",N:"Paige"}]
+    autores: [{A:"O'Neill",N:["Daniela","K"]},{A:"Holmes",N:["Paige","E"]}],
+    en: {T:"American Journal of Play", v:14, n:1, p:"58-98"},
+    issn: "1938-0399",
+    web: "https://eric.ed.gov/?id=EJ1357958"
   },
   'DiamondLee2011':{
     nombre: "Interventions Shown to Aid Executive Function Development in Children 4 to 12 Years Old",
