@@ -212,13 +212,15 @@ bib.papers = {
     nombre: "ProgrEval: Generación asistida de consignas de evaluación para la enseñanza de programación",
     año: 2026,
     autores: [{A:"Caballero", N:"Tomás"},{A:"Fernández-Ortúzar", N:"Agustín"},{A:"Fernández", N:["Gonzalo","Pablo"]},{A:"Cossio-Mercado", N:"Christian"}],
-    en: {T:"55 Jornadas Argentinas de Informática (JAIIO), 10-13 de agosto de 2026, La Plata, Argentina"}
+    en: {T:"55 Jornadas Argentinas de Informática (JAIIO), 10-13 de agosto de 2026, La Plata, Argentina", v: 12, n:8, p:"47-60"},
+    web: "https://revistas.unlp.edu.ar/JAIIO/article/view/22277/23828"
   },
   'qoCodeJAIIO26':{ // JAIIO 26 - QoCode
     nombre: "QoCode: Evaluación automática de calidad de código en tareas de programación",
     año: 2026,
     autores: [{A:"Varani", N:"Victoria"},{A:"Ventrici", N:"Bruno"},{A:"Fernández", N:["Gonzalo","Pablo"]},{A:"Cossio-Mercado", N:"Christian"}],
-    en: {T:"55 Jornadas Argentinas de Informática (JAIIO), 10-13 de agosto de 2026, La Plata, Argentina"}
+    en: {T:"55 Jornadas Argentinas de Informática (JAIIO), 10-13 de agosto de 2026, La Plata, Argentina", v: 12, n:8, p:"33-46"},
+    web: "https://revistas.unlp.edu.ar/JAIIO/article/view/22274/23827"
   },
   'progrEvalCLEI26':{ // CLEI 26 - ProgrEval
     nombre: "ProgrEval: Assisted Generation of Assessment Tasks for Programming Education",
@@ -3497,7 +3499,8 @@ bib.papers = {
     nombre: "Formación docente innovadora en programación desenchufada: impacto y resultados de una intervención en Nivel Inicial",
     año: 2026,
     autores: [{A:"Gómez",N:"Marcos"},{A:"Martinez",N:"Cecilia"},{A:"Roggi",N:"Inés"},{A:"Gonzalez",N:"Rocío"},{A:["López","Alvas"],N:"Diana"}],
-    en: {T:"55 Jornadas Argentinas de Informática (JAIIO), 10-13 de agosto de 2026, La Plata, Argentina"}
+    en: {T:"55 Jornadas Argentinas de Informática (JAIIO), 10-13 de agosto de 2026, La Plata, Argentina", v:12, n:8, p:"214-228"},
+    web: "https://revistas.unlp.edu.ar/JAIIO/article/view/22361/23984"
   },
   'Anvik2019':{
     nombre: "Program Wars: A Card Game for Learning Programming and Cybersecurity Concepts",
