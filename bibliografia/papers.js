@@ -262,6 +262,12 @@ bib.papers = {
     web: "https://fundacionsadosky.org.ar/wp-content/uploads/2023/03/cc-2016.pdf",
     tags: ["Enfoque"]
   },
+  'fundamentosTeoricos':{
+    nombre: "Los fundamentos teóricos de un método para enseñar a programar. Un modelo de cómputo general y su máquina notacional como sistema de decisiones de diseño",
+    año: 2026,
+    autores: [{A:["Martínez", "López"],N:["Pablo","E"]},{A:["Sawady","O'Connor"],N:"Federico"}],
+    en: {C:"JADICC_2026"}
+  },
   'propuestaCurricularSadosky':{
     nombre: "Propuesta curricular para la inclusión de las Ciencias de la Computación en la educación obligatoria de la Argentina",
     año: 2024,
