@@ -7636,6 +7636,22 @@ bib.papers = {
     en: {T:"International Journal of Human-Computer Studies", v:60, p:"117-128"},
     doi: "10.1016/j.ijhcs.2003.09.001"
   },
+  'BohmJacopini1966':{
+    nombre: "Flow diagrams, turing machines and languages with only two formation rules",
+    año: 1966,
+    autores: [{A:"B{\\\"o}hm",N:"Corrado"},{A:"Jacopini",N:"Giuseppe"}],
+    en: {T:"Commun. ACM", v:9, n:5, p:"366-371", editorial:"Association for Computing Machinery"},
+    issn: "0001-0782",
+    doi: "10.1145/355592.365646",
+    web: "doi"
+  },
+  'Furio2006':{
+    nombre: "Las ideas alternativas sobre conceptos científicos : tres décadas de investigación : resultados y perspectivas",
+    año: 2006,
+    autores: [{A:"Furió-Más",N:"Carlos"},{A:"Solbes",N:"Jordi"},{A:"Carrascosa",N:"Javier"}],
+    en: {T:"Alambique : didáctica de las ciencias experimentales", n:48, p:"64-77", editorial:"Barcelona"},
+    issn: "1133-9837"
+  },
   'GalagovskyAdurizBravo2001':{
     nombre: "Modelos y analogías en la enseñanza de las ciencias naturales. El concepto de modelo didáctico analógico",
     año: 2001,
@@ -7714,6 +7730,48 @@ bib.papers = {
     issn: "0020-7373",
     doi: "https://doi.org/10.1016/S0020-7373(81)80023-5",
     web: "https://www.sciencedirect.com/science/article/pii/S0020737381800235"
+  },
+  'Clancy2004':{
+    nombre: "Misconceptions and attitudes that interfere with learning to program",
+    año: 2005,
+    autores: [{A:"Clancy",N:"Michael"}],
+    en: {T:"Computer science education research", p:"95-110", editorial:"Taylor \\& Francis"}
+  },
+  'LiskovZilles1974':{
+    nombre: "Programming with abstract data types",
+    año: 1974,
+    autores: [{A:"Liskov",N:"Barbara"},{A:"Zilles",N:"Stephen"}],
+    en: {T:"ACM Sigplan Notices", v:9, n:4, p:"50-59", editorial:"ACM, New York, NY, USA"}
+  },
+  'LlorensMolina1991':{
+    nombre: "Comenzando a aprender qu{\\'\\i}mica: ideas para el dise{\\~n}o curricular",
+    año: 1991,
+    autores: [{A:"Llor{\\'e}ns Molina",N:["Juan","Antonio"]}],
+    editorial: "Visor"
+  },
+  'Moreira2002':{
+    nombre: "Modelos mentales y modelos conceptuales en la ense{\\~n}anza \\& aprendizaje de las ciencias",
+    año: 2002,
+    autores: [{A:"Moreira",N:["Marco","Antonio"]},{A:"Greca",N:["Ileana","Mar{\\'\\i}a"]},{A:"Rodr{\\'\\i}guez Palmero",N:["Mar{\\'\\i}a","Luz"]}],
+    en: {T:"Revista brasileira de pesquisa em educa{\\c{c}}{\\~a}o em ci{\\^e}ncias", v:2, n:3, p:"37-57"}
+  },
+  'QianLehman2017':{
+    nombre: "Students’ misconceptions and other difficulties in introductory programming: A literature review",
+    año: 2017,
+    autores: [{A:"Qian",N:"Yizhou"},{A:"Lehman",N:"James"}],
+    en: {T:"ACM Transactions on Computing Education (TOCE)", v:18, n:1, p:"1-24", editorial:"ACM, New York, NY, USA"}
+  },
+  'Reynolds1998':{
+    nombre: "Theories of programming languages",
+    año: 1998,
+    autores: [{A:"Reynolds",N:["John","C"]}],
+    editorial: "Cambridge University Press"
+  },
+  'StructuredProgramming':{
+    nombre: "Structured programming",
+    año: 1972,
+    autores: [{A:"Dahl",N:"Ole-Johan"},{A:"Dijkstra",N:["Edsger","Wybe"]},{A:"Hoare",N:"Charles Antony Richard"}],
+    editorial: "Academic Press Ltd."
   },
   'duBoulay1981':{
     nombre: "The black box inside the glass box: presenting computing concepts to novices",
